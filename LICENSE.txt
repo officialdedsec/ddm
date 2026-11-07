@@ -1,0 +1,20 @@
+DDM — DedSec Download Manager
+Copyright © 2026 DedSec Cyber Security Research Institute. All rights reserved.
+
+END-USER LICENCE TERMS
+
+1. Trial. You may install and use DDM with all its features for 30 days to evaluate it.
+2. Licence. After the trial, continued use requires a licence key purchased from https://dedseec.com.
+   A licence is for the person or PC it was issued to.
+3. Restrictions. You may not sell, rent, sublicense, modify, reverse engineer, decompile or disassemble DDM,
+   or remove or change its signatures, except where the law expressly allows it.
+4. Distribution. You may share the unmodified official installer from this page. You may not distribute
+   modified copies or bundle DDM with other software.
+5. Your responsibility. Download only content you have the right to download. Respect the terms of the
+   websites you use and the law of your country.
+6. No warranty. DDM is provided "as is". DDM's safety checks reduce risk but cannot guarantee that a file
+   or website is safe; keep an up-to-date antivirus. DedSec is not liable for any loss or damage arising
+   from the use of DDM, to the extent the law allows.
+7. Privacy. See https://dedseec.com/privacy.
+
+Questions: https://dedseec.com/contact

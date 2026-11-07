@@ -1,0 +1,8 @@
+# releases live under Releases, never in the repository itself
+*.exe
+*.zip
+*.pem
+*.pfx
+*.p12
+*.key
+pass.txt

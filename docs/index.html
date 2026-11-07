@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DDM – Fast Download Manager &amp; Video Downloader for Windows | Best IDM Alternative</title>
+<meta name="description" content="DDM (DedSec Download Manager) is a fast download manager, download accelerator and video downloader for Windows 11, 10, 8 and 7. Download YouTube, TikTok, Facebook and Instagram videos and playlists, torrents and MEGA files with up to 32 connections. A secure IDM alternative written in pure C++. Free 30-day trial.">
+<meta name="keywords" content="download manager, IDM alternative, best IDM alternative, internet download manager alternative, download accelerator, video downloader, YouTube downloader, YouTube playlist downloader, TikTok downloader, Facebook video downloader, Instagram reels downloader, MP3 converter, torrent client, magnet downloader, MEGA downloader, m3u8 downloader, Windows 11 download manager, C++ download manager">
+<link rel="canonical" href="https://officialdedsec.github.io/ddm/">
+<link rel="icon" type="image/png" href="favicon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="DDM – Fast Download Manager & Video Downloader for Windows">
+<meta property="og:description" content="Up to 32 connections per file, videos from YouTube, TikTok, Facebook and more, playlists, torrents, MEGA, phone remote — and security checks before every download. Free for 30 days.">
+<meta property="og:url" content="https://officialdedsec.github.io/ddm/">
+<meta property="og:image" content="https://officialdedsec.github.io/ddm/img/social.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#1d4ed8">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "DDM - DedSec Download Manager",
+  "alternateName": ["DDM", "DedSec Download Manager"],
+  "applicationCategory": "UtilitiesApplication",
+  "applicationSubCategory": "Download manager",
+  "operatingSystem": "Windows 11, Windows 10, Windows 8.1, Windows 8, Windows 7",
+  "softwareVersion": "4.1.0",
+  "programmingLanguage": "C++",
+  "fileSize": "10MB",
+  "downloadUrl": "https://github.com/officialdedsec/ddm/releases/latest",
+  "url": "https://officialdedsec.github.io/ddm/",
+  "screenshot": "https://officialdedsec.github.io/ddm/img/main-window.webp",
+  "description": "Fast download manager, download accelerator and video downloader for Windows: up to 32 connections per file, YouTube, TikTok, Facebook and Instagram videos and playlists, torrents, MEGA, phone remote and security checks before every download.",
+  "featureList": "Up to 32 connections per file; resume expired downloads; video downloader for YouTube, TikTok, Facebook, Instagram, X, Vimeo; playlist and channel downloader; subscriptions; play while downloading; phone remote; torrent client; MEGA downloader; link and file security check; X-Ray archive preview; file tools; browser add-ons for Chrome, Edge and Firefox",
+  "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Free 30-day trial with every feature"},
+  "publisher": {"@type": "Organization", "name": "DedSec Cyber Security Research Institute", "url": "https://dedseec.com"}
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "What is the best IDM alternative for Windows?", "acceptedAnswer": {"@type": "Answer", "text": "DDM (DedSec Download Manager) covers what people use Internet Download Manager for — multi-connection downloads, resume, browser integration, a video download button and a scheduler — and adds torrents, MEGA, playlist and channel downloads, a phone remote and security checks before each download. Every feature is free for 30 days."}},
+    {"@type": "Question", "name": "How do I download YouTube videos and playlists on Windows?", "acceptedAnswer": {"@type": "Answer", "text": "Install DDM and its browser add-on, open the video and click Download this video. For a whole playlist or channel, paste its link into DDM (Tasks, Download playlist or channel)."}},
+    {"@type": "Question", "name": "Can DDM download TikTok, Facebook and Instagram videos?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Point at the video in your browser and click Download this video; every video is saved under its own caption or title, in the quality you choose or as MP3."}},
+    {"@type": "Question", "name": "Which programming language is DDM written in?", "acceptedAnswer": {"@type": "Answer", "text": "DDM is written in pure native C++ for Windows, with no .NET, Java, Electron or Python, so it starts instantly and uses almost no memory."}}
+  ]
+}
+</script>
+<style>
+:root { --bg:#f7f8fb; --card:#ffffff; --fg:#141824; --muted:#5b6475; --line:#e3e6ee; --accent:#1d4ed8; --accent-fg:#ffffff; --soft:#e8eefc; --ok:#15803d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#0f121a; --card:#171b26; --fg:#eef1f7; --muted:#9aa3b5; --line:#262c3a; --accent:#5b8cff; --accent-fg:#0b0e15; --soft:#1b2440; --ok:#4ade80; color-scheme: dark; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif; }
+a { color:var(--accent); }
+.wrap { max-width:1080px; margin:0 auto; padding-left:max(16px, env(safe-area-inset-left, 0px)); padding-right:max(16px, env(safe-area-inset-right, 0px)); }
+header.hero { padding-block:56px 32px; text-align:center; }
+.logo { width:88px; height:88px; }
+h1 { font-size:clamp(28px, 5vw, 44px); line-height:1.15; margin:16px 0 12px; text-wrap:balance; }
+h2 { font-size:clamp(22px, 3.4vw, 30px); margin:0 0 12px; text-wrap:balance; }
+h3 { margin:0 0 6px; font-size:18px; }
+.lede { font-size:18px; color:var(--muted); max-width:720px; margin:0 auto 24px; }
+.cta { display:inline-flex; gap:10px; align-items:center; background:var(--accent); color:var(--accent-fg); text-decoration:none; font-weight:600; padding:14px 26px; border-radius:12px; font-size:18px; }
+.cta-row { display:flex; flex-wrap:wrap; gap:12px; justify-content:center; align-items:center; }
+.ghost { color:var(--fg); text-decoration:none; border:1px solid var(--line); padding:13px 20px; border-radius:12px; background:var(--card); }
+.meta { margin-top:14px; color:var(--muted); font-size:14px; }
+.shot { display:block; width:100%; max-width:100%; height:auto; border-radius:14px; border:1px solid var(--line); box-shadow:0 12px 40px rgba(0,0,0,.12); background:var(--card); }
+section { padding-block:40px; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:16px; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:20px; min-width:0; }
+.card p { margin:0; color:var(--muted); }
+.two { display:grid; grid-template-columns:1fr 1fr; gap:28px; align-items:center; }
+.two > * { min-width:0; }
+@media (max-width: 760px) { .two { grid-template-columns:1fr; } }
+ul.ticks { padding-left:0; list-style:none; margin:0; }
+ul.ticks li { padding-left:26px; position:relative; margin:6px 0; }
+ul.ticks li::before { content:"✓"; position:absolute; left:0; color:var(--ok); font-weight:700; }
+.table { overflow-x:auto; }
+table { border-collapse:collapse; width:100%; background:var(--card); border:1px solid var(--line); border-radius:12px; overflow:hidden; }
+th, td { text-align:left; padding:12px 14px; border-bottom:1px solid var(--line); vertical-align:top; }
+th { width:30%; }
+.badge { display:inline-block; background:var(--soft); color:var(--accent); border-radius:999px; padding:4px 12px; font-size:13px; font-weight:600; letter-spacing:.02em; }
+details { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 18px; margin:10px 0; }
+summary { cursor:pointer; font-weight:600; }
+footer { padding-block:32px 48px; color:var(--muted); font-size:14px; text-align:center; border-top:1px solid var(--line); }
+</style>
+</head>
+<body>
+<header class="hero wrap">
+  <img class="logo" src="img/ddm-icon.png" alt="DDM download manager logo" width="88" height="88">
+  <h1>DDM — the fast, secure download manager &amp; video downloader for Windows</h1>
+  <p class="lede">Up to 32 connections per file. Videos and playlists from YouTube, TikTok, Facebook, Instagram and more. Torrents, MEGA, and a phone remote. Every link checked <em>before</em> it reaches your PC. A modern IDM alternative built in pure C++.</p>
+  <div class="cta-row">
+    <a class="cta" href="https://github.com/officialdedsec/ddm/releases/latest">⬇ Download DDM for Windows</a>
+    <a class="ghost" href="#addons">Browser add-ons</a>
+  </div>
+  <p class="meta">Version 4.1.0 · Windows 11 · 10 · 8 · 7 (32 &amp; 64-bit) · about 10 MB · <strong>free for 30 days with every feature</strong></p>
+</header>
+
+<div class="wrap"><img class="shot" src="img/main-window.webp" alt="DDM download manager main window on Windows" width="1200" height="737"></div>
+
+<section class="wrap">
+  <h2>Everything a download manager should do — and more</h2>
+  <div class="grid">
+    <div class="card"><h3>🚀 Download accelerator</h3><p>Up to 32 connections per file and all your internet connections at once. Resumes after crashes, restarts and even expired links.</p></div>
+    <div class="card"><h3>🎬 Video downloader</h3><p>YouTube, TikTok, Facebook, Instagram, Reels, X, Vimeo, Dailymotion, Reddit, Snapchat and more, from 144p to 4K or as MP3. HLS and DASH streams too.</p></div>
+    <div class="card"><h3>📃 Playlists &amp; channels</h3><p>A whole YouTube playlist or channel in one click. Subscribe, and new videos download by themselves.</p></div>
+    <div class="card"><h3>▶️ Play while downloading</h3><p>Watch or listen before the file is finished. Jump ahead and that part is fetched first.</p></div>
+    <div class="card"><h3>📱 Phone remote</h3><p>Scan a QR code to add, pause and resume downloads from your phone, on your own Wi-Fi only.</p></div>
+    <div class="card"><h3>🧲 Torrents &amp; MEGA</h3><p>A built-in torrent client with magnet links, plus MEGA files and folders, all in the same list.</p></div>
+    <div class="card"><h3>🛡️ Security first</h3><p>Look-alike sites, fake installers, disguised programs and malware lists are checked before you download. SHA-256 and an antivirus scan when it's done.</p></div>
+    <div class="card"><h3>🔍 X-Ray</h3><p>See what's inside a ZIP, RAR, 7z, ISO or program while it's still on the server, and download only what you need.</p></div>
+    <div class="card"><h3>🧰 File tools</h3><p>Compress video, convert to MP3, trim, make GIFs, compress pictures, remove image backgrounds and extract archives.</p></div>
+  </div>
+</section>
+
+<section class="wrap two">
+  <div>
+    <span class="badge">VIDEO DOWNLOADER</span>
+    <h2>A “Download this video” button on every video</h2>
+    <ul class="ticks">
+      <li>Every quality the site offers: 4K, 1080p HD, 720p, 480p… or just the sound as MP3</li>
+      <li>Streams joined into one normal MP4, without re-encoding</li>
+      <li>Site rules that update by themselves when a site changes</li>
+      <li>Real file names, taken from the title or caption</li>
+    </ul>
+  </div>
+  <img class="shot" src="img/download-video.webp" alt="Choose video quality 1080p, 720p or MP3 in DDM" width="1200" height="796" loading="lazy">
+</section>
+
+<section class="wrap two">
+  <img class="shot" src="img/playlist-download.webp" alt="YouTube playlist and channel downloader" width="1100" height="859" loading="lazy">
+  <div>
+    <span class="badge">PLAYLISTS</span>
+    <h2>Download a whole playlist or channel</h2>
+    <p>Paste a YouTube playlist or channel link. DDM lists every video, even in very long playlists. Choose what you want, pick the quality and folder, and subscribe so new videos arrive on their own.</p>
+  </div>
+</section>
+
+<section class="wrap">
+  <span class="badge">PHONE REMOTE</span>
+  <h2>Control your downloads from your phone</h2>
+  <p>Open <strong>Tools → Phone remote</strong> and scan the QR code. There's no app to install, and it works only inside your own network with a secret link.</p>
+  <img class="shot" src="img/phone-remote.webp" alt="Control the download manager from a phone with a QR code" width="1200" height="559" loading="lazy">
+</section>
+
+<section class="wrap two">
+  <div>
+    <span class="badge">SECURITY</span>
+    <h2>Checks the link before the file reaches your PC</h2>
+    <p>Your antivirus looks at a file once it's already on your disk. DDM looks earlier. It checks for look-alike domains (<code>micros0ft-…</code>, <code>paypa1…</code>), brand-new sites, public malware lists, programs disguised as videos or PDFs, and bait names like “crack”. Then it hands the finished file to your antivirus.</p>
+  </div>
+  <img class="shot" src="img/link-check-dangerous.webp" alt="Dangerous download warning in DDM" width="1200" height="721" loading="lazy">
+</section>
+
+<section class="wrap">
+  <h2>Looking for an IDM alternative?</h2>
+  <div class="table"><table>
+    <tr><th>Speed</th><td>Up to 32 connections per file, plus Wi-Fi + Ethernet + phone hotspot together</td></tr>
+    <tr><th>Resume</th><td>After crashes, restarts and sleep, and even when the link expired</td></tr>
+    <tr><th>Videos</th><td>YouTube, TikTok, Facebook, Instagram, X, Vimeo and more, in every quality or MP3</td></tr>
+    <tr><th>Playlists</th><td>Whole playlists and channels, and subscriptions</td></tr>
+    <tr><th>Torrents &amp; MEGA</th><td>Built in, so you don't need a second program</td></tr>
+    <tr><th>Security</th><td>Link and file checks before downloading, X-Ray, SHA-256, antivirus scan</td></tr>
+    <tr><th>Built with</th><td>Pure native C++, one small program that uses almost no memory</td></tr>
+    <tr><th>Price</th><td>Every feature free for 30 days, no sign-up</td></tr>
+  </table></div>
+</section>
+
+<section class="wrap" id="addons">
+  <h2>Browser add-ons</h2>
+  <p>The add-on adds the <em>Download this video</em> button, sends your browser's downloads to DDM, and puts <em>Download all links</em>, <em>Download all images</em> and <em>Save page as PDF</em> in the right-click menu. DDM's setup offers it automatically.</p>
+  <div class="grid">
+    <div class="card"><h3>Google Chrome</h3><p><a href="https://chromewebstore.google.com/detail/banekiajgcomjfnjkbpknfpgkdgfidjd">Chrome Web Store</a> (also Brave, Vivaldi and Opera)</p></div>
+    <div class="card"><h3>Microsoft Edge</h3><p><a href="https://microsoftedge.microsoft.com/addons/detail/ikafbphbbbilcadhbohghjjcdaghjhdi">Edge Add-ons</a></p></div>
+    <div class="card"><h3>Mozilla Firefox</h3><p><a href="https://addons.mozilla.org/firefox/addon/ddm-dedsec-download-manager/">Firefox Add-ons</a></p></div>
+  </div>
+</section>
+
+<section class="wrap">
+  <h2>Questions</h2>
+  <details><summary>What is the best IDM alternative for Windows?</summary><p>DDM covers what people use Internet Download Manager for (multi-connection downloads, resume, browser integration, a video button and a scheduler) and adds torrents, MEGA, playlists, a phone remote and security checks before every download. Try every feature free for 30 days.</p></details>
+  <details><summary>How do I download YouTube videos and playlists?</summary><p>Install DDM and its browser add-on, open the video and click <em>Download this video</em>. For a whole playlist or channel, paste its link into DDM.</p></details>
+  <details><summary>Can it download TikTok, Facebook and Instagram videos?</summary><p>Yes. Point at the video and click <em>Download this video</em>. Each video is saved under its own caption or title.</p></details>
+  <details><summary>Which language is DDM written in?</summary><p>Pure native C++ for Windows. There's no .NET, Java, Electron or Python, so it starts instantly and stays light.</p></details>
+  <details><summary>Which Windows versions are supported?</summary><p>Windows 11, 10, 8.1, 8 and 7 SP1, 32-bit and 64-bit.</p></details>
+</section>
+
+<section class="wrap" style="text-align:center">
+  <a class="cta" href="https://github.com/officialdedsec/ddm/releases/latest">⬇ Download DDM — free for 30 days</a>
+</section>
+
+<footer class="wrap">
+  © 2026 DedSec Cyber Security Research Institute · <a href="https://github.com/officialdedsec/ddm">GitHub</a> · <a href="https://dedseec.com">dedseec.com</a> · <a href="https://dedseec.com/privacy">Privacy</a> · <a href="https://dedseec.com/contact">Contact</a>
+</footer>
+</body>
+</html>

@@ -30,7 +30,7 @@
 
 ![DDM download manager for Windows — main window with downloads, categories, speed and progress](screenshots/main-window.png)
 
-**DDM (DedSec Download Manager)** is a download manager, download accelerator and video downloader for Windows. It splits every file into up to **32 parts downloaded at the same time**, resumes broken and expired downloads, and saves videos from **YouTube, TikTok, Facebook, Instagram, Reels, X (Twitter), Vimeo, Dailymotion, Reddit, Snapchat** and almost any other site with a video player, in **every quality from 144p to 4K or as MP3**. It also downloads **torrents, magnet links and MEGA folders**.
+**DDM (DedSec Download Manager)** is a download manager, download accelerator and video downloader for Windows. It splits every file into up to **32 parts downloaded at the same time**, resumes broken and expired downloads, and saves videos from **YouTube, TikTok, Facebook, Instagram, Reels, Bilibili, X (Twitter), Vimeo, Dailymotion, Reddit, Snapchat** and almost any other site with a video player, in **every quality from 144p to 4K or as MP3**. It also downloads **torrents, magnet links and MEGA folders**.
 
 What makes it different is **security**. Before a file reaches your PC, DDM checks **where it comes from and what it really is**: look-alike sites, fake installers, programs disguised as videos or PDFs, sites on public malware lists. Your antivirus only sees a file once it's already on your disk.
 
@@ -80,15 +80,17 @@ Looking for an **IDM alternative** or a **free download manager for Windows** yo
 - **Every internet connection at once**: Wi-Fi + Ethernet + phone hotspot added together.
 - **Resumes anything**: a dropped connection, a restart, sleep, or an **expired link**. *Refresh download link* continues from the exact byte.
 - **Starts the moment the window opens**, so *Start Download* picks up from what has already arrived.
+- **A download window like IDM's**: URL, status, size, downloaded, transfer rate, time left and resume capability at a glance, a big progress bar, and a second minimize button in its title bar that hides it in the tray.
+- **Clean folders**: unfinished parts wait in DDM's own folder; your folders only ever get finished files.
 - **Speed limiter** that lifts itself when nothing else is using the internet.
 - **Queues and a scheduler**: download at night, shut down or sleep when finished, and set limits for metered connections.
 
-![Download progress window with 32 connections, speed in KB/s and time left](screenshots/download-progress.png)
+![Download window with URL, status, file size, transfer rate, time left and a progress bar](screenshots/download-progress.png)
 
 ### 🎬 Video downloader for every site
 
 - A **"Download this video" button** appears above the videos you watch in your browser. Click it and pick a quality: **4K, 1440p, 1080p HD, 720p, 480p, 360p**, or just the **sound as MP3**.
-- **Sites**: YouTube (videos, Shorts and live), TikTok, Facebook (videos and Reels), Instagram (Reels and posts), Threads, Snapchat, X / Twitter, Vimeo, Dailymotion, Reddit, plus any site whose player shows its video in the page, also inside embedded players.
+- **Sites**: YouTube (videos, Shorts and live), TikTok, Facebook (videos and Reels), Instagram (Reels and posts), Threads, Bilibili (up to 4K), Snapchat, X / Twitter, Vimeo, Dailymotion, Reddit, plus any site whose player shows its video in the page, also inside embedded players.
 - **Streams (HLS .m3u8 and DASH .mpd)**: every quality, many pieces at a time, encrypted streams (AES-128), separate sound tracks joined. One normal **MP4** comes out without re-encoding. Live streams are recorded until you stop.
 - **Adapts by itself**: DDM's site rules update automatically (signed by DedSec) when a site changes, with no new version needed.
 - **Real names**: videos are named after their title or caption, never "(20+) Facebook", and hashtags and view counts are left out.
@@ -144,6 +146,9 @@ Right from the download list: **compress video**, **convert to MP3**, **trim**, 
 |---|---|
 | ![File tools in the right-click menu](screenshots/right-click-file-tools.png) | ![Convert video to MP3, compress, trim, GIF](screenshots/file-tools.png) |
 
+### 🌍 In your language
+DDM speaks **English, বাংলা (Bengali), हिन्दी (Hindi), اردو (Urdu), العربية (Arabic), Español, Français, Português (Brasil) and Bahasa Indonesia**. Pick one in Options → General → Language (or let DDM follow Windows): every window, menu, message and notification changes at once, with right-to-left reading for Arabic and Urdu.
+
 ### ✨ Everything else
 
 - **Browser add-ons** for Chrome, Edge, Firefox, Opera, Brave and Vivaldi: catch downloads, **Download all links / images**, and **Save page as PDF**.
@@ -158,7 +163,7 @@ Right from the download list: **compress video**, **convert to MP3**, **trim**, 
 
 ## Download and install
 
-1. Download **`DDM-Setup-4.1.0.exe`** from the **[latest release](https://github.com/officialdedsec/ddm/releases/latest)**.
+1. Download **`DDM-Setup-4.2.2.exe`** from the **[latest release](https://github.com/officialdedsec/ddm/releases/latest)**.
 2. Run it. It doesn't need administrator rights and installs for you only.
 3. DDM starts and offers its browser add-on. Chrome and Edge also offer it by themselves the next time they start.
 

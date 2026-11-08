@@ -1,5 +1,61 @@
 # What's new in DDM
 
+## 4.2.2 — November 2026
+**The download window**
+- Its title bar now has two minimize buttons, like IDM: the green arrow (Minimize to system tray) sits next to Minimize, Maximize and Close; the usual – still puts it on the taskbar
+- The speedometer and the speed graph are gone; Show details / Hide details now shows or hides the parts of the file
+- Everything else stays as it was: the rows, the progress bar, Speed limiter, When done, Security, the tray icon and its menu
+
+## 4.2.1 — November 2026
+**The download window, like IDM's**
+- Download status now shows one row each: URL, Status, File size, Downloaded with its percentage, Transfer rate, Time left and Resume capability
+- A big progress bar with the percentage on it: stripes slide while it downloads, amber when paused, red on an error (with what went wrong written under it)
+- Show details / Hide details: the speedometer, the speed graph and the parts of the file are in the details; the window now really gets smaller when they're hidden, and on a small screen it opens with them hidden
+- A second minimize button, like IDM: the green arrow at the top right (also in the title bar's menu) hides the window in the tray with its own icon; the title bar's – now puts it on the taskbar (Options → General can make it go to the tray again)
+
+**Unfinished downloads stay out of your folders**
+- .ddmpart files and a video's separate picture and sound now wait in DDM's own folder for unfinished downloads; your folders only ever get the finished file
+- Options → Downloads → Folder for unfinished downloads lets you choose where they wait; what's already there moves along
+- Downloads started with an older DDM finish where they already are
+
+**TikTok**
+- Reels that still said "No video was found" are found: the browser add-on (4.0.5) also catches the posts TikTok's own player loads as you scroll
+- Photo slideshows offer their song, and DDM says when a post has no video
+
+## 4.2.0 — November 2026
+**DDM in your language**
+- DDM now speaks বাংলা (Bengali), हिन्दी (Hindi), اردو (Urdu), العربية (Arabic), Español, Français, Português (Brasil) and Bahasa Indonesia, as well as English
+- Options → General → Language changes every window, menu, button, message and notification at once; "Same as Windows" follows Windows' own language
+- Bengali and Hindi use Windows' own fonts for them; Arabic and Urdu read from right to left
+- File names, websites, video titles and your own categories always stay exactly as they are
+
+**Videos**
+- TikTok: reels that showed only "Open in DDM" now list every quality — your browser reads the post with your own session and hands it to DDM, so TikTok can't hide it any more
+- Bilibili (bilibili.com, b23.tv links, multi-part videos, series episodes, bilibili.tv): every quality up to 4K, picture and sound downloaded with many connections each and joined into one MP4; with your browser's sign-in you get the qualities your account allows
+
+**Security**
+- Your browser's cookies for a site are sent only to that site, never to another site a download link redirects to
+- A downloads list file someone sends you can no longer place files in Windows' startup folders or other system folders
+- "Save page as PDF" locks the page copy down before anything in it can run
+- X-Ray can't be made to use too much memory or read past a damaged archive's data
+- Windows parts DDM loads by name always come from Windows' own folder
+- The phone remote and the local player can't be held up by a slow or broken connection
+
+## 4.1.1 — November 2026
+**TikTok**
+- Swiping through the feed: the button always downloads the video you're watching, even when the address bar still shows another one
+- Every TikTok video is saved under its own caption (never "TikTok Embed.mp4" again), with its creator's name when it has no caption
+- The download window shows the video's cover picture, like for YouTube
+- When TikTok refuses DDM's first way of reading a video, its player page is read properly: caption, cover, length and the video itself
+- Every quality TikTok has for a video is offered (1080p, 720p, 540p…)
+
+**Facebook, Instagram, Threads**
+- Reels and videos are saved under the caption the creator wrote, with the video's own cover in the download window
+
+**Windows**
+- "File already downloaded" and the browser add-on questions: the window is now as wide as its buttons, so no button is ever cut off
+- "Add DDM to your browser": after clicking Add, the longer button no longer covers the browser's name
+
 ## 4.1.0 — November 2026
 **Videos**
 - TikTok: videos from the For You feed and from shared links (also links without the creator's name) are found again; DDM tries the video page and TikTok's own player page, with the cookies TikTok hands out

@@ -8,7 +8,7 @@ Download DDM only from the [Releases page](https://github.com/officialdedsec/ddm
    **DedSec Cyber Security Research Institute**.
 2. **SHA-256.** Each release lists the installer's SHA-256 in its notes (and in `update.json`). In PowerShell:
    ```powershell
-   Get-FileHash .\DDM-Setup-4.1.0.exe -Algorithm SHA256
+   Get-FileHash .\DDM-Setup-4.2.2.exe -Algorithm SHA256
    ```
    The value must match exactly.
 3. **VirusTotal.** Each release links to its VirusTotal scan.

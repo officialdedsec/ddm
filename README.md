@@ -243,5 +243,4 @@ Please [open an issue](https://github.com/officialdedsec/ddm/issues/new/choose).
 <p align="center">
   <b>DDM — DedSec Download Manager</b>: download manager · download accelerator · IDM alternative · video downloader · YouTube downloader · playlist downloader · TikTok downloader · Facebook video downloader · Instagram Reels downloader · MP3 converter · torrent client · magnet link downloader · MEGA downloader · HLS / m3u8 downloader · for Windows 11, 10, 8 and 7
 </p>
-<a href="https://www.opensourcealternatives.to"><img src="https://www.opensourcealternatives.to/badge-osa.svg" alt="As seen on Open Source Alternatives"></a>
 <p align="center">© 2026 DedSec Cyber Security Research Institute · <a href="LICENSE.txt">Licence terms</a> · <a href="https://dedseec.com/privacy">Privacy</a> · <a href="https://dedseec.com/contact">Contact</a> · <a href="mailto:admin@dedseec.com">admin@dedseec.com</a></p>

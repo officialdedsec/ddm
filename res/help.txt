@@ -1,0 +1,657 @@
+@topic about | About DDM | introduction, what is DDM, overview, features
+DedSec Download Manager (DDM) is a fast, quiet download manager for Windows 7, 8, 10 and 11. It downloads files many times faster than a web browser, continues them after a pause, a lost connection or a restart, and downloads videos from Facebook, Reels, TikTok, YouTube, Instagram, X and many other sites in every quality they offer.
+! main | The DDM main window | center
+DDM splits every file into up to 32 parts and downloads them at the same time. When your PC has more than one connection to the internet (for example Wi-Fi and Ethernet, or Wi-Fi and a phone's hotspot) DDM can use all of them together. See [[segmentation|Dynamic segmentation and 32 connections]].
+**What DDM can do**
+- Take over downloads from Chrome, Edge, Firefox, Brave, Opera and Vivaldi automatically ([[extension|the browser extension]]).
+- Download videos in any quality, or only their sound as MP3 ([[videos|Videos]]).
+- Download a whole YouTube playlist or channel, and follow it so its new videos download by themselves ([[playlists|Playlists, channels and subscriptions]]).
+- Watch or listen to a download while it's still downloading ([[preview|Play while downloading]]).
+- Add, pause and resume downloads from your phone ([[phone-remote|Phone remote]]).
+- Download MEGA files and whole MEGA folders, torrents and magnet links, and Google Drive files ([[mega|MEGA]], [[torrents|Torrents]]).
+- Run downloads at a set time with the [[scheduler|Scheduler]] and its queues, and keep files up to date with the Synchronization queue.
+- Sort files into folders automatically: Compressed, Documents, Music, Programs and Video inside your Downloads folder ([[folders|Folders and categories]]).
+- Limit the speed of one download or of all of them, and stay under your internet provider's data limit ([[speed-limiter|Speed limiter]], [[limits|Download limits]]).
+- Find any download in a long list in seconds ([[find|Find a download]]).
+DDM is silent unless you turn on [[sounds|sounds]]. Everything it needs is inside DDM.exe, including this help.
+
+@topic segmentation | Dynamic segmentation and 32 connections | speed, connections, parts, accelerate, segments, faster, segment check, validation, too many requests
+DDM downloads one file over many connections at once. It starts with one connection to learn the size of the file and whether the server allows it to be continued, then opens up to 32 connections, each downloading its own part of the file.
+! progress | The parts of the file arrive at the same time — the strip at the bottom fills in as they do | right
+When a part is finished, its connection doesn't sit idle: DDM takes the largest part that is still downloading, splits it in two and gives the second half to the free connection. This is called **dynamic segmentation**, and it keeps every connection busy until the very last byte, so a download never slows down at the end.
+The parts are written straight into their place in the file, so there is no joining step when the download finishes.
+**Connections that fit the server.** Some servers allow only a few connections per person and refuse the rest (or answer “too many requests”). DDM then keeps only the connections that work, and tries one more every 20 seconds while everything goes well, so it always uses as many as the server allows.
+**Every part is checked.** Before the file is finished, DDM checks that the parts cover the whole file with no gap, and asks the server again for the bytes where two parts meet (64 bytes across each join) to compare them with what's in the file. A part that disagrees is downloaded again; if the server keeps sending different data, DDM tells you instead of giving you a broken file.
+**Changing the number of connections**
+32 connections is the default and suits most servers. You can choose 1 to 32 in `Options` → `Connection` → `Connections per download`. A few servers allow only one or two connections; DDM notices and continues with what the server allows.
+> If a server doesn't allow a file to be continued (Resume capability: No), DDM downloads it with one connection from the start to the end.
+
+@topic networks | Using all your internet connections | wifi, ethernet, hotspot, mobile, adapters, booster, two networks
+When your PC is online through more than one connection at the same time — Wi-Fi and an Ethernet cable, or Wi-Fi and a phone's hotspot over USB — DDM can spread the parts of each download over all of them, adding their speeds together.
+Turn it on or off in `Options` → `Connection` → `Use all network connections together`. The list under it shows the connections that are online now. The status bar at the bottom of the main window shows which connections DDM is using.
+**Daily limit on extra connections**
+A phone's hotspot often has a monthly data allowance. Enter a number of megabytes in `Daily limit on extra connections` and DDM stops using the extra connections for the rest of the day once it has downloaded that much over them.
+> If one of the connections can't reach a server, DDM simply stops using it for that download.
+
+@topic free | Free and open source | free, open source, licence, license, gpl, source code, github, price, cost, trial, register, buy
+DDM is free for everyone, with every feature and no time limit. There is nothing to buy, register or activate.
+DDM is also **open source**: its whole source code is public on GitHub at github.com/officialdedsec/ddm, under the GNU General Public License, version 3 (GPL-3.0). You may use DDM for anything, read how it works, change it and share it; a changed version you share must stay open source under the same licence. `Help` → `About DDM` has buttons for the source code and the licence.
+> An older DDM had a 30-day trial and licence keys. That is gone: a DDM that was locked after its trial works again once it's updated, and a licence key is no longer needed.
+The official DDM (from the GitHub releases page and DDM's own updates) is signed by DedSec. DDM checks that signature on every update before installing it, and the official DDM.exe refuses to start if it was changed afterwards.
+
+@book Using DDM
+@topic getting-started | Getting started | start, first steps, how to, add download, quick start
+There are several ways to add a download:
+- **From your browser.** With the DDM extension installed, click a download link as usual. DDM takes it over and shows [[prompt|Download File Info]].
+- **Videos.** Point at a video in your browser and click **Download this video** above it, then choose a quality. See [[videos|Videos]].
+- **Add URL.** Click `Add URL` on the toolbar (or press `Ctrl+N`) and paste the address of a file.
+- **Copied links.** Copy a link to a file, a magnet link or a MEGA link anywhere in Windows; DDM opens the download window. See [[clipboard|Watching the clipboard]].
+- **Paste.** Press `Ctrl+V` in the main window to download the links you copied.
+- **Right-click in the browser.** Choose `Download with DDM` on a link, a video or a picture, or `Download all links with DDM` on a page.
+- **Command line.** `DDM.exe "https://example.com/file.zip"` adds that link; a .torrent file opened from Explorer opens in DDM too.
+Every download appears in the [[main-window|main window]], where you can pause, continue, open and organise it.
+
+@topic main-window | The main window | toolbar, categories, list, columns, source, favicon, status bar, main window
+! main | The main window | center
+**Toolbar**
+| Add URL | Adds a download from an address (also `Ctrl+N`).
+| Resume / Pause | One button: it says `Pause` while a selected download is running (click to pause it) and `Resume` when it's paused or stopped.
+| Stop | Stops the selected downloads. Unlike Pause, a stopped download stays stopped until you start it yourself: `Resume all` and queues leave it alone. A sharing torrent stops sharing.
+| Pause all / Resume all | One button: `Pause all` while anything is downloading or waiting, `Resume all` when everything is paused.
+| Delete / Delete finished | Removes the selected downloads, or every finished one, from the list (the files stay on your disk). `Shift+Del` also moves the files to the Recycle Bin. For 3 seconds a small card at the bottom of DDM's window offers **Undo** (or press `Ctrl+Z`): click it and everything is back as it was. The card waits while the mouse is on it. It belongs to the window: when you minimize or close DDM's window (to the tray), the card goes with it and the removal is final.
+| Options | All of DDM's settings ([[options|Options]]).
+| Scheduler | Queues and timed downloads ([[scheduler|Scheduler]]).
+| Start queue / Stop queue | Starts or stops the Main download queue.
+| X-Ray | Look inside archives, disc images, torrents and programs before downloading them (the selected download, or a link you give). See [[xray|X-Ray]].
+| Grabber | Download many files from one web page.
+| Dark mode | Switches between the light and dark look: the new look spreads out in a smooth circle from the button, over every DDM window at once. (With Windows' `Show animations in Windows` off, it simply changes.)
+**Categories** on the left show only one kind of file (`View` → `Hide categories`, or `Ctrl+B`, slides the panel away to give the list the whole width; `Show categories` brings it back). Compressed, Documents, Music, Programs and Video are inside All downloads. Torrents have their own category with Downloading and Seeding. Unfinished and Finished show what is left and what is done. Queues lists every queue from the Scheduler.
+**Your own categories.** `View` → `Add category…` (or right-click the categories → `Add category…`): give it a name and its file types (for example `psd ai svg`). New downloads of those types go to it — your categories win over the built-in ones — and to their own folder in Downloads with the same name; downloads already in the list that belong to it move there too. Right-click a category for `Open folder`, `File types…` and `Change folder…`; right-click one of your own for `Rename…` and `Delete category` (its downloads and files stay; they go back to the built-in categories). Your categories also appear in Download File Info and in `Options`.
+**The list** shows each file with its **Source** — the website it came from, with that site's small icon — its size, status, time left, speed, last try and description. Click a column title to sort by it; drag the line between two titles to make a column wider. Double-click a finished file to open it, or an unfinished one to see its progress.
+**Status bar** shows how many downloads there are, which internet connections are in use, the speed limit and the total speed.
+See also [[context-menu|The right-click menu]] and [[keyboard|Keyboard shortcuts]].
+
+@topic prompt | Download File Info | download window, prompt, save as, category, description, download later, resume
+This window appears for every new download (you can turn it off in `Options` → `General`). Its minimize button (–) puts it on the taskbar while you do something else; the file keeps downloading meanwhile.
+! prompt | Download File Info | center
+| URL | The address of the file. You can change it; DDM checks the new address.
+| Category | Decides the folder the file is saved in. The `+` button makes a new category.
+| Save As | The folder and the file name. The `…` button saves it anywhere, under any name.
+| Remember this path | The category keeps this folder for the next downloads.
+| Description | A note for yourself, shown in the list's Description column.
+| Save the thumbnail / Save the subtitles | Videos only: also saves the video's picture (.jpg) and its subtitles (.srt) next to it. The button under it lists every subtitle language the video offers: tick the ones to save. See [[videos|Videos]].
+The panel on the right shows the file's icon as Windows shows it (the program's own icon for a PDF, a Word document, a program…), its size and the kind of file. The file starts downloading at full speed the moment this window opens, so what arrived while you choose is already there when you click Start Download. The line at the bottom shows the website (with its icon) and whether the server allows the download to be continued after a pause (**Resume: yes**).
+**Start Download** starts it now. **Download Later** adds it to the [[scheduler|Main download queue]], paused, so it downloads when the queue runs. **Cancel** closes the window.
+**Already downloaded.** When the file is already on your disk (in that folder, or finished earlier from the same link), a green **Already downloaded · Open** button appears at the bottom; click it to open the file you have. If you press Start Download anyway, DDM asks: `Open it`, `Save with a new name`, `Replace it` (the old copy goes to the Recycle Bin) or `Cancel`. When the same link is still downloading in the list, DDM offers to show it instead.
+**Start Download** shows the progress window at once, with the speed and percentage of the download from the first second. **Cancel** throws the download away completely: nothing is left on your disk.
+! prompt_xray | The X-Ray button | center
+**Is the link safe?** A coloured button at the bottom shows what DDM's [[link-check|link & site check]] found: green **Safe link**, orange **Be careful** or red **Dangerous**. Click it to read why. When a download is dangerous, Start Download asks you first.
+> A small **X-Ray** button appears at the bottom right when there is something to look inside before downloading: archives (ZIP, RAR, 7z, TAR, CAB, GZ), disc images (ISO), torrents and programs (EXE, DLL, MSI). See [[xray|X-Ray]].
+
+@topic progress | The download progress window | progress, status, speed, time left, hide details, show details, minimize, tray, minimize to system tray, progress bar
+When a download starts, its progress window opens (turn this off in `Options` → `General`).
+! progress | Download status | right
+**Download status** is laid out like IDM's: at the top the file's name and the folder it goes to, with a badge that says what it's doing (Downloading, Limited, Paused, Waiting or Error). Below, one row each: the **URL**, the **Status** (what it's doing right now), the **File size**, how much is **Downloaded** with its percentage (for example `9.71 MB (0.34%)`), the **Transfer rate** in **KB/s** like IDM (for example `1,536.4 KB/s`), the **Time left** and the **Resume capability** (`Yes`: the download can be paused and continued later). Then a big progress bar with the percentage on it: blue with stripes that slide while it downloads, amber when paused, red on an error (what went wrong is written under it). Under the bar: the number of connections, the speed of each one and the fastest speed so far (Peak).
+With `Show details` you also see the blocks of the parts of the file, filling in as they arrive.
+The window follows DDM's light or dark look (`Dark mode` in the toolbar), also while it's open.
+**Speed limiter** slows down this download only — useful to leave room for other work on the internet. Tick `Limit this download's speed` and click a speed (64 KB/s to 10 MB/s); the big number shows how fast it goes right now.
+**When done** chooses what happens when this download finishes: show Download complete, open the file, or shut down the computer.
+**Security** shows, while the file downloads, what DDM knows about it: the [[link-check|link & site check]], its SHA-256 worked out as the data arrives, the checksum the server published (and whether the file matches it), what your antivirus will do and the [[motw|Mark of the Web]]. A red or orange dot on the tab means there is a warning. See [[security-tab|The Security tab]].
+`Hide details` makes the window smaller (it hides the parts of the file; `Show details` brings them back). On a small screen the window opens with the details hidden, so its buttons are always on the screen. `Pause` / `Resume` and `Cancel` do what they say. When a link stops working, `Refresh download link` appears next to them (see [[refresh-link|Refresh download link]]).
+**Minimize to the tray.** Like IDM, the window's title bar has two minimize buttons next to Maximize and Close. The green arrow (`Minimize to system tray`, also in the menu you get by right-clicking the title bar) hides the window into the tray, next to the clock; the usual minimize button (–) puts it on the taskbar. (On Windows 7 with the Basic or Classic look, Windows draws its own title bar, so the green arrow sits at the window's top right instead.)
+Like IDM, every download window in the tray shares **DDM's one icon**, however many there are. Pointing at the icon lists each download with its percentage. **Click** the icon for a small panel with all your downloads, live: the name, a progress bar, the percentage, the speed, the time left and `In the tray` for the windows waiting there. Click a download in the panel to bring its window back; at the bottom, `Open DDM`, `Show windows` (all of them at once) and `Pause all` / `Resume all`. **Double-click** the icon to bring every waiting window back. You can also right-click it and choose `Show: file name — 45%`.
+If you prefer a separate icon for each window (it fills up as the file arrives; right-click it to `Show`, `Pause` / `Resume`, `Stop` or `Cancel`), choose `Get an icon each` in `Options` → `General` → `Download windows in the tray`. If you want the – button to hide the window in the tray too, choose it in `Options` → `General` → `A download window's – button`. Closing the window doesn't stop the download either.
+**Hiding tabs.** Right-click the Speed limiter, When done or Security tab and choose `Hide`. Show them again in `Options` → `General` → `Download windows`.
+All DDM windows can be resized, and none is ever taller than your screen, also with big text sizes (125 %, 150 %, 175 %…).
+! progress_limit | Speed limiter | center
+! progress_done | When done | center
+! progress_security | Security | center
+
+@topic properties | File Properties | properties, file properties, details, move, address, referer, login, password, double click, info
+Double-click a finished download (or right-click → `Properties`) to see everything about the file.
+! properties | File Properties | right
+| Type, Status, Size | What the file is, whether it's complete (or damaged / flagged by the antivirus), and its exact size in bytes.
+| Save To | Where it is. `Move…` moves it (or, for an unfinished download, where it will go) to another folder.
+| Address | The link it downloads from. You can change it.
+| Description | A note for yourself.
+| The web page… | The page it came from; click it to open the page.
+| Referer, Login, Password | The page the link was opened from, and a user name / password for servers that ask for one.
+Below are the dates, how long it took (the time it was really downloading, to the second — pauses don't count), the average speed, its category, queue and website, whether it can be resumed, its checksum, the antivirus result and whether Windows knows it came from the internet ([[motw|Mark of the Web]]).
+`Open` and `Open folder` open the file or its folder; `Checksums` calculates its SHA-256 and can compare it with the one a website shows. `OK` saves what you changed.
+
+@topic complete | Download complete | finished, done, open, open folder, drag, drag and drop, hand, move the file
+When a download finishes, DDM shows Download complete (unless you turned it off, or the progress window was set to open the file instead).
+! complete | Download complete | center
+`Open` opens the file, `Open folder` shows it in its folder, `Close` closes the window.
+**Drag the file out.** The hand at the top right is for dragging, like in IDM: press it, pull, and drop the file into a folder, onto the desktop, into an e-mail, a chat or any program that takes files. The file's name and its path can be dragged the same way. Dropping into a folder on the same drive moves the file there (hold `Ctrl` to copy it instead); the window closes once the file has moved. A sound plays only if you turned on [[sounds|sounds]].
+When [[antivirus|antivirus scanning]] is on, the window shows the result under the file's folder: a green shield for “no threats found”, a red shield when the antivirus found a threat or removed the file. For a file with a threat the `Open` button is turned off.
+
+@topic tray | The tray icon | tray, notification area, minimize to tray, close to tray, progress in tray, one tray icon, tray panel, all downloads
+DDM keeps one icon in the notification area next to the clock, like IDM. While files download, the icon shows a progress bar; its tooltip shows the file name, the percentage, the speed and the time left, or, with several downloads, each one with its percentage.
+! traymenu | The tray menu | right
+! traypanel | Every download in one place: click DDM's tray icon | center
+While something downloads (or a download window waits in the tray), click the icon for a panel with all your downloads, live — click one to bring its window back. Otherwise a click opens DDM; a double-click brings the waiting download windows back (or opens DDM). Right-click it for those download windows (`Show: file name — 45%`), Open DDM, Add URL, Pause all, Resume all, the Speed limiter, the Scheduler, Options and Exit.
+In the tray DDM gives back the memory its windows used, so it stays light while it waits for downloads.
+By default the close button (X) and the minimize button keep DDM running in the tray, so it can catch browser downloads and finish what it started. Change this in `Options` → `General`. To quit DDM completely, choose `Exit` in the tray menu or in `Tasks`.
+
+@topic context-menu | The right-click menu | right click, context menu, force start, restart, redownload, refresh address, refresh link, priority, move to queue, properties, x-ray, vault, scan, remove, delete, recycle bin, file tools
+Right-click one or more downloads in the list:
+! context | The right-click menu | right
+| Show progress / Open | Opens the progress window, or the finished file.
+| Open folder | Shows the file in its folder.
+| Play while downloading / Play in DDM | Plays a video or a song while it downloads, or once it's finished. See [[preview|Play while downloading]].
+| Pause / Resume | Pauses a running download, or continues a paused one (`Start` for a torrent).
+| Stop | Stops it until you start it yourself (see [[main-window|The main window]]).
+| Force start | Starts it now, even when the maximum number of downloads is already running.
+| Move / rename | For a finished file: choose another folder or name; the file is moved and the list follows it. A torrent can be moved to another folder (`Move to…`); it keeps sharing from there.
+| Copy magnet link | A torrent's magnet link, to share it.
+| Delete torrent | For torrents: `Remove torrent (keep its files)`, `Remove and delete the .torrent file`, `Remove and delete torrent + data`, or `Delete only the downloaded data` (the torrent stays in the list, paused at 0%). Deleted files go to the Recycle Bin.
+| Redownload | Downloads the file again from the same address.
+| Restart from the beginning | Moves what was downloaded to the Recycle Bin and starts again from 0%.
+| Refresh download link | For links that expire or stop working: DDM opens the page the file came from, you click its download link again, and DDM continues from the exact byte where it stopped. See [[refresh-link|Refresh download link]].
+| X-Ray (look inside) | Shows what's inside an archive, disc image, torrent or program. See [[xray|X-Ray]].
+| Move to queue | Puts the download in a queue of the [[scheduler|Scheduler]].
+| Priority | High, Normal or Low: high-priority downloads start first.
+| Copy address | Copies the link.
+| Remove from download list | Takes it off the list (`Del`); the row turns to dust and the rows below slide up (`Options` → `General` turns the effect off). A finished file stays on your disk; what an unfinished download had received is cleaned up. `Undo` (or `Ctrl+Z`) brings it back within 3 seconds.
+| Remove with file | Takes it off the list and moves the file to the Recycle Bin, so you can still restore it (`Shift+Del`).
+| File tools | For a finished file, the tools that suit it: compress a video, convert to MP3, trim, video to GIF, smaller audio, compress a picture, extract, remove metadata, compress into a ZIP, verify checksum. See [[filetools|File tools]].
+| Scan for viruses | Checks a finished file with your [[antivirus|antivirus]] again.
+| Move to private vault | Encrypts the finished file into the [[vault|private vault]] and removes it from its folder and from the list.
+| Properties | The file name, folder, address, description and dates.
+
+@topic find | Find a download | find, search, ctrl+f, f3, look for, locate
+Press `Ctrl+F` (or `Tasks` → `Find…`) to find a download in the list.
+! find | Find file | right
+Type a word or part of a name in **Find**, then choose where to look:
+- **File name or part of the name**
+- **Description or part of the description**
+- **Site name / Download link / Parent web page / Referer** — finds every download from one website.
+- **Folder where the file is saved**
+**Look in** narrows the search to finished or unfinished downloads, or to the category selected on the left. **Kind of file** finds only videos, programs, documents and so on.
+**Match case** makes capital letters count. **Match whole string only** finds whole words only.
+Click `Find`: the first matching download is selected and scrolled into view, and the window shows how many match. Press `F3` to go to the next match and `Shift+F3` for the previous one — also after the Find window is closed.
+@endbook
+
+@book Videos, MEGA and torrents
+@topic videos | Videos (YouTube, Facebook, TikTok and every other site) | video, youtube, facebook, reels, tiktok, bilibili, b23, instagram, x, twitter, vimeo, dailymotion, dai.ly, reddit, any site, subtitles, captions, srt, subtitle languages, open in ddm, no video found, only open in ddm, hls, m3u8, dash, mpd, stream, quality, mp3, 1080p, 4k, download this video, button, thumbnail, subtitles, captions, srt, resume, expired
+Point at a video in your browser — or start playing it — and a **Download this video** button appears just above its top-right corner, outside the picture (below the video when there's no room above). It stays see-through until you point at it. Click it and the menu opens at once: DDM starts reading the qualities as soon as a video plays, so they're usually already there. If they're still on their way, **Best quality** and **Sound only (MP3)** are ready to click right away and the full list fills in by itself. Click one to open Download Video with it chosen. The button and its menu stay attached to the video when you scroll. Nothing opens by itself. The × on the button hides it for that video. Reels, TikTok and other videos that start without sound work the same; ads and small previews in a feed never get a button. Right-click → `Download this video with DDM` works too.
+The panel on the right shows the video's own picture, with its size and quality.
+! video_prompt | Download Video | right
+The **Quality** list shows every quality the site offers, for example “1080p HD · MP4 · 48 MB”, “720p”, “480p”, and the sound alone as **MP3** or in its original format. Choose one and click `Start Download`. Videos always download with their sound.
+**Video names.** A video gets its real title: for Facebook and Instagram Reels and TikTok, where the "title" is often a long caption or just "Video by …", DDM takes the caption's first meaningful line and leaves out links, #hashtags, @mentions, view and like counts, and endings like "| Facebook". Unread counts and site names in a tab's title — "(20+) Facebook", "TikTok - Make Your Day" — are never used as a name. When a video has no words at all, it's named after its creator and its number, for example `dancer_ali - 7300112233`, or `video 7300112233`; when even the number is unknown, after the moment it was found (`video 2026-11-07 14.03.22`), so two videos never share one name. Names are kept to about 100 characters, cut between words; letters of every language are kept. You can still change the name before downloading.
+**When a site hides its qualities.** If a site doesn't let DDM read the page (TikTok and others sometimes refuse anything but a browser), the button's `Best quality` still works: DDM takes the very file your browser is playing, with your browser's sign-in, and names it after the caption shown next to the video. After about 20 seconds the button's menu says so.
+**TikTok.** TikTok often hides a post from programs. The browser add-on reads the post with your own session and hands it to DDM, so every quality of the reel you're watching is listed — also while you swipe through the feed. It also catches the posts TikTok's own player loads as you scroll, so reels that TikTok sends straight to the player (and never puts in the page) are listed too. A **photo slideshow** (pictures with a song, no video) offers its song; DDM says it has no video. This needs version 4.0.5 or newer of the browser add-on.
+**Bilibili.** Videos from bilibili.com (also b23.tv links, multi-part videos and series episodes) and bilibili.tv are listed in every quality the site gives you, up to 4K: picture and sound are downloaded separately with many connections each and joined into one MP4. Sign in to Bilibili in your browser for the qualities your account allows.
+**TikTok and Reels.** DDM keeps one download window per browser tab, and it follows the video you are watching. When you scroll to the next video, the window switches to that video, so you always download the one on the screen.
+**Video quality without asking.** In `Options` → `General` → `Video quality` choose Best, 1080p, 720p, 480p, 360p or MP3; the window then opens with that quality already selected.
+**Sizes.** A size the site states exactly is shown as is; an estimate starts with `~` (in Download Video: "About 48 MB"); when nobody can tell, it says **size unknown** / **Unknown size**.
+**Every site, with DDM's own engine.** DDM reads videos itself — nothing else is installed or downloaded, ever. It knows YouTube, Facebook (videos and Reels), Instagram, Threads, TikTok, Bilibili, Snapchat, X, Vimeo, Dailymotion and Reddit, and on **any other site** it reads the page the way a player does: `<video>` tags, the page's video tags (og:video), the data the page carries (JSON-LD, Next.js and app data), the player's setup and quality lists, and every video or stream address written in the page — also inside a player embedded from another site (a frame), and a YouTube video shown in someone else's page. All of it takes a few milliseconds once the page has arrived.
+**Works with what your browser plays.** On a site DDM has no rule for, the page often gives nothing: the video only exists inside its player. So the browser add-on (4.0.8 or newer) notes what the player itself loads while the page is open — the stream's list of qualities, or the video and sound files — and recognises them by what their server says they are, also when their address has no `.m3u8`, `.mpd` or `.mp4` in it. When you click `Download this video`, DDM reads that and lists **every quality** of it. Some sites answer such a list only to a real browser; the add-on then reads it itself, the way the player did, and hands it to DDM. If the button only offers `Open in DDM`, **let the video play for a few seconds first** (so the player has loaded its stream), then click the button again. Videos locked to the site's own player (DRM: Netflix, Disney+, Prime Video and the like) can't be downloaded by any program; DDM says so.
+**Dailymotion.** DDM reads Dailymotion's videos with every quality — on dailymotion.com, short `dai.ly` links, and Dailymotion's player inside other sites' pages. When Dailymotion doesn't show a video in your country, or the video was removed or is private, Download Video says exactly that. Dailymotion's player keeps one address while it plays video after video; DDM takes the video from the tab's own address (or, inside other sites, from the stream the player loaded last), so each video you open is the one you get, under its own name.
+**The right video, under its own name.** Many sites put their player in a small page of its own inside the page you see; that small page is called `Player` or `Embed` for every video. DDM names the file after the page you are looking at instead, and leaves the site's name off the end (`Holiday in Rome - SiteName` becomes `Holiday in Rome`). When a page loaded several streams (an advert first, then the video), DDM takes the one as long as the video playing in your browser. An upright video is named by its short side, like everywhere: 1080 × 1920 is `1080p`.
+**DDM asks the way your browser asked.** Some sites give a video only to a real browser: they look at how the request is made (which program, from which page, with which extra lines) and answer anything else with `Access denied`. The add-on (4.0.8 or newer) notes exactly how your browser's own player asked for each video file and stream, and DDM asks the same way — so a server that answers the player answers DDM too, whatever it checks, without DDM needing a rule for that site. Cookies are not part of this; they travel the way they always did.
+**Reels and feeds (TikTok, Instagram, Facebook, X).** On pages that play video after video, the address may still name the video before the one you are watching. DDM compares the length of what the page gave with the length of the video playing in your browser; when they differ, it takes what your browser is playing. So after you swipe to the next reel, the next reel is what you get.
+**The button stays put.** `Download this video` takes its place when it appears and keeps it while you move the pointer to it — also when the pointer crosses another video, a preview or the next reel on the way, and when another video starts playing meanwhile. It moves only when the video itself moves on the page.
+**Streams start sooner.** For a stream (HLS), DDM reads the picture's list and the sound's list at the same time, and doesn't ask again for lists it read a moment ago when it showed you the qualities.
+**Adapts by itself when sites change.** How each site shows its videos is kept in DDM's site rules, signed by DedSec. When a site changes, DedSec publishes new rules and every DDM picks them up by itself — every 6 hours, and at once when a video can't be found — with no new version to install. Rules that aren't signed by DedSec are never used.
+**Streams (HLS and DASH).** Most sites play a stream: a list of qualities (.m3u8 or .mpd) cut into thousands of small pieces. DDM lists **every quality** of the stream, fetches the pieces of the one you choose **many at a time** on kept-open connections (as many as your connections setting, up to 16), decrypts protected-by-key streams (AES-128) itself, takes the separate sound track when there is one, and makes one normal MP4 at the end, without re-encoding. A live stream is recorded until you stop it, then saved. Streams locked to the site's own player (DRM) can't be downloaded; Download Video says so.
+**Resume that doesn't give up.** Every video download can be paused and continued — also after closing DDM or restarting the PC. Stream pieces already fetched are kept one by one, so DDM continues with the next missing piece. Many sites give video addresses that expire after a while; when one does, DDM reads the video's page again by itself, finds the same quality and carries on from the same byte (or the same piece).
+**Thumbnail and subtitles.** Tick `Save the thumbnail` and `Save the subtitles` in Download Video (or always, in `Options` → `General` → `Videos`): when the video finishes, its picture is saved next to it as `name.jpg` and its subtitles as `name.en.srt` (one file per language). Choose the usual languages in `Options` → `General` → `Subtitle languages`, for example `en`, `en,es` or `all`. When the site made the subtitles automatically, those are used for the languages you chose.
+**Choose the subtitle languages for one video.** When a video offers subtitles, Download Video shows a button under `Save the subtitles` with **every language the video has**. Click it and tick the ones you want (`All languages` takes them all, `No subtitles` none); the list stays open while you tick. Your usual languages are ticked to begin with. DDM finds subtitles on YouTube (the uploader's own and the automatic ones), Vimeo, Dailymotion, in streams that carry subtitle tracks (HLS and DASH), and on pages whose player lists them. Each language is saved as `name.<language>.srt`, a format every player opens. A video without subtitles shows no button.
+**Signed-in videos.** For private videos, or videos that need you to be signed in, sign in to the site in your browser and play the video again.
+**YouTube without waiting.** DDM reads YouTube videos itself and joins the picture and the sound itself — nothing has to be downloaded or installed first (Python and other programs aren't needed), so even the very first YouTube video starts at once at full speed. YouTube's streams are fetched in pieces with all of DDM's connections, and when YouTube's address for a stream expires (a download paused for hours, for example), DDM gets a new one by itself and carries on from the same byte. Once in a while YouTube shows a video only after a short ad; DDM then says "Starting in … s" and starts by itself.
+> Signed-in, private and age-restricted videos: sign in to the site in your browser, play the video and use the **Download this video** button — DDM then reads the video with your browser's sign-in.
+
+@topic playlists | Playlists, channels and subscriptions | playlist, channel, whole channel, all videos, subscribe, subscription, follow, new videos, automatic, shorts, list
+DDM downloads a whole YouTube playlist or channel in one go, and can follow it so its new videos download by themselves.
+**Downloading a playlist or channel**
+1. Copy the playlist's or channel's address — for example `youtube.com/playlist?list=…`, `youtube.com/@name`, `youtube.com/@name/videos` or `…/shorts` — and paste it into DDM (`Ctrl+V`, `Add URL`), or open `Tasks` → `Download playlist or channel…`.
+2. DDM reads the list — every video, also of long playlists — and shows each one with its length. Click a video to leave it out, or use `Select all` / `Select none`.
+3. Choose the `Quality` (Best, 1080p, 720p, 480p, 360p or MP3) and the folder in `Save to`, then click `Download`. Each video becomes its own download in the list, with its real title as its name.
+Other sites work too: when a page shows many videos (a gallery or a channel page), DDM lists the video links of that site found on it.
+> A YouTube address with `watch?v=` in it is one video, even when it carries `&list=`: DDM downloads that video as always. Mixes made by YouTube (`list=RD…`) aren't playlists.
+**Subscriptions: new videos by themselves**
+Tick `Also download its new videos by themselves (subscribe)` before clicking `Download`. DDM then looks at that playlist or channel every few hours (about every 3 hours, while DDM is running) and downloads each new video in the quality and to the folder you chose, oldest first. A notification says how many new videos are downloading.
+Open `Tools` → `Subscriptions…` to see what you follow, how many videos each has brought and when the last one came:
+| Check now | Looks at all of them now instead of waiting.
+| Pause / Resume | Stops looking at one for a while, without forgetting which videos it already brought.
+| Unsubscribe | Stops following it. Videos already downloaded stay where they are.
+> Subscribing doesn't download the videos that are already there (tick them in the list to download them); only videos that appear after that.
+
+@topic preview | Play while downloading | play, preview, watch, listen, while downloading, player, before finished, stream, play in ddm
+You don't have to wait for a video or a song to finish: right-click it in the list and choose `Play while downloading` (`Play in DDM` when it's finished). DDM's player opens and plays what has arrived.
+- When you jump ahead on the bar, DDM fetches that part of the file next — before everything else — so playing continues in a few seconds. A paused download continues by itself when you play it.
+- The bar shows which parts of the file are already here (light) and where you are (blue). `Space` plays and pauses; `←` and `→` jump 10 seconds.
+- Sound files (MP3, M4A, FLAC…) play with a music picture.
+- The player uses Windows' own media player parts, so it plays what Windows can play (MP4, M4A, MP3, WMV and more; WebM and MKV need the codecs from the Microsoft Store). When Windows can't play a file, click `Play in your browser`: the same file then plays in your web browser, also while it downloads. Windows "N" editions need Microsoft's Media Feature Pack for the player.
+It works for normal downloads and for videos that come as one file. A video whose picture and sound arrive separately (most YouTube videos above 360p), a stream (HLS/DASH) or a download that is being converted can be played once it's finished.
+> The player only reads the file from your own PC (an address on 127.0.0.1 with a secret part) — nothing is sent anywhere.
+
+@topic phone-remote | Phone remote | phone, mobile, remote, control from phone, qr code, wifi, add from phone, android, iphone, lan
+See your downloads on your phone and control them from there — on the same Wi-Fi as your PC, with nothing to install on the phone.
+1. Open `Tools` → `Phone remote…` and tick `Phone remote is on`.
+2. Scan the QR code with your phone's camera (or open the link shown next to it in the phone's browser). If Windows asks whether DDM may use your network, allow private networks.
+3. The page shows every download with its progress and speed, newest first, and updates by itself every second or two.
+On the phone you can:
+- paste a link and tap `Add` — it goes straight into the list (a video gets its real title as its name);
+- `Pause`, `Resume` or `Remove` a download;
+- `Pause all` / `Resume all`.
+**Safe by design.** The page works only inside your own network, and only with the link's secret code: without it, DDM answers nothing. After 20 wrong tries from one device, that device is shut out for 10 minutes. The page can't be framed by other sites, and requests that come through another site's address are refused. Click `New link` to make a new secret code: phones that used the old one must scan the new QR code. Untick `Phone remote is on` to close it completely; it stays off until you turn it on again.
+> Bookmark the page on your phone to open it again later. When the PC's network address changes (another Wi-Fi, for example), open `Tools` → `Phone remote…` and scan again.
+
+@topic mega | MEGA files and folders | mega, mega.nz, folder, encrypted, quota
+Paste or click a MEGA link (mega.nz/file/… or mega.nz/folder/…). DDM downloads MEGA files with up to 32 connections and decrypts them as they arrive; every finished file is checked with MEGA's own integrity code.
+! mega_folder | Download MEGA Folder | right
+For a **folder** link, DDM reads the whole folder and shows how many files it has and their total size. `Start Download` adds every file, keeping the sub-folders, inside a folder with the shared folder's name.
+**Transfer limit.** MEGA limits how much a free user can download in a few hours. When MEGA stops sending, DDM keeps your progress: press Resume later, or switch to another network.
+> A MEGA link needs its key (the part after #). Ask for the full link if it's missing.
+
+@topic torrents | Torrents and magnet links | torrent, magnet, seeding, peers, seeds, trackers, ratio, port, upnp, dht, pex, encryption, blocklist, create torrent, priority, sequential, utorrent, qbittorrent
+Click a magnet link or a .torrent file, paste one, or open a .torrent file with DDM. Torrents are kept in their own **Torrents** category, with **Downloading** and **Seeding** under it.
+! torrent_prompt | Download Torrent | right
+DDM has its own BitTorrent engine built in (nothing extra to download). Torrents pause and continue like any other download — even after DDM or Windows restarts, nothing that arrived is downloaded again. While one downloads, its status shows how many seeds and peers are sending it.
+**Right-click a torrent** for `Start` / `Pause`, `Stop`, `Force start`, `Copy magnet link` and `Delete torrent` (remove it and keep its files, delete the .torrent file, delete torrent + data, or delete only the downloaded data). See [[context-menu|The right-click menu]].
+**Torrent details.** Right-click a torrent → `Torrent details…`:
+| General | Progress, speed down and up, what you've shared (ratio), seeds and peers connected and in the whole swarm, availability, pieces (with a bar of what's here), info hash, dates, comment. `Copy magnet link` copies a link to share it.
+| Files | Every file in the torrent with its size and how much has arrived. Untick a file (or choose `Don't download`) to skip it; `High`, `Normal` and `Low` decide which files come first. A file you untick after it started keeps what already arrived.
+| Trackers | Each tracker and what it answered (working, or its error) with its seed and peer counts. Add trackers (one per line), remove one, or `Update now` to ask for more peers at once.
+| Peers | Who you're connected to: address, program, how much they have, speed both ways, and how (encrypted, µTP, found by DHT / peer exchange / local network).
+| Options | This torrent's own settings: upload limit, maximum peers, stop sharing at a ratio or after some minutes, keep sharing after finishing (Yes / No / as in Options), download in order, first and last pieces first, super-seeding; `Check files again` checks every piece on the disk. Its download speed limit is in the download window's Speed limiter.
+**Sharing (seeding).** A finished torrent can keep sharing (Options, or the torrent's own Options) until it reaches a ratio (1.5 = you sent one and a half times its size) or a time. Right-click a finished torrent → `Share (seed)`; from then on the menu says `Stop sharing (seeding)`. What was sharing when DDM closed shares again when it starts.
+**Create torrent.** `Tools` → `Create torrent…`: choose a file or folder, add trackers (an empty line starts a backup group) and web seeds if you like, a comment, private or not, the type (v1 works in every program; hybrid and v2 are the newer kind) and the piece size (Automatic is right almost always). DDM writes the .torrent, gives you its magnet link, and can start sharing it at once.
+`Options` → `Torrents`:
+| Maximum peers per torrent | How many other computers one torrent may connect to.
+| Torrents at the same time | How many torrents run together.
+| Upload limit | Keeps uploading from slowing your connection. The download limit for everything is in `Options` → `Connection` and the speed menu.
+| Keep sharing (seeding) after finishing | Gives back to other downloaders; shown under Torrents → Seeding.
+| Download in order | Lets you start watching a video before it has finished.
+| First and last pieces first | The start and end of each file arrive early, so most players can preview a video.
+| Stop sharing at ratio / after minutes | When sharing ends by itself (0 = never).
+| Move finished torrents to | A folder finished torrents are moved to (empty = they stay where they were downloaded).
+| Port for incoming connections | Other computers reach you on this port; `Random` picks another. With `Open the port on my router automatically` DDM asks the router (UPnP / NAT-PMP), which brings more peers and speed.
+| Connections, all torrents together | The most connections at once for every torrent together.
+| Encryption | `Allow` (recommended) connects to everyone and prefers encryption; `Require` only to encrypted peers (fewer peers; some internet providers slow down unencrypted torrents); `Off`.
+| DHT, peer exchange, local network | Ways to find peers besides trackers. DHT is needed for most magnet links. Private torrents never use them. Peer exchange changes when DDM starts again.
+| µTP | A gentler way of sending data that leaves room for your browsing and calls.
+| Anonymous mode | Peers and trackers aren't told which program this is.
+| When a proxy is set, peers go through it too | With a proxy in `Options` → `Connection`, trackers always use it; this sends peers through it as well.
+| IP blocklist file | An eMule `ipfilter.dat` or PeerGuardian `.p2p` list: addresses in it are never connected.
+| Reserve the whole size on the disk | The space is taken when the torrent starts (less fragmented files; a full disk is noticed at once).
+| Add .torrent files put in this folder | Every .torrent file saved there is added by itself and renamed `.torrent.added`.
+| Trackers added to every new torrent | One address per line, added to each torrent you start (and offered in Create torrent).
+> The first time a torrent runs, Windows Firewall may ask whether DDM may accept connections: choose `Allow` (private networks is enough at home). Torrents still download if you don't, with fewer peers.
+
+@topic drive | Google Drive files | google drive, drive, large file warning
+Links to Google Drive files download the file itself, even large files that show Drive's "can't scan this file for viruses" page.
+@endbook
+
+@book Scheduler and queues
+@topic scheduler | Scheduler | scheduler, queue, start at, stop at, daily, once, timer, schedule, night, turn off computer, shut down, hang up, exit when done, retries
+The Scheduler starts and stops downloads at set times, one queue at a time. Open it from the toolbar, from `Tools`, or from the tray menu.
+! scheduler | Scheduler — Schedule | center
+**Queues** on the left: the **Main download queue**, the **Synchronization queue**, your own queues, and **Download limits**. `New queue` makes another queue; `Delete` removes the selected one (its downloads stay in the list).
+**Schedule tab**
+| One-time downloading | The queue downloads its files once and is then finished.
+| Periodic synchronization | The queue checks its files again and again and downloads the ones that changed ([[sync|Synchronization queue]]).
+| Start download on DDM startup | Starts this queue every time DDM starts.
+| Start download at | The time the queue starts: **Once at** a date, or **Daily** on the days you tick.
+| Stop download at | Pauses the queue's downloads at this time.
+| Number of retries | How many times a file that failed is tried again.
+| Open the following file when done | Opens a program or a file when the queue is finished.
+| Hang up modem when done | Closes a dial-up or modem connection.
+| Exit DDM when done | Closes DDM.
+| Turn off computer when done | Shut down, Sleep, Hibernate or Restart. **Force processes to terminate** closes programs that would stop Windows from shutting down. A 60-second countdown lets you cancel.
+`Start now` starts the selected queue at once; `Stop` stops it. `Apply` saves changes; `Close` saves and closes.
+
+@topic queue-files | Files in the queue | queue, order, move up, move down, files at the same time
+! scheduler_files | Scheduler — Files in the queue | right
+The **Files in the queue** tab lists the queue's downloads in the order they will run. `Move up` and `Move down` change the order; `Delete from queue` takes a download out of the queue (it stays in the list).
+**Download N files at the same time** sets how many of the queue's files download together.
+To put downloads in a queue, right-click them in the main list and choose `Move to queue`, or click `Download Later` in Download File Info (Main download queue). Each queue also appears under **Queues** on the left of the main window.
+
+@topic sync | Synchronization queue | synchronization, periodic, changed files, update, check again
+Some files on the internet change from time to time — a daily report, a price list, an updated program. Put them in the **Synchronization queue** (or any queue set to **Periodic synchronization**).
+When the queue runs, DDM asks the server about every finished file in it. A file that changed (a new size or a new date) downloads again; files that didn't change are left alone. The queue then checks again every N minutes (`Check the files for changes every`) until it is stopped or its stop time comes.
+
+@topic limits | Download limits | download limits, data cap, isp, quota, battery, charger, plugged in
+! scheduler_limits | Scheduler — Download limits | right
+Some internet providers allow only a certain amount of data in a period. In the Scheduler, select **Download limits**:
+- **Download no more than N MBytes every N hours** — DDM pauses downloads when the limit is reached and continues them when the period allows.
+- **Show warning when limit is reached** — a silent message next to the clock.
+**Laptops**
+- **Only download while the laptop is plugged in** — downloads wait while it runs on battery.
+- **Pause downloads when the battery is below** a level you choose.
+@endbook
+
+@book Options
+@topic options | Options | options, settings, preferences
+Open `Options` from the toolbar, from `Downloads` → `Options…`, or from the tray menu. Changes take effect when you click `OK`.
+- [[options-general|General]] — the look, the video quality and how DDM behaves.
+- [[options-connection|Connection]] — connections, speed limit, using all networks, proxy.
+- [[folders|Save to]] — the folder of each category and the file types it holds.
+- [[options-downloads|Downloads]] — the download folder, retrying, extracting archives, folders by website.
+- [[torrents|Torrents]] — peers, uploading and seeding.
+- [[extension|Browser]] — what DDM takes over from your browsers.
+- [[options-security|Security]] — antivirus scanning and the private vault.
+- [[options-data|Data]] — backups of the list, exporting and importing.
+
+@topic options-general | Options — General | appearance, dark mode, light, theme, start with windows, prompt, progress window, quiet
+! options0 | Options — General | right
+| Language | The language of every window, menu and message. See [[languages|DDM in your language]].
+| Appearance | Same as Windows, Light or Dark. The `Dark mode` button on the toolbar switches too.
+| Video quality | Ask every time, or a quality DDM selects for you.
+| Start DDM with Windows | DDM waits quietly in the tray to catch browser downloads and finish unfinished ones.
+| Show "Download File Info" | Off: links start downloading at once, with the default folder.
+| Show the progress window | The per-download window when a download starts.
+| Show "Download complete" | The window when a download finishes.
+| The close button keeps DDM running in the tray | Off: the close button quits DDM.
+| Play sounds | Off by default. See [[sounds|Sounds]].
+! options0b | Options — General: download windows and videos | right
+| A download window's – button | Minimizes it to the taskbar (the default, like IDM), or hides it in the tray. The green arrow next to it in the title bar always hides it in the tray.
+| Download windows in the tray | `Share DDM's icon (like IDM)` (the default): one icon for all of them; click it to see every download live. `Get an icon each`: every window in the tray gets its own icon.
+| Show the "Speed limiter" / "When done" / "Security" tab | The tabs of a download's window. You can also hide one by right-clicking it.
+| Dust effect when removing downloads and closing or minimizing download windows | Removed downloads, and Download File Info and download windows when you close or minimize them, turn into fine dust that blows away (the rows below then slide up). Nothing waits for it: the window closes at once. It's skipped when Windows' `Show animations in Windows` is off (Settings → Accessibility → Visual effects) and in Remote Desktop.
+| Save the video's thumbnail / subtitles | Ticks those boxes in Download Video for every video.
+| Subtitle languages | `en`, `en,es` … or `all`.
+
+@topic languages | DDM in your language | language, languages, translation, translate, bengali, bangla, hindi, urdu, arabic, spanish, french, portuguese, brazil, indonesian, english, right to left, rtl
+DDM speaks English, Bengali, Hindi, Urdu, Arabic, Spanish, French, Portuguese (Brazil) and Indonesian. Every window, menu, button, message and notification changes at once — DDM doesn't need to restart.
+**Choosing a language**
+1. Open `Options` → `General`.
+2. Pick one in `Language`. `Same as Windows` uses Windows' display language when DDM has it, and English when it doesn't.
+3. Click `OK`.
+**What stays as it is**
+- Names: your files, websites, video titles, and the categories and queues you made yourself.
+- This help, and the browser add-on, which are in English.
+**Letters and direction**
+Bengali and Hindi use Windows' own font for them (Nirmala UI; Vrinda or Mangal on Windows 7). Arabic and Urdu read from right to left.
+**Your own corrections, or a new language**
+Each language is a plain text file with one line per sentence: `English => translation`. `{1}`, `{2}` stand for the parts that change (a file name, a number) and can move inside the sentence. Put a file named after the language code (for example `bn.txt`) in the `lang` folder inside DDM's data folder (`Options` → `Data`): its lines replace DDM's own for that language. A file for a language DDM doesn't have yet adds it to the list when it starts with four lines: `@code xx`, `@name` and the language's own name, `@english` and its English name, and `@rtl 0` (`@rtl 1` for a language written from right to left).
+
+@topic sounds | Sounds | sound, sounds, wav, beep, notification sound, complete sound, failed sound, alert
+DDM is silent by default. To hear when something happens, open `Options` → `General` → `Sounds` and tick “Play sounds”.
+! opt_sound | Options — Sounds | right
+For each moment choose what plays:
+| A download finishes | When a file is complete.
+| A download fails | When a download stops with an error (once: automatic retries don't ring again), and when a file arrives damaged.
+| All downloads are done | When everything finished, or a queue of the Scheduler finished.
+| The antivirus finds a threat | When the antivirus finds or removes something in a downloaded file.
+Each can be **No sound**, **Windows' sound** (the one your Windows sound scheme uses) or **your own sound**: choose “Choose a .wav file…” and pick any .wav on your PC. The ▶ button plays it.
+**Your own sounds, safely.** DDM checks the file is a real, undamaged WAV (uncompressed, at most 10 MB) on a drive of this PC (not a network share), then keeps its own copy, so a sound can't be swapped or reach out to the network later. Click `OK` to keep a new sound; `Cancel` throws it away.
+> When many downloads finish at the same moment, DDM plays the sound once.
+
+@topic options-connection | Options — Connection | connections, speed limit, maximum downloads, proxy, http proxy, socks, tor, test connection
+! options1 | Options — Connection | right
+| Connections per download | 1 to 32 (default 32).
+| Downloads at the same time | How many downloads run together; the others wait their turn.
+| Speed limit | For all downloads together.
+| Lift the speed limit while nothing else uses the internet | See [[speed-limiter|Speed limiter]].
+| Use all network connections together | See [[networks|Using all your internet connections]].
+| Proxy | Windows' proxy settings, no proxy, an HTTP proxy, a SOCKS5 proxy, or Tor (needs Tor Browser on port 9150 or the Tor service on 9050). HTTP and SOCKS5 proxies take an address, a port, and optionally a user name and password.
+| User agent | How DDM introduces itself to websites for links you add yourself (pasted, `Add URL`, copied): a current Chrome (recommended), Edge, Firefox, Safari on a Mac, Chrome on Android, Safari on iPhone, Wget, curl, or **Your own…** — one line such as `Mozilla/5.0 (Windows NT 10.0; Win64; x64) …`; DDM checks that it looks right before saving. Downloads that come from your browser always use the browser's own.
+`Test the connection` checks the internet through the settings you chose.
+
+@topic folders | Folders and categories | folders, categories, save to, compressed, documents, music, programs, video, extensions, file types
+DDM sorts downloads into folders inside your Downloads folder, like this:
+| Downloads\Compressed | zip, rar, 7z, tar, gz…
+| Downloads\Documents | pdf, docx, xlsx, pptx, txt, epub…
+| Downloads\Music | mp3, m4a, flac, wav, ogg…
+| Downloads\Programs | exe, msi, apk, iso…
+| Downloads\Video | mp4, mkv, webm, avi, mov…
+| Downloads\Torrents | torrents and magnet links
+| Downloads | every other file
+Each folder is made only when it's first needed; DDM never makes an extra "DDM" folder.
+! options2 | Options — Save to | right
+In `Options` → `Save to`, choose a category to change its folder and the file types it holds. The `+` button in Download File Info adds a category of your own.
+
+@topic options-downloads | Options — Downloads | download folder, retry, continue unfinished, extract archives, folders by website, rules, ddmpart, temp, unfinished, parts folder
+! options3 | Options — Downloads | right
+| Download folder | The folder the category folders are made in (normally your Downloads folder).
+| Folder for unfinished downloads | Where downloads stay until they finish (normally `temp` in DDM's data folder). Nothing half-done ever shows up in your folders: no `.ddmpart` files, no separate picture and sound of a video. When a download finishes, DDM moves it to its folder (a video's picture and sound are joined first); on another drive the status says `Moving to its folder…` for a moment. To change it, pause your downloads first: what is already in the old folder moves along, so unfinished downloads continue where they stopped. Downloads started with an older DDM finish where they already are.
+| Retry automatically | When the connection drops, the PC sleeps or the server is busy, DDM continues from the exact byte where it stopped. See [[auto-resume|Automatic resume]].
+| Continue unfinished downloads when DDM starts | Downloads that were running carry on by themselves.
+| Extract archives after downloading | ZIP, 7z and RAR files are unpacked into a folder next to them.
+| Folders by website | One rule per line, `site=folder`, for example `youtube.com=Videos\YouTube`. Files from that site go to that folder.
+
+@topic options-security | Options — Security | security, antivirus, scan, virus, defender, private vault, stealth
+! options6 | Options — Security | right
+| Check every link before and while downloading | On by default. See [[link-check|Link & site check]].
+| Scan downloaded files with the antivirus when they finish | On by default. See [[antivirus|Scanning downloads with your antivirus]].
+| What to scan | Every downloaded file, or only programs, scripts, archives, disc images and documents with macros.
+| Antivirus | The antivirus Windows uses (Microsoft Defender or the one you installed), or another antivirus program you choose.
+| Mark downloaded files as coming from the internet | On by default. See [[motw|Mark of the Web]].
+| Check each file's checksum | On by default. See [[checksum|Checksums]].
+| Put finished downloads straight into the private vault | Every finished download is encrypted into the [[vault|private vault]] and removed from its folder and the list.
+| Open the vault… | Opens the [[vault|private vault]].
+
+@topic options-data | Options — Data | backup, export, import, settings, data folder, .ddm
+! options7 | Options — Data | right
+**Your download list**
+- **Back up automatically** saves an encrypted .ddm copy of the list every 3 hours, 6 hours or day (the newest 12 are kept). Only DDM can open a .ddm file.
+- **Export** saves the list as an encrypted .ddm file or as plain JSON; **Import** adds the downloads of a .ddm or JSON file to your list.
+**Settings** can be exported to a file and imported on another PC (passwords and keys stay on this PC).
+@endbook
+
+@book Browser integration
+@topic extension | The browser extension | extension, add-on, chrome, edge, firefox, brave, opera, vivaldi, browser, catch, off on this tab, red x, alt, reminder, idm, internet download manager, other downloader, default
+The DDM extension hands downloads and videos to DDM. On web pages it adds only the **Download this video** button over videos (see [[videos|Videos]]), and nothing pops up by itself. It works the same in Chrome, Edge, Firefox, Opera, Brave and Vivaldi.
+! extension_icon | Turning DDM off on one tab | center
+**Turning DDM off on a tab.** Click the DDM icon in the browser's toolbar. The icon turns black with a red X and nothing on that tab is taken over. Click it again to turn DDM back on. Other tabs keep working.
+**Letting the browser download one file.** Hold `Alt` while clicking the link.
+**Right-click menu.** `Download with DDM` on a link, a video, a picture or selected text; `Download all links with DDM…`, `Download all images with DDM…` and `Save this page as PDF with DDM` on a page.
+**Download all links / all images / selected links.** One window opens with everything that was found — never a window per link. Each line shows the name, the kind (Video, Picture, Music, Archive, Document, Program, Torrents, Web page) and the address. Click a line to tick or untick it (Shift+click ticks everything in between); `Tick all shown` and `Untick all` do it at once, and the list at the top shows one kind only (`All files`, `Pictures`, `Every link`…). Files start ticked and web pages unticked; for "all images" only the pictures are ticked. Then choose **Sort into category folders** (each file goes to its category's folder, like Video, Music or Documents) or one folder for all — for pictures it is a folder named after the site, in Downloads. `Download` starts them (a few at a time, as set in `Options` → `Connection`), `Download Later` puts them in the list paused. A link without a file name gets the words on the page ("Mountain lake"), and DDM asks the server for the real name or file type before that file starts (so it becomes "Mountain lake.png" or the name the server gives). Magnet links keep their own name; a shared MEGA folder opens its own list of files.
+**Save this page as PDF.** DDM saves the page **as you see it** — signed in, scrolled, opened up — not a fresh copy: the add-on hands DDM a still copy of the page (without its scripts; DDM also locks the copy so it can't run code or reach files on your PC), and DDM prints it to a PDF with Microsoft Edge or Google Chrome (whichever is on your PC), hidden and with a clean profile of its own each time. If that fails, DDM tries again in a second way and then from the page's address, with the other browser too, before giving up. The browser writes the PDF in DDM's own folder and DDM moves it to the Documents category itself, so folder protection ("Controlled folder access") or antivirus doesn't stop it; it appears in the list as a finished download. Very heavy pages are printed from their address. If it still says it couldn't print the page, wait until the page has finished loading and try again; the details are in `Tools` → `File tools…` → `Logs` (lines starting with "pdf:").
+**Welcome page.** Right after the add-on is installed (once only), a page opens in a new tab that tells you whether DDM is on your PC and, if not, where to get it.
+! options5 | Options — Browser | right
+`Options` → `Browser`:
+| Take over downloads from my browsers | On / off.
+| Show the "Download this video" button | The button over videos in the browser.
+| Watch the clipboard | See [[clipboard|Watching the clipboard]].
+| File types to catch | The extensions DDM takes over.
+| Don't catch files smaller than | In KB.
+| Never catch on these sites | One site per line.
+| Get the extension | Opens the extension's page **in that browser** (not your default one) for each browser on your PC.
+| Repair | Registers DDM with your browsers again — use it if a browser says it can't reach DDM.
+**Without the store.** DDM's folder has the add-on too: in Chrome, Edge, Brave, Opera or Vivaldi open the browser's extensions page, turn on `Developer mode`, click `Load unpacked` and choose `extension\chromium` in DDM's folder (`%LOCALAPPDATA%\Programs\DDM`). If you load a copy of the add-on from somewhere else, DDM checks every file in it against its own and allows it a few seconds later — a changed copy is never allowed.
+**Adding the add-on.** Chrome and Edge offer DDM's add-on by themselves the next time they start ("New extension added"); click `Enable`. DDM looks for every browser on your PC — the ones Windows lists as browsers, plus Chrome, Edge, Firefox, Brave, Opera, Opera GX, Vivaldi, Yandex, Chromium, Waterfox, LibreWolf and Floorp in their usual folders. For every one that doesn't have the add-on yet, DDM shows a small **Add DDM to your browser** window once a day, a little after it starts: click `Add to …` — that browser opens (not your default one) on the add-on's store page — and then `Add` there. The window ticks off each browser as soon as the add-on is in, and closes when they all have it. `Don't remind me again` stops it.
+! addon_reminder | Add DDM to your browser | center
+**Another download manager on the PC.** When DDM finds Internet Download Manager, Free Download Manager, JDownloader or another download manager, it asks once whether DDM should catch downloads first. `Use DDM first` turns on catching in DDM and makes DDM open magnet links; DDM then offers to open each browser's add-ons page, where you turn the other program's add-on off (browsers let only one add-on take a download). Nothing of the other program is changed without you.
+
+@topic clipboard | Watching the clipboard | clipboard, copy link, copied
+When **Watch the clipboard** is on (`Options` → `Browser`), copying a link to a file, a magnet link, a .torrent link or a MEGA link anywhere in Windows opens Download File Info. Copying ordinary text, or a link to a web page, does nothing.
+@endbook
+
+@book Safety and privacy
+@topic antivirus | Scanning downloads with your antivirus | antivirus, virus, scan, defender, threat, malware, security, avast, kaspersky, eset, norton, bitdefender, mcafee
+DDM checks every finished download with your antivirus, right after the file is saved and before you open it. It's on by default; change it in `Options` → `Security`.
+! options6 | Options — Security | right
+**Which antivirus.** By default DDM uses the antivirus Windows uses: Microsoft Defender, or the antivirus you installed (Avast, Kaspersky, ESET, Norton, Bitdefender, McAfee and the others register themselves with Windows). DDM shows its name in the list. It works the same on Windows 7, 8, 10 and 11.
+**Another antivirus program.** Choose `Another antivirus program…`, pick its command-line scanner (for example the scanner .exe in its program folder) and, if it needs them, the arguments. Write `%1` where the file's path goes, for example `/scan %1`; without `%1` DDM adds the path at the end. DDM waits for it to finish: when it returns 0 the file is clean; any other answer is shown as a problem to check.
+**What you see.**
+| Complete · scanning… | The antivirus is checking the file.
+| Complete | Clean: “no threats found”.
+| Threat found! | The antivirus found a threat. Opening it from DDM asks first, and Download complete turns its `Open` button off.
+| Removed by antivirus | The antivirus deleted or quarantined the file.
+Scans run one at a time in the background, so they never slow down your downloads. To check a file again, right-click it → `Scan for viruses`.
+> DDM never moves a file with a threat into the private vault.
+
+@topic vault | The private vault | vault, private, hide, encrypt, password, secret, safe, lock
+The private vault keeps files encrypted and hidden. Only DDM, with the right password, can show, open, move or delete them; other programs and other Windows users can't read them, Windows Search doesn't index them, and the vault folder is hidden.
+! vault | The private vault, open | center
+**Setting it up.** `Tools` → `Private vault…` (or `Options` → `Security` → `Open the vault…`). Choose a password of at least 8 characters and type it twice. There is no way to recover a forgotten password, so keep it safe.
+! vault_setup | Setting up the vault | right
+**Adding files.** `Add files…`, or drag files from Explorer onto the vault window. Each file is encrypted with its own key (AES-256) and its name, size and date are encrypted too; then the original is removed from its folder. Finished downloads go in with right-click → `Move to private vault`, or all of them automatically with `Options` → `Security` → “Put finished downloads straight into the private vault”. DDM can add files even while the vault is locked.
+**Using files.**
+| Open | Opens the file in its program. Pictures open in DDM's own viewer without ever being written to the disk; other files use a temporary copy that is wiped when the vault locks.
+| Save a copy… | Saves a decrypted copy where you choose; the file stays in the vault.
+| Move out… | Saves it where you choose and removes it from the vault.
+| Delete | Erases the file from the vault for good.
+| Lock | Forgets the keys at once.
+**Locking.** The vault locks when you click `Lock`, when you close its window, after 5 minutes without use, and when DDM exits. Every temporary copy is wiped when it locks.
+! vault_locked | The locked vault | right
+**Wrong passwords.** After 5 wrong passwords the vault waits 30 seconds before the next try, and the wait doubles with each new mistake (up to an hour).
+
+@topic decoy | Decoy vault | decoy, fake vault, second password, duress, plausible
+A decoy is a second password that opens a different vault, with harmless files you put in it. If someone forces you to open the vault, give them the decoy password: they see the decoy vault and nothing in it, or anywhere else, shows that a real one exists. Both vaults look exactly alike on the disk.
+**Setting a decoy.** Open the real vault → `Settings` → `Set a decoy password`. Then lock, open the vault with the decoy password and add the harmless files.
+**Rules.** The decoy password must differ from the real one. Files dropped onto the vault while it's locked always go to the real vault. `Settings` in the real vault can change or remove the decoy password; the decoy vault can only change its own password.
+
+@topic link-check | Link & site check | link check, site check, phishing, fake site, look-alike, new site, malware site, urlhaus, disguised, double extension, safe link, dangerous, be careful, crack, keygen
+Antivirus programs look at a file once it's on your PC. DDM also looks at **where it comes from** and **what it really is**, before and while it downloads — things an antivirus doesn't see. It's on by default (`Options` → `Security`).
+! prompt_danger | A dangerous download | right
+**The link**
+- **Sites spreading malware.** DDM keeps the public URLhaus list of sites caught spreading malware, updated quietly once a day.
+- **Brand-new sites.** A site registered only days ago is a classic sign of a scam. DDM asks the public domain registry (RDAP) when the site was registered; the answer is kept for a week. Only the site's name is sent, never the file or your downloads.
+- **Look-alike names.** `micros0ft-update.com`, `paypa1.com`, `rnicrosoft.com`, a name one letter off, or a well-known name inside another site's name (`paypal-secure-login.net`).
+- **Letters from other alphabets** that look like ours, a **bare IP address** instead of a name (not for PCs on your own network), **link shorteners** that hide the real site, site endings often used for scams (`.xyz`, `.top`, `.zip` …), and programs sent over an unencrypted link.
+- **Bait names.** Files named like cracks, key generators or activators are a favourite hiding place for malware.
+**The file**
+- **Programs in disguise.** `photo.jpg.exe`, names with hidden reversed text, and a "picture", "video" or "PDF" that is really a Windows program — checked on the server before downloading (its first bytes) and again when it's on your disk.
+- **Inside archives and programs.** For ZIP, RAR, 7z, ISO and programs, DDM looks inside on the server (like [[xray|X-Ray]]): risky files inside, and who signed a program.
+**What you see.** A green **Safe link**, orange **Be careful** or red **Dangerous** button at the bottom of [[prompt|Download File Info]] — click it for the reasons — and the [[security-tab|Security tab]] of the download's window. Start Download asks first when it's dangerous. A program in disguise found when the file arrives is marked **Threat found!** in the list, like an antivirus threat, and isn't extracted or moved to the vault.
+
+@topic security-tab | The Security tab | security tab, live hash, sha-256 while downloading, real time, checksum, warning
+The **Security** tab of a download's window shows, while the file downloads:
+! progress_security | The Security tab | right
+| Link check | Safe, Be careful or Dangerous, with the reasons (the most serious first). See [[link-check|Link & site check]].
+| SHA-256 | The file's SHA-256, worked out as the data arrives: DDM follows the parts that have arrived in order, a little at a time, so it never slows the download. When the download finishes, the whole value is there.
+| Published checksum | The checksum the server gave for the file, and — as soon as both are known — whether the file matches it. See [[checksum|Checksums]].
+| Antivirus | What your antivirus will do when the file is finished, and then its result. See [[antivirus|Scanning downloads]].
+| Internet mark | Whether the file will carry the [[motw|Mark of the Web]].
+A red or orange dot on the tab means there is something to read. Hide the tab by right-clicking it, and show it again in `Options` → `General`.
+
+@topic metadata | Metadata remover | metadata, exif, gps, location, author, privacy, remove metadata, strip, tags, camera
+Photos, videos, music and documents carry hidden details about themselves: the GPS position where a photo was taken, the camera or phone, the author and company of a document, who saved it last, dates, the software used, comments and tags. Before you share a file, DDM can take them out.
+Use `Tools` → `File tools` → `Remove metadata`, or right-click a finished download → `File tools` → `Remove metadata…`.
+| Pictures | JPEG, PNG and WebP: EXIF (camera, GPS, dates), XMP, IPTC, comments and built-in thumbnails go. The picture itself isn't touched — not even recompressed. The colour profile stays, so colours look the same.
+| Video and audio | MP4, MKV, WebM, MOV, AVI, MP3, M4A, FLAC, OGG, Opus, WAV and more: titles, artist, comments, creation dates, location, device, chapters, cover pictures and the encoder's name go. Picture and sound are copied as they are, without re-encoding.
+| Office documents | Word, Excel and PowerPoint (DOCX, XLSX, PPTX and their macro versions) and OpenDocument: author, company, manager, last saved by, dates, title, subject, tags, comments field and custom properties are emptied. The text isn't touched.
+The cleaned file takes the original's place, and the original goes to the Recycle Bin.
+> PDF files aren't supported: a PDF keeps its old properties inside itself even after they're changed, so DDM doesn't pretend to clean them.
+
+@topic refresh-link | Refresh download link | refresh, expired link, link expired, access denied, 403, 410, new address, resume, continue
+Many sites give download links that work only for a while or only once. When such a link stops working (“Access denied”, “link expired”, “file moved”), DDM keeps everything already downloaded and continues from the exact byte where it stopped.
+! progress_refresh | A download whose link expired | right
+**How.** Click `Refresh download link` in the progress window, or right-click the download → `Refresh download link…`:
+1. DDM opens the page the file came from in your browser.
+2. On that page, click the download link (or button) for the same file again, signing in or answering the site's check if it asks.
+3. DDM recognises the new link as your interrupted download: the same file name or website and exactly the same size. It takes the new link with your browser's sign-in and carries on from the same percentage. No new window appears.
+! refresh | Waiting for the new link | center
+If the page has changed or you have the new link already, use `Paste an address…`. `Open the page again` opens the page once more. Waiting stops after half an hour or when you click `Cancel`.
+**Videos** don't need the browser: DDM reads the video's page again and takes fresh addresses for the same quality. **MEGA** files renew their own links, and **torrents** don't use links.
+> DDM checks the size again as data arrives, so a different file can never be mixed into your download.
+
+@topic xray | X-Ray: look inside before downloading | x-ray, xray, look inside, preview, zip, rar, 7z, iso, tar, cab, torrent, exe, msi, archive, disc image, contents, extract, pick files
+X-Ray shows what's inside a file without downloading it. An archive keeps its list of files in a known place, so X-Ray reads only those few kilobytes — the start and the end of the file at the same time — even for archives and disc images of many gigabytes. From Download File Info it's **instant**: DDM starts reading the list the moment the window shows an archive, so when you click X-Ray everything is already there. The window says how long the reading took, in milliseconds (for example "read in 240 ms (128 KB)").
+! xray | X-Ray of a disc image | center
+**Opening X-Ray.** Click the small **X-Ray** button at the bottom of [[prompt|Download File Info]], click `X-Ray` on the toolbar (for the selected download, or type a link or a file on your PC), or right-click a download → `X-Ray (look inside)…`. Finished downloads open from your disk.
+**What it reads.**
+| Archives | ZIP and ZIP64 (also APK, JAR, DOCX, XLSX, EPUB and other ZIP-based files), RAR 4 and RAR 5, 7z, TAR, CAB, GZ.
+| Disc images | ISO 9660, Joliet and UDF, including Windows and Blu-ray images.
+| Torrents | The files, sizes, pieces, trackers and creation date.
+| Programs | EXE, DLL and MSI: 32- or 64-bit, when it was built, and who signed it.
+**Picking files.** Tick the files you want (a folder ticks everything in it), choose `Save to` and `Keep folders`, and click `Download …`. Only those files are downloaded, using several connections, and each one is checked against the archive's own checksum. Files that can't be taken out on their own are greyed with the reason (password-protected, packed in one solid block, a link): use `Download whole file` for them. In a torrent, `Download …` starts the torrent with only the files you ticked.
+! xray_torrent | X-Ray of a torrent | right
+**Safety marks.** X-Ray marks in red the things that are often tricks: a program disguised as a picture or video (`holiday.jpg.exe`), a name with hidden direction marks, a program among photos or music, files that try to write outside their folder, and torrents named like a film whose biggest file is a program. DDM never writes outside the folder you chose and never follows links inside an archive.
+! xray_program | X-Ray of a program | right
+**Programs.** X-Ray shows who signed a program before you download it. “Not signed” means nobody vouches for who made it; be careful with programs from sites you don't know.
+> X-Ray needs a server that sends parts of files (most do). If it doesn't, X-Ray says so; download the file and X-Ray it from your disk.
+@endbook
+
+@book Speed, resume and checks
+@topic filetools | File tools | file tools, extract, unzip, zip, compress video, mp3, trim, gif, duplicates, speed test, compress picture, remove background, transparent, cut out, png, metadata
+`Tools` → `File tools…`. Everything runs on your PC; files are never uploaded.
+! filetools | File tools | center
+| X-Ray a link or a file | See inside archives, disc images, torrents and programs. See [[xray|X-Ray]].
+| Extract | ZIP, TAR, TAR.GZ, GZ and ISO into a folder next to the archive. (RAR and 7z packed with compression need an archive program.)
+| Create a ZIP | Packs a folder into a ZIP next to it.
+| Find duplicate files | Finds files with the same content in a folder, and can move the extra copies to the Recycle Bin (one copy of each is kept).
+| Connection speed test | Downloads from a fast test server with 1, 4, 8, 16 and 32 connections and offers to use the fastest number.
+| Compress a video | A much smaller MP4 (smallest, balanced or best quality), with sound, made by DDM itself with Windows' own H.264 encoder (Windows N editions need Microsoft's Media Feature Pack).
+| Convert to MP3 | The sound of a video, or any audio, as MP3.
+| Smaller audio | 64, 96 or 128 kbps MP3.
+| Trim | Keeps the part you give (for example 1:20-2:45), without losing quality.
+| Video to GIF | An animated GIF of a few seconds (start and length, for example 0:12 4).
+| Compress a picture | A smaller copy, longest side 1920 pixels.
+| Remove image background | Cuts out the subject (a person, an animal, a product…) and saves it as a PNG with a transparent background next to the picture, as `name (no background).png`. A small neural network built into DDM finds the subject on your PC — nothing is uploaded — and its edges are refined against the picture itself (hair and outlines stay sharp). Takes a few seconds. Also on the right-click menu of a finished picture → `File tools` → `Remove background`.
+| Remove metadata | Takes out what a file says about itself: GPS position, camera, author, company, dates, software, comments and tags. See [[metadata|Metadata remover]].
+| Logs | Opens DDM's log file.
+Each tool shows its progress and can be stopped; the result is saved next to the original, which is never changed (except by Remove metadata, which puts the original in the Recycle Bin).
+**From the list.** Right-click a finished download → `File tools` for the tools that suit that file, without choosing it again.
+> With `Options` → `Downloads` → “Extract archives after downloading”, finished archives are unpacked into a folder next to them automatically.
+
+@topic statistics | Statistics | statistics, stats, data used, how much, per day, top websites
+`Tools` → `Statistics…`: how much you downloaded today, in the last 7 and 30 days and in all, how many downloads are finished or unfinished, the fastest download, the speed right now, a chart of every day of the last 30 days, the websites you download the most from, and your finished downloads by category.
+! statistics | Statistics | center
+Only downloads that finished count: a download you cancelled, removed or that failed adds nothing. Everything is counted on your PC only. `Clear statistics` starts counting from zero.
+
+@topic auto-resume | Automatic resume | resume, continue, interrupted, disconnected, failed, retry, sleep, wifi dropped, network lost
+DDM never starts a file over because something went wrong. Everything already downloaded stays, and the download carries on from the exact byte where it stopped:
+- **The connection drops for a moment.** The connection that failed tries again after a second or two, the others keep going.
+- **The internet is gone** (Wi-Fi lost, cable unplugged, the PC went to sleep). The download stops with an error and resumes by itself: as soon as Windows reports the network is back, and otherwise after 15 seconds, then 30, 60… up to every 10 minutes, as many times as `Options` → `Connection` → retries allows.
+- **The server is busy** (“server had a problem”, too many people). Same: DDM tries again later by itself.
+- **DDM or Windows was closed.** With `Options` → `Downloads` → “Continue unfinished downloads when DDM starts”, they carry on when DDM starts.
+- **You paused it.** It waits for you: press `Resume` and it continues from the same byte.
+A link that has expired can't be resumed by trying again; use [[refresh-link|Refresh download link]].
+
+@topic checksum | Checksums: is the file intact? | checksum, sha-256, sha256, md5, sha-1, sha-512, crc32, hash, verify, damaged, corrupt
+A checksum is a fingerprint of a file. When even one byte is different, the checksum is completely different, so it shows whether a file arrived intact.
+**Automatically.** Many servers publish the file's checksum with it. When they do, DDM checks the finished file against it (`Options` → `Security` → “Check each file's checksum”). The list shows “Complete · verified”, or “Damaged (checksum)” in red, and Download complete says which.
+**By hand.** Websites often show a checksum next to the download link. Copy it, then right-click the finished download → `Verify checksum…`: DDM fills in what you copied, works out the kind (MD5, SHA-1, SHA-256, SHA-384, SHA-512 or CRC-32) and compares. Leave it empty to see the file's SHA-256 and copy it.
+> A file whose checksum doesn't match was damaged on the way or changed. Redownload it, and never open a program that fails the check.
+
+@topic motw | Mark of the Web | mark of the web, motw, smartscreen, zone identifier, protected view, came from another computer, unblock
+When a browser downloads a file, Windows notes on the file that it came from the internet. That note (“Mark of the Web”) is what makes SmartScreen check programs before they run, makes Office open documents in Protected View, and shows “This file came from another computer” in the file's Properties. Most download managers leave it out, so their files skip those checks.
+DDM adds it to every file it downloads, exactly like a browser: the zone Windows gives the website (normally Internet), the page the file came from and the file's address. Passwords in addresses and the part after “#” (MEGA keys) are never written. Torrents and files that [[xray|X-Ray]] takes out of an archive are marked too.
+It's on by default in `Options` → `Security`. It needs an NTFS drive (all normal Windows drives); USB sticks with FAT32 or exFAT can't keep it, the same as with browsers.
+@endbook
+
+@book Reference
+@topic keyboard | Keyboard shortcuts | keyboard, shortcuts, keys, hotkeys
+| Ctrl+N | Add a download
+| Ctrl+V | Download the links you copied
+| Ctrl+F | Find a download
+| F3 / Shift+F3 | Next / previous match
+| Ctrl+A | Select every download in the list
+| Enter | Open the finished file, or the progress window
+| Del | Remove the selected downloads
+| Shift+Del | Remove them and move their files to the Recycle Bin
+| Ctrl+Z | Undo the removal (for 3 seconds)
+| Ctrl+B | Hide / show the categories
+| F1 | This help
+**In the player:** `Space` play / pause, `←` / `→` 10 seconds back / forward.
+**In the help window:** `Alt+Left` back, `Alt+Right` forward, `Ctrl+P` print, `Ctrl+F` search.
+
+@topic speed-limiter | Speed limiter | speed limit, slow down, bandwidth, limiter, idle, full speed, priority, smart speed
+To slow down **all** downloads together, use `Downloads` → `Speed limiter`, the tray menu, or `Options` → `Connection` → `Speed limit`. The status bar shows the current limit.
+To slow down **one** download, open its progress window and use the **Speed limiter** tab.
+**Full speed when the internet is idle.** With `Options` → `Connection` → “Lift the speed limit while nothing else uses the internet” (on by default), DDM watches how much the other programs on your PC download. After 10 quiet seconds the limit is lifted and the status bar says “full speed while the internet is idle”; as soon as something else needs the internet (a video, a game, a call), the limit is back within 2 seconds.
+**Which download first.** Right-click a download → `Priority` → High, Normal or Low. High-priority downloads start first when several are waiting.
+
+@topic windows | Windows 7 to Windows 11 | windows 7, windows 8, windows 10, windows 11, compatibility, dark title bar, install, setup, uninstall, start with windows, memory, update, new version, auto update, old version, check for updates
+DDM is one program for Windows 7, 8, 8.1, 10 and 11, 32-bit and 64-bit. On Windows 10 and 11 the title bars, scroll bars and menus follow the dark mode as well. On Windows 7 secure websites work through DDM's own built-in security, so they keep working even though Windows 7 itself is no longer updated.
+**Installing.** Run `DDM-Setup-4.0.0.exe`. It needs no administrator rights and installs for you only (in your user folder), adds DDM to the Start menu and the desktop, lets .torrent files open in DDM and starts DDM with Windows, quietly in the tray. Installing over DDM 3.x brings your download list over the first time DDM 4.0 starts: finished downloads stay listed, and unfinished ones come back paused, ready to start again.
+**Updates by itself.** DDM looks for a new version every few hours. With `Options` → `General` → `Update DDM by itself` (on unless you turn it off) it downloads the new version quietly, checks that it's signed by DedSec, and installs it as soon as nothing is downloading: DDM closes for a few seconds and comes back the way it was (in the tray if it was there), with your list and unfinished downloads where they were. `Help` → `Check for updates` looks right away.
+**Never miss an update.** DDM asks for the newest version every time it starts (a few seconds after), every few hours while it runs, and when you open it again from the tray after a while. When a newer DDM is there, it pops up right away at every start (while DDM runs: once a day), with what's new and `Download and install`. With `Update DDM by itself` on, it simply installs it when nothing is downloading.
+**The old version goes, cleanly.** The new DDM replaces the old one in its folder (one DDM, one entry in Windows' Apps list). If an older DDM was installed in another folder, its program files are removed too (a portable copy with its own data is left alone). The installer DDM downloaded for the update is deleted once the new version runs, and DDM tells you once: `DDM was updated to … (from …)`, with what's new. Your downloads and settings stay as they were.
+**Uninstalling.** `Settings` → `Apps` → `DDM - DedSec Download Manager` → `Uninstall`. DDM first says what will happen and asks you to confirm. Then it asks two questions:
+- **Remove the files you downloaded with DDM?** (No unless you choose it.) Every file in the download list goes to the Recycle Bin, so you can still restore it.
+- **Remove everything DDM saved?** Settings, download list, statistics, logs, caches, helper programs, backups and the private vault — with a clear warning when the vault has files, which can't be recovered.
+DDM's program files, its registry entries, its browser helper and add-on offers, start with Windows and magnet links are always removed. An add-on you installed yourself from a browser's store stays until you remove it in that browser (its Extensions page).
+**Light on your PC.** In the tray DDM uses very little memory and no processor time. Videos, joining and MP3s need no helper programs: everything is built into DDM.
+
+@topic help-window | Using this help | help, contents, index, search, print, back
+**Contents** lists every topic by subject; click a book to open it. **Index** finds topics by a word — type the first letters. **Search** finds every topic that contains the words you type; the words are marked in the topic. `Hide` makes more room for the topic, `Back` and `Forward` move through the topics you have seen, `Home` returns to the first topic, and `Print` prints the topic you're reading.
+
+@topic troubleshooting | Troubleshooting | problem, not working, error, browser can't reach, access denied, expired link, slow
+**"DDM isn't set up for this browser yet" / "DDM doesn't know this copy of the add-on yet".** Start DDM (it registers itself with your browsers when it starts), wait a few seconds and try again. If it stays, use `Options` → `Browser` → `Repair` and restart the browser.
+**The browser doesn't send downloads to DDM.** Make sure the extension is installed and its icon isn't black with a red X. Then use `Options` → `Browser` → `Repair` and restart the browser.
+**"Access denied — the link may have expired."** Some sites give links that work for a short time. Click `Refresh download link` in the progress window (or right-click the download → `Refresh download link…`): DDM opens the page the file came from; click the file's download link there and DDM continues from where it stopped. See [[refresh-link|Refresh download link]].
+**"Threat found!" in the list.** Your antivirus found something in the file. Don't open it; check it in your antivirus. See [[antivirus|Scanning downloads with your antivirus]].
+**"Dangerous" in Download File Info.** DDM's [[link-check|link & site check]] found warning signs — click the red button to read them. Download the file only if you trust where it comes from.
+**X-Ray says the server doesn't allow reading parts.** Some servers only send whole files. Download it normally; X-Ray also works on finished downloads (right-click → `X-Ray`).
+**A video says it needs signing in.** Sign in to the site in your browser and play the video again.
+**Downloads are slow.** Try `Options` → `Connection` → more connections, check the speed limit in the status bar, and check that no [[limits|download limit]] is reached.
+**MEGA stops.** MEGA's free transfer limit was reached; press Resume later.
+@endbook

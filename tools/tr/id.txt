@@ -1,0 +1,1672 @@
+@code id
+@name Bahasa Indonesia
+@english Indonesian
+@rtl 0
+1|!File tidak dapat dipindahkan (apakah sedang dibuka di program lain?).
+5|1 hari
+6|1 unduhan
+8|128 kbps (musik)
+15|3 jam
+19|6 jam
+21|64 kbps (suara)
+22|Arsip 7z
+24|Chrome terbaru di Windows (disarankan)
+25|Kata sandi umpan membuka brankas kedua yang terpisah dan terlihat persis seperti ini. Jika seseorang memaksa Anda membuka brankas, berikan kata sandi umpan: ia hanya melihat isi brankas umpan, dan tidak ada yang menunjukkan bahwa brankas ini ada.
+26|Unduhan gagal
+27|Unduhan selesai
+28|Tombol – di jendela unduhan
+29|Penyingkat tautan menyembunyikan asal file yang sebenarnya.
+30|DDM baru
+31|DDM baru tersedia
+32|Sebagian DDM hilang (ffmpeg.exe). Instal ulang DDM.
+33|Sebagian video tidak dapat didekripsi.
+34|Sebagian video hilang.
+35|Program dari tautan tidak terenkripsi (http): bisa diubah di tengah jalan.
+36|Arsip ekstrak-sendiri (program berisi ZIP).
+37|Jendela kecil dengan Buka dan Buka folder.
+38|Salinan lebih kecil (sisi terpanjang 1920 px) dari JPEG, PNG, BMP, atau GIF
+39|Tentang DDM
+41|Akses ditolak — tautan mungkin kedaluwarsa. Gunakan Segarkan tautan unduhan.
+42|Aktifkan
+43|Tambahkan file .torrent yang diletakkan di folder ini
+44|Tambahkan DDM ke browser Anda
+45|Tambah URL
+46|Tambah URL…
+47|Tambah kategori
+48|Tambah kategori…
+49|Tambah file…
+50|Tambah dari papan klip
+51|Tambah unduhan baru…
+52|Tambahkan ke brankas
+53|Tambah tracker
+54|Ditambahkan
+55|Ditambahkan / selesai
+56|Ditambahkan dari ponsel Anda
+57|Ditambahkan saat selesai: Windows SmartScreen dan Office memeriksa file sebelum dibuka
+58|Alamat
+59|Alamat file yang akan diunduh
+60|Alamat:
+62|Semua unduhan
+63|Semua unduhan beres
+64|Semua unduhan selesai
+65|Semua alat file…
+66|Semua file
+68|Sepanjang waktu
+69|Izinkan (disarankan)
+70|Sudah diunduh · Buka
+71|Sudah ada di daftar
+72|Unduh juga video barunya secara otomatis (berlangganan)
+73|Simpan juga gambar video di sebelahnya (.jpg)
+74|Simpan juga subtitel video di sebelahnya (.srt) — bahasa di Opsi → Umum
+77|GIF animasi dari beberapa detik video
+78|Mode anonim (jangan beri tahu peer dan tracker program apa ini)
+79|Program antivirus lain…
+80|Antivirus
+82|Program antivirus (.exe)
+83|Jenis file apa pun
+84|Tampilan
+85|Terapkan
+86|April
+87|Arsip
+88|Arsip
+89|Arsip, image disk, torrent, dan program: lihat isinya sebelum mengunduh
+91|Seperti di Opsi
+92|Selalu tanya
+93|Audio
+94|Agustus
+95|Otomatis
+96|Ketersediaan
+97|Kecepatan rata-rata
+98|Kompresi BZip2
+99|Kembali
+100|Cadangkan setiap
+101|Cadangkan sekarang dan buka folder
+102|Cadangkan daftar unduhan secara otomatis (.ddm terenkripsi — hanya DDM yang bisa membukanya)
+103|Cadangan
+105|Seimbang
+106|Hati-hati
+107|Hati-hati dengan unduhan ini
+108|Perilaku
+109|Terbaik
+110|Terbaik yang tersedia
+111|Kualitas terbaik
+112|BitTorrent v1 (berfungsi di semua program)
+113|Hanya BitTorrent v2
+115|Situs yang baru dibuat, nama mirip (micros0ft…), situs penyebar malware, program yang menyamar sebagai gambar atau dokumen. Hasilnya tampil sebagai tombol berwarna di Info File Unduhan dan di tab Keamanan jendela unduhan. Tidak ada data unduhan Anda yang dikirim: DDM hanya menanyakan ke registri publik kapan sebuah situs didaftarkan.
+117|Dipulihkan
+118|Browser
+119|Browser tidak bisa menjangkau DDM?
+120|Integrasi browser…
+121|Browser di PC ini
+122|Telusuri…
+123|Beli lisensi
+124|Menurut kategori
+126|Arsip Cabinet (CAB)
+127|Hitung SHA-256 file (untuk dibandingkan dengan yang ditampilkan situs)
+128|Menghitung…
+129|Bisa dilanjutkan
+130|Batal
+131|Kategori
+132|Kategori
+133|Ganti folder…
+134|Ganti kata sandi
+135|Ganti kata sandi…
+136|Ganti kata sandi umpan…
+137|Periksa checksum setiap file (SHA-256, MD5…) bila server menerbitkannya
+138|Periksa setiap tautan dan file sebelum dan selama mengunduh
+139|Periksa ulang file
+140|Periksa pembaruan
+141|Periksa sekarang
+142|Periksa perubahan file setiap
+143|Periksa ulang batas saat DDM dimulai
+144|Periksa tanggal PC Anda
+145|Memeriksa
+146|Memeriksa file…
+147|Memeriksa file…
+148|Memeriksa asalnya…
+149|Memeriksa…
+150|Checksum
+151|Checksum tidak cocok
+152|Checksum cocok
+153|Checksum
+154|Pilih file .wav…
+155|Pilih file suara .wav.
+156|Pilih kata sandi lain.
+157|Pilih folder
+158|Pilih file suara di PC ini (bukan di folder jaringan).
+159|Pilih file…
+160|Pilih folder…
+161|Pilih gambar…
+162|Pilih file atau folder yang akan dibagikan.
+163|Pilih video…
+164|Pilih file .exe program antivirus Anda, atau gunakan antivirus Windows.
+165|Pilih…
+167|Add-on Chrome
+168|Chrome di Android
+170|Bersih
+171|Hapus isi
+172|Hapus statistik
+173|Klik Tambah URL, tempel tautan (Ctrl+V), atau unduh sesuatu di browser Anda.
+174|Tutup
+175|Opsi baris perintah (%1 = file)
+176|Komentar
+177|Bandingkan dengan yang ada di situs…
+178|Selesai
+179|Selesai · memeriksa checksum…
+180|Selesai · rusak (checksum tidak cocok)
+181|Selesai · memindai…
+182|Selesai · file dipindahkan atau dihapus
+183|Selesai · antivirus menemukan ancaman
+184|Selesai · terverifikasi
+185|Kompres gambar
+186|Kompres video
+187|Kompres ke ZIP
+188|Kompres gambar
+189|Kompres video…
+190|Terkompresi
+191|Mengompres…
+192|Terhubung: 
+193|Menghubungkan ke peer…
+194|Menghubungkan…
+195|Koneksi
+196|Tes kecepatan koneksi
+197|Koneksi per unduhan
+198|Koneksi, semua torrent bersama
+199|Hubungi kami
+200|Isi
+201|Lanjutkan uji coba
+202|Lanjutkan unduhan yang belum selesai saat DDM dimulai
+203|Ubah ke MP3
+204|Mengubah ke MP3
+205|Mengubah ke MP3…
+206|Disalin
+207|Salin
+208|Salin ID Instalasi
+209|Salin alamat
+210|Salin ke brankas
+211|Salin tautan
+212|Salin tautan magnet
+213|Tidak dapat terhubung ke server.
+214|ZIP tidak dapat dibuat.
+215|Brankas tidak dapat dibuat.
+216|File tidak dapat didekripsi.
+217|Server tidak ditemukan — periksa alamat atau koneksi internet Anda.
+218|Awal video tidak dapat diambil.
+219|Tidak dapat mengimpor
+220|Tidak dapat melihat isinya
+221|Tidak dapat membuat koneksi aman ke server.
+222|Brankas umpan tidak dapat dibuat.
+223|Gambar tidak dapat dibuat (memori kurang?).
+224|File tidak dapat dipindahkan (apakah sedang dibuka di program lain?).
+225|Folder MEGA ini tidak dapat dibuka
+226|Video tidak dapat disatukan (apakah disk penuh?).
+227|MEGA tidak dapat dijangkau. Periksa koneksi internet Anda.
+228|YouTube tidak dapat dijangkau. Periksa koneksi internet Anda.
+229|Proxy tidak dapat dijangkau.
+230|Server file .torrent tidak dapat dijangkau.
+231|Server tidak dapat dijangkau.
+232|Situs tidak dapat dijangkau.
+233|Situs tidak dapat dijangkau. Periksa koneksi internet Anda.
+234|Server pembaruan tidak dapat dijangkau. Periksa koneksi internet Anda.
+235|Server video tidak dapat dijangkau.
+236|File tidak dapat dibaca.
+237|Tautan tidak dapat disegarkan
+238|File tidak dapat disimpan.
+239|Halaman tidak dapat disimpan sebagai PDF
+240|Brankas tidak dapat disimpan.
+241|Tidak dapat menulis ke brankas.
+242|File tidak dapat ditulis — apakah disk penuh?
+243|Tidak dapat menulis ke disk (apakah penuh?).
+244|Tidak dapat menulis ke disk.
+245|Dihitung di PC Anda saja.
+246|Buat
+247|Buat ZIP
+248|Buat torrent
+249|Buat torrent…
+250|Buat brankas
+251|Dibuat
+257|Kata sandi saat ini
+258|Potong bagian video atau lagu (tanpa penurunan kualitas)
+259|Bantuan DDM
+260|DDM bisa menghapus metadata dari gambar (JPEG, PNG, WebP), video, audio, dan dokumen Office (Word, Excel, PowerPoint, OpenDocument).
+261|DDM bisa menghapus metadata dari gambar (JPEG, PNG, WebP), video, audio, dan dokumen Office.
+262|DDM menangkap unduhan lebih dulu
+263|DDM memeriksa setiap beberapa jam dan mengunduh video baru sendiri, dalam kualitas yang Anda pilih.
+264|DDM tidak dapat membaca file itu.
+265|DDM tidak dapat membaca file.
+266|DDM tidak dapat menulis ulang dokumen ini.
+267|DDM tidak dapat menyimpan file yang sudah dibersihkan.
+268|DDM tidak dapat menyimpan suara.
+269|DDM tidak dapat menjalankan pemutarnya di PC ini.
+270|DDM sudah aktif
+271|DDM kedaluwarsa
+272|DDM terkunci
+275|DDM perlu diaktifkan (buka DDM).
+279|Folder data DDM
+280|File DDM telah diubah. Instal ulang DDM untuk memperbaikinya. DDM tetap terkunci sampai saat itu.
+281|Jaringan DHT (menemukan peer tanpa tracker; diperlukan untuk kebanyakan tautan magnet)
+282|TIDAK cocok
+283|Harian
+284|Batas harian koneksi tambahan (MB)
+285|Rusak (checksum)
+286|Unduhan rusak
+287|Berbahaya
+288|Unduhan berbahaya
+289|Gelap
+290|Mode gelap
+291|Data
+292|Data yang diunduh per hari (30 hari terakhir)
+293|Desember
+294|Kata sandi umpan
+295|Kata sandi umpan (berbeda dari yang asli)
+296|Brankas umpan
+297|Mendekripsi
+299|Kompresi Deflate64
+301|Hapus
+302|Hapus semua yang selesai
+303|Hapus kategori
+304|Hapus data
+305|Hapus yang selesai
+306|Hapus dari antrean
+307|Hapus datanya saja
+308|Hapus data yang diunduh saja
+309|Hapus antrean
+310|Hapus file .torrent
+311|Hapus torrent
+312|Hapus torrent + data
+313|Deskripsi
+314|Deskripsi atau sebagian deskripsi
+315|Deskripsi:
+316|Disk dan jaringan
+317|Tampilan
+318|Dokumen
+319|Dokumen
+320|Tidak cocok dengan SHA-256 server: file rusak atau telah diubah
+321|Jangan tangkap file lebih kecil dari (KB)
+322|Jangan unduh
+323|Jangan buka
+324|Jangan ingatkan lagi
+325|Beres
+326|Beres. Mulai ulang browser Anda.
+327|Turun
+328|Unduh
+329|Unduh 
+330|Unduh 1 video
+331|Info File Unduhan
+332|Unduh Nanti
+333|Unduh Folder MEGA
+334|Unduh Torrent
+335|Unduh Video
+336|Unduh lagi
+337|Unduh semua
+338|Unduh dan instal
+339|Unduh saja
+340|Unduhan selesai
+341|Unduhan rusak
+342|Folder unduhan
+343|Unduh gambar
+344|Unduh berurutan (mulai menonton video sebelum selesai)
+345|Unduh berurutan (tonton video sambil diunduh)
+346|Batas unduhan tercapai
+347|Batas unduhan tercapai — menunggu
+348|Batas unduhan
+349|Tautan unduhan disegarkan
+350|Tautan unduhan
+351|Jangan unduh lebih dari
+352|Jangan unduh apa pun
+353|Unduh playlist
+354|Unduh playlist atau kanal
+355|Unduh playlist atau kanal…
+356|Unduh yang dipilih
+357|Status unduhan
+358|Unduh semuanya
+359|Unduh seluruh file
+360|Jendela unduhan
+361|Diunduh
+362|File yang diunduh
+363|Sudah diunduh, tetapi nama file tidak dapat diubah (apakah sedang dibuka di program lain?).
+364|Mengunduh
+365|Unduhan
+366|Unduhan bersamaan
+367|Mengunduh file, video, dan torrent
+368|File duplikat
+369|Efek debu saat menghapus unduhan dan saat menutup atau meminimalkan jendela unduhan
+371|Add-on Edge
+372|Edge atau Chrome tidak dapat dijalankan di PC ini.
+373|Mengenkripsi
+374|Enkripsi
+375|Enkripsi gagal.
+377|Masukkan
+378|Masukkan kunci lain
+379|Masukkan kunci lisensi
+380|Masukkan kunci lisensi…
+381|Masukkan kunci lisensi yang Anda terima setelah membeli DDM.
+382|Masukkan alamat proxy, atau pilih pengaturan proxy lain.
+383|Masukkan kata sandi Anda.
+385|Galat
+386|Galat — gagal
+388|Setiap file yang diunduh
+389|Setiap tautan
+390|Semua berjalan di PC Anda: file tidak pernah diunggah.
+391|Keluar
+392|Keluar dari DDM
+393|Keluar dari DDM setelah selesai
+394|Ekspor
+395|Ekspor pengaturan
+396|Ekspor daftar
+397|Ekspor…
+398|Ekstensi dipisahkan spasi. Folder setiap kategori dibuat di dalam Downloads saat pertama kali diperlukan.
+399|Ekstrak
+400|Ekstrak arsip setelah mengunduh (ZIP, 7z, RAR — ke folder di sebelah arsip)
+401|Ekstrak di sini
+402|Unduhan tercepat
+403|Februari
+404|File
+405|Properti File
+406|File sudah diunduh
+407|Daftar file siap
+408|Nama file
+409|Nama file atau sebagian nama
+410|File atau folder yang akan dibagikan
+411|Alat file
+412|Alat file…
+413|Jenis file
+414|Jenis file (contoh: psd ai svg)
+415|Jenis file yang ditangkap
+416|Jenis file…
+417|File
+418|File diurutkan ke folder kategori di dalamnya (Compressed, Documents, Music, Programs, Video, Torrents).
+419|File dalam antrean
+420|File di brankas terenkripsi (AES-256) dan tersembunyi. Hanya DDM yang dapat membukanya, dan hanya dengan kata sandi Anda — tidak ada program atau pengguna Windows lain yang dapat melihatnya. File tidak bisa dipulihkan jika Anda lupa kata sandi.
+421|File yang dinamai seperti crack, pembuat kunci, dan aktivator adalah tempat persembunyian favorit malware.
+422|File…
+423|Cari
+424|Cari file duplikat
+425|Cari file
+426|Cari berikutnya
+427|Cari peer di jaringan lokal saya
+428|Cari:
+429|Mencari peer
+430|Mencari objek…
+431|Mencari jumlah koneksi yang memberi kecepatan terbaik di jaringan Anda, lalu memakainya
+432|Cari…
+433|Selesai
+434|Unduhan selesai
+435|Menyelesaikan
+437|Add-on Firefox
+438|Firefox di Windows
+439|Potongan pertama dan terakhir setiap file lebih dulu
+440|Potongan pertama dan terakhir setiap file lebih dulu (pratinjau)
+441|Folder tempat file disimpan
+442|Folder per situs
+443|Folder…
+444|Paksa proses berhenti
+445|Paksa mulai (abaikan batas)
+446|Maju
+448|Jumat
+449|Dari internet
+450|Posisi GPS, kamera, penulis, tanggal, dan tag dari gambar, video, audio, dan file Office
+451|File terkompresi GZ
+452|Umum
+453|Dapatkan ekstensi
+454|Mengambil
+455|Mengambil kualitas…
+456|Mengambil kualitas video…
+457|Mengambil info torrent…
+460|Grabber
+461|Grabber…
+462|Proxy HTTP
+463|Putuskan modem setelah selesai
+464|Punya
+465|Bantuan
+466|Hibernasi
+467|Hibernasi sekarang
+468|Sembunyikan
+469|Sembunyikan kategori
+470|Sembunyikan detail
+471|Sembunyikan tab
+472|Sembunyikan tab "
+473|Menyembunyikannya di baki
+474|Tinggi
+475|Tahan Alt saat mengklik tautan agar browser yang mengunduhnya.
+476|Beranda
+477|Cara
+478|Seberapa kecil?
+479|Hibrida v1 + v2
+480|TANDA INTERNET
+481|File daftar blokir IP (.dat / .p2p)
+482|Image disk ISO
+483|Image disk ISO (Joliet)
+484|Image disk ISO (UDF)
+485|Kenalkan DDM sebagai
+486|Impor
+487|Impor daftar
+488|Impor pengaturan
+489|Diimpor
+490|Impor…
+491|Indeks
+492|Info hash
+493|Instal sekarang
+494|ID Instalasi
+495|ID Instalasi disalin. Kirimkan bersama pembelian Anda ke admin@dedseec.com untuk mendapatkan kunci.
+497|Jenis filenya, contoh: psd ai svg
+498|Namanya menyembunyikan ekstensi aslinya dengan karakter tak terlihat.
+499|Namanya menyembunyikan ekstensi asli di balik spasi.
+500|Namanya dibalik untuk menyembunyikan jenisnya
+501|Tanda tangannya rusak.
+502|Jendelanya ada di baki dengan ikonnya sendiri: klik dua kali untuk memunculkan jendela, klik kanan untuk menjeda, menghentikan, atau membatalkan.
+503|Januari
+504|Menggabungkan
+505|Menggabungkan video dan suara…
+506|Juli
+507|Juni
+509|Simpan semua
+510|Pertahankan folder
+511|Biarkan apa adanya
+512|Tetap berbagi (seeding) setelah selesai
+513|Tetap berbagi setelah selesai
+514|Ingat pilihan terakhir
+515|Jenis
+516|Jenis file
+517|PEMERIKSAAN TAUTAN
+518|Kompresi LZMA
+519|Bahasa
+520|30 hari terakhir
+521|7 hari terakhir
+522|Video baru terakhir
+523|Percobaan terakhir
+524|Nanti
+525|Biarkan kosong agar tetap di tempat diunduh.
+526|Durasi
+527|Kunci lisensi
+528|Lisensi…
+529|Pengguna berlisensi
+530|Lisensi seumur hidup.
+531|Lepas batas kecepatan saat tidak ada yang memakai internet
+532|Terang
+533|Mode terang
+534|Batasi kecepatan unduhan ini
+535|Dibatasi
+536|Pemeriksaan tautan & situs
+537|Pemeriksaan tautan
+538|Tautan playlist atau kanal YouTube, atau halaman dengan banyak video
+539|Tautan untuk dilihat isinya (arsip, image disk, torrent, atau program), atau file di PC ini
+540|Tautan
+541|Daftar Topik
+542|Mendaftar file…
+543|Siaran langsung DASH tidak dapat disimpan.
+544|Kunci
+545|Login:
+546|Log
+547|Cari di
+548|Lihat isinya
+549|Mencari duplikat
+550|Mencari peer
+551|Tampak palsu
+552|Tampak palsu: namanya seperti film atau musik, tetapi file terbesarnya adalah program.
+553|Rendah
+554|Turunkan bitrate lagu atau podcast
+557|MEGA tidak memberi alamat unduhan. Coba lagi nanti.
+558|MEGA tidak memberi ukuran file. Coba lagi nanti.
+559|File MEGA
+560|MEGA telah menghapus file ini.
+561|MEGA sementara tidak tersedia. DDM akan mencoba lagi.
+562|MEGA terus menolak unduhan. Tekan Lanjutkan untuk mencoba lagi nanti.
+563|MEGA menolak akses ke tautan ini.
+564|MEGA menyatakan tautan ini tidak valid. Salin ulang seluruh tautan.
+565|Batas transfer gratis MEGA untuk koneksi Anda habis. Kemajuan Anda tersimpan: tekan Lanjutkan nanti (MEGA membukanya dalam beberapa jam) atau ganti jaringan.
+566|Suara MP3
+567|Tautan magnet
+568|Tautan magnet disalin
+569|Antrean unduhan utama
+570|Buat tautan rahasia baru? Ponsel yang memakai tautan lama tidak bisa terhubung sampai memindai kode QR yang baru.
+571|Buat video jauh lebih kecil (H.264), dengan suara
+572|Membuat GIF
+573|Mengecilkan
+574|Membuat GIF
+575|Membuat file video…
+576|Maret
+577|Tandai file yang diunduh sebagai berasal dari internet, seperti yang dilakukan browser (SmartScreen, Tampilan Terproteksi)
+578|Cocokkan huruf besar/kecil
+579|Cocokkan seluruh teks saja
+580|Cocok dengan SHA-256 server: file persis seperti yang diterbitkan
+581|Peer maksimum (0 = seperti di Opsi)
+582|Peer maksimum per torrent
+583|Mei
+587|Microsoft Edge di Windows
+591|Minimalkan ke baki
+592|Meminimalkannya ke bilah tugas
+593|Seluler
+594|Diubah
+595|Senin
+596|Pindahkan
+597|Pindahkan / ganti nama
+598|Pindahkan / ganti nama…
+599|Pindah ke bawah
+600|Pindahkan salinan berlebih ke Recycle Bin
+601|Pindahkan torrent yang selesai ke
+602|Pindahkan ke brankas
+603|Keluarkan dari brankas…
+604|Keluarkan…
+605|Pindahkan ke brankas pribadi
+606|Pindahkan ke antrean
+607|Pindahkan ke brankas
+608|Pindahkan ke…
+609|Pindah ke atas
+610|Pindahkan…
+611|Mengeluarkan
+612|Memindahkan…
+622|Musik
+623|Suara saya
+624|Nama
+625|Nama (folder dengan nama ini dibuat di Downloads)
+626|Nama kategori baru
+627|Nama antrean baru
+629|Koneksi jaringan
+630|Galat jaringan: 
+631|Jangan pernah menangkap di situs ini
+632|Kategori baru
+633|Tautan baru
+634|Nama baru
+635|Kata sandi baru (minimal 4 karakter)
+636|Antrean baru
+637|Tidak
+639|Tidak ada video yang bisa diunduh di halaman ini.
+640|Belum ada unduhan di sini
+641|Tanpa batas
+642|Tidak ada tautan video di halaman ini.
+643|Belum ada tautan magnet untuk torrent ini
+644|Tanpa tanda
+645|Tidak ada jaringan
+646|Tidak ada koneksi jaringan
+647|Tidak ada video baru.
+648|Tidak ada peer yang terhubung saat ini.
+649|Tanpa proxy
+650|Tanpa suara
+651|Tidak ada objek yang ditemukan di gambar ini.
+652|Tidak ada topik.
+653|Tanpa tracker: peer datang dari DHT dan pertukaran peer.
+654|Alamat video untuk unduhan ini tidak diketahui. Gunakan Segarkan tautan unduhan.
+655|Tidak ada video di halaman ini.
+656|Tidak ada video di halaman ini. Putar di browser Anda dan gunakan tombol Unduh video ini.
+657|Tidak ada tanda bahaya
+658|Belum ada tanda bahaya (file masih diperiksa)
+659|Tidak ada tanda bahaya: situs tidak baru, tidak terdaftar sebagai penyebar malware, dan tidak meniru nama terkenal.\n
+660|Belum ada. Tempel tautan playlist atau kanal YouTube (atau Tugas → Unduh playlist atau kanal…) dan centang Berlangganan.
+661|Normal
+663|Bukan tautan folder.
+664|Belum aktif
+665|Tidak tersedia
+666|Belum dihubungi
+667|Tidak ada di brankas.
+668|Jangan sekarang
+669|Tidak berjalan (mulai dengan torrent pertama).
+670|Tidak ditandatangani: tidak ada yang menjamin siapa pembuat program ini.
+671|Tidak didukung
+672|Catatan
+673|Belum ada apa-apa di sini.
+674|Tidak ada isi yang cocok.
+675|Tidak ada jenis ini di halaman.
+676|Tidak ada yang mencurigakan di daftar file. Centang hanya file yang Anda inginkan.
+677|Tidak ada yang dikemas.
+678|Tidak ada yang akan diunduh. Simpan setidaknya satu file?
+679|Belum ada.
+680|November
+681|Jumlah percobaan ulang untuk setiap file jika unduhan gagal:
+683|Oktober
+684|Mati
+685|Mati (Opsi → Keamanan)
+686|Di PC ini
+687|Sekali pada
+689|Unduhan sekali
+690|Hanya unduh saat laptop dicolokkan
+691|Hanya unduhan ini yang melambat; unduhan lain tetap pada kecepatannya.
+692|Hanya halaman web (http / https) yang bisa disimpan sebagai PDF.
+693|Hanya halaman web yang bisa disimpan sebagai PDF.
+694|Buka
+695|Buka DDM
+696|Tetap buka
+697|Buka folder
+698|Buka
+699|Buka halaman unduhan
+700|Buka file setelah selesai
+701|Buka folder
+702|Buka file berikut setelah selesai:
+703|Buka halaman lagi
+704|Buka port di router saya secara otomatis (UPnP / NAT-PMP)
+705|Buka brankas asli terlebih dahulu.
+706|Buka brankas terlebih dahulu.
+707|Buka brankas…
+708|Dibuka dari jarak jauh
+709|Terbuka — klik "Add" di sana
+710|Membuka
+711|Membuka tautan MEGA…
+712|Membuka…
+713|Membukanya dengan program biasanya.
+714|Buka…
+720|Opsi
+721|Opsi…
+722|Asli
+723|Lainnya
+724|Prosesor lain
+725|Memori habis.
+726|File PDF tidak didukung: propertinya tidak bisa dihapus tanpa meninggalkan salinan di dalam file.
+727|CHECKSUM TERBIT
+728|Kemas folder menjadi file ZIP di sebelahnya
+729|Halaman disimpan sebagai PDF
+731|Bagian file — terisi saat tiba
+732|Kata sandi
+733|Kata sandi (opsional)
+734|Tautan MEGA berkata sandi tidak didukung. Mintalah tautan biasa (dengan kuncinya).
+735|Arsip berkata sandi di torrent adalah trik umum agar Anda mengunjungi situs web.
+736|Kata sandi:
+737|Tempel alamat…
+738|Jeda
+739|Jeda semua
+740|Jeda unduhan saat baterai di bawah
+741|Jeda unduhan dulu, lalu pindahkan.
+742|Dijeda
+743|Menjeda
+744|Puncak
+745|Pertukaran peer (peer saling memberi tahu peer lain)
+746|Peer
+747|Sinkronisasi berkala
+748|Remote ponsel
+749|Remote ponsel aktif
+750|Remote ponsel…
+751|Gambar
+752|Gambar
+753|Gambar dan privasi
+756|Ukuran potongan
+757|Potongan
+758|Putar
+759|Putar di DDM
+760|Putar di browser
+761|Putar
+762|Putar suara
+763|Putar sambil mengunduh
+764|Port
+765|Port untuk koneksi masuk
+766|Menyiapkan
+767|Sebelumnya
+768|Cetak
+769|Cetak…
+770|Prioritas
+771|Privasi
+772|Kebijakan privasi
+773|Torrent privat (hanya tracker-nya: tanpa DHT, tanpa pertukaran peer)
+774|Brankas pribadi
+775|Brankas pribadi…
+776|Program
+777|Program
+778|Hanya program, arsip, dan dokumen
+779|Kemajuan
+780|Properti
+781|Proxy
+782|Masukkan unduhan yang selesai langsung ke brankas pribadi (terenkripsi, dihapus dari folder)
+783|Kualitas
+784|Kualitas file baru
+785|Antrean
+786|Dalam antrean
+787|Antrean
+788|Arsip RAR 5
+789|Arsip RAR
+790|Acak
+792|Membaca folder MEGA…
+793|Membaca arsip…
+794|Membaca file…
+795|Membaca daftar…
+796|Membaca halaman…
+797|Membaca gambar…
+798|Membaca stream…
+799|Membaca daftar isi…
+800|Membaca ulang halaman video…
+801|Membaca…
+802|Menerima data…
+803|Menerima suara…
+804|Merekam siaran langsung…
+805|Unduh ulang
+806|Perujuk:
+807|Menghaluskan tepi…
+808|Segarkan tautan unduhan
+809|Segarkan tautan unduhan…
+810|Daftarkan DDM
+811|Daftarkan DDM…
+812|Ingat jalur ini
+813|Hapus
+814|Hapus semua unduhan yang selesai dari daftar? File tetap ada di PC Anda.
+815|Hapus dan buang
+816|Hapus dan buang file
+817|Hapus dan buang file .torrent
+818|Hapus dan buang torrent + data
+819|Hapus dan buang yang sudah tiba
+820|Hapus latar
+821|Hapus dari daftar unduhan
+822|Hapus dari antrean
+823|Hapus latar gambar
+824|Hapus metadata
+825|Hapus metadata…
+826|Hapus yang dipilih
+827|Hapus brankas umpan
+828|Hapus brankas umpan beserta isinya?
+829|Hapus torrent (simpan file-nya)
+830|Hapus beserta file (ke Recycle Bin)
+831|Dihapus oleh antivirus
+832|Dihapus oleh antivirus
+833|Menghapus metadata
+834|Menghapus metadata…
+835|Ganti nama
+836|Ganti nama kategori
+837|Ganti nama…
+838|Mengganti nama
+839|Perpanjang lisensi
+840|Perbaiki
+841|Ganti
+842|Wajib (hanya peer terenkripsi)
+843|Pesan seluruh ukuran di disk saat torrent dimulai
+844|Mulai ulang
+845|Mulai ulang dari awal
+846|Mulai ulang sekarang
+847|Lanjutkan
+848|Lanjutkan semua
+849|Bisa dilanjutkan: tidak
+850|Bisa dilanjutkan: ya
+851|Coba ulang otomatis saat koneksi terputus
+852|Klik kanan halaman mana pun di browser dan pilih "Download all links with DDM" untuk memilih file darinya.
+853|Jalankan tes
+854|Proxy SOCKS5
+855|Safari di Mac
+856|Safari di iPhone
+857|Tautan aman
+858|Sama seperti Windows
+859|Sabtu
+860|Simpan
+861|Simpan Sebagai
+862|Simpan Ke:
+863|Simpan salinan…
+864|Simpan semua ke
+865|Simpan sebagai… (folder apa pun, nama apa pun)
+866|Simpan file ke
+867|Simpan subtitel
+868|Simpan thumbnail
+869|Simpan subtitel video di sebelahnya (.srt)
+870|Simpan gambar thumbnail video di sebelahnya (.jpg)
+871|Simpan ke
+872|Simpan dengan nama baru
+873|Tersimpan
+874|Disimpan sebagai PDF
+875|Disimpan di
+876|Menyimpan halaman sebagai PDF memerlukan Microsoft Edge atau Google Chrome di PC ini.
+877|Pindai file yang diunduh dengan antivirus setelah selesai
+878|Pindai virus
+879|Dipindai antivirus Anda begitu selesai
+880|Dipindai setelah selesai jika bisa berisi kode berbahaya
+881|Jadwal
+882|Terjadwal
+883|Penjadwal
+884|Penjadwal…
+885|Cari
+886|Sorotan pencarian aktif
+887|Cari di dalam…
+888|Keamanan
+889|Keamanan…
+890|Lihat dan kendalikan unduhan dari ponsel, di Wi-Fi yang sama dengan PC ini.
+891|Seeding
+892|Seed
+893|Seed / peer
+894|Pilih semua
+895|Jangan pilih
+896|September
+898|Atur kata sandi umpan…
+899|Siapkan brankas pribadi dulu (Alat → Brankas pribadi).
+900|Siapkan brankas pribadi dulu: pilih kata sandinya.
+901|Siapkan brankas
+902|Siapkan brankas pribadi Anda
+903|Pengaturan
+904|Pengaturan diimpor.
+905|Pengaturan disimpan.
+906|Bagikan (seed)
+907|Dibagikan
+908|Berbagi (seeding)
+910|Tampilkan
+911|Tampilkan "Info File Unduhan" untuk unduhan baru
+912|Tampilkan "Unduhan selesai" saat unduhan selesai
+913|Tampilkan "Unduhan selesai" saat selesai
+914|Tampilkan kategori
+915|Tampilkan detail
+916|Tampilkan di folder
+917|Tampilkan
+918|Tampilkan lagi di Opsi → Umum
+919|Tampilkan kemajuan
+920|Tampilkan jendela kemajuan
+921|Tampilkan tab
+922|Tampilkan tombol "Unduh video ini" pada video di browser
+923|Tampilkan tab "Keamanan" (pemeriksaan tautan, SHA-256 langsung, antivirus)
+924|Tampilkan tab "Pembatas kecepatan"
+925|Tampilkan tab "Setelah selesai"
+926|Tampilkan jendela kemajuan saat unduhan dimulai
+927|Tampilkan peringatan saat batas tercapai
+928|Matikan
+929|Matikan sekarang
+930|Matikan komputer setelah selesai
+931|Nama situs / Tautan unduhan / Halaman asal / Perujuk
+932|Ukuran
+933|Ukuran:
+934|Tidur
+935|Tidur sekarang
+936|Audio lebih kecil
+937|Audio lebih kecil…
+938|Terkecil
+939|Beberapa penyedia internet hanya mengizinkan sejumlah data tertentu per periode. DDM menjeda unduhan saat batas tercapai dan melanjutkannya saat diizinkan.
+940|Urutkan ke folder kategori (Video, Musik, Dokumen…)
+941|Suara
+942|Suara saja
+943|Suara saja (MP3)
+944|Suara
+945|Suara maksimal 10 MB (beberapa detik suara sudah cukup).
+946|Sumber
+947|Kecepatan
+948|Batas kecepatan (semua unduhan)
+949|Batas kecepatan unduh: Pembatas kecepatan di jendela unduhan.
+950|Batas kecepatan: mati
+951|Pembatas kecepatan
+952|Kecepatan saat ini
+953|Tes kecepatan
+954|Mulai
+955|Jalankan DDM bersama Windows (di baki)
+956|Mulai Unduh
+957|Awal dan durasi dalam detik (contoh 0:12 4)
+958|Mulai hitung dari nol?
+959|Mulai unduhan pada
+960|Mulai unduhan saat DDM dijalankan
+961|Mulai sekarang
+962|Mulai antrean
+963|Mulai bagikan di DDM setelah dibuat
+964|Mulai (atau bagikan) torrent terlebih dahulu; lalu DDM memeriksa setiap potongan di disk.
+965|Mulai torrent untuk melihat tracker-nya bekerja.
+966|Mulai torrent untuk melihat ia terhubung ke siapa.
+967|Memulai…
+968|Mulai saat data tiba
+969|Keadaan
+970|Statistik
+971|Statistik…
+972|Status
+973|Status:
+974|Hentikan
+975|Hentikan unduhan pada
+976|Hentikan antrean
+977|Berhenti berbagi
+978|Berhenti berbagi (seeding)
+979|Berhenti berbagi setelah (menit, 0 = tidak pernah)
+980|Berhenti berbagi setelah menit (kosong = seperti di Opsi)
+981|Berhenti berbagi pada rasio (0 = tidak pernah)
+982|Berhenti berbagi pada rasio (kosong = seperti di Opsi)
+983|Dihentikan
+984|Menghentikan…
+985|Berlangganan
+986|Langganan
+987|Langganan
+988|Langganan…
+989|Bahasa subtitel (en, es, … atau all)
+990|Minggu
+991|Super-seeding (hanya saat Anda yang pertama membagikannya)
+992|Didukung
+993|Antrean sinkronisasi
+994|Arsip TAR
+995|Tag (judul, artis, album, komentar, gambar sampul), bab, dan nama encoder telah dihapus.
+996|Tag (judul, komentar, tanggal pembuatan, lokasi, perangkat), bab, dan nama encoder telah dihapus.
+997|Ambil alih unduhan dari browser saya
+998|Tugas
+999|Tes koneksi
+1000|Menguji…
+1001|Itu tidak tampak seperti checksum. Seharusnya 8, 32, 40, 64, 96, atau 128 huruf dan angka (0-9, a-f).
+1002|File itu tidak bisa dipakai.
+1003|File itu sudah tidak ada di brankas.
+1004|Itu bukan tautan atau file yang bisa dibuka DDM.
+1005|Daftar itu sudah lama: klik tombolnya lagi.
+1006|File .torrent tidak dapat diunduh.
+1007|File .torrent tidak dapat disimpan.
+1008|Manifest DASH tidak dapat dibaca.
+1009|Manifest DASH tidak berisi apa pun.
+1010|Manifest DASH tidak berisi apa pun yang bisa disimpan DDM (mungkin dilindungi).
+1011|Arsip RAR rusak.
+1012|Daftar isi ZIP rusak.
+1013|Daftar isi ZIP64 rusak.
+1014|Antivirus yang dipakai Windows
+1015|Antivirus menemukan ancaman
+1016|Penghapus latar tidak dapat menyelesaikan.
+1017|Penghapus latar tidak ada di salinan DDM ini. Instal ulang DDM.
+1018|File penghapus latar rusak.
+1019|Browser tidak dapat mencetak halaman ini.
+1020|Tombol tutup (X) membiarkan DDM berjalan di baki
+1021|Koneksi tertutup terlalu cepat.
+1022|Koneksi ke server video terputus.
+1023|Koneksi terputus.
+1024|Kata sandi saat ini salah.
+1025|Ulangi kata sandi umpan
+1026|Kata sandi umpan sudah diatur. Kunci brankas dan buka dengan kata sandi umpan untuk mengisinya dengan file yang tidak berbahaya.
+1027|Kata sandi umpan harus berbeda dari yang asli.
+1028|Brankas umpan telah dihapus.
+1029|Disk penuh.
+1030|Properti dokumen (penulis, perusahaan, terakhir disimpan oleh, tanggal, judul, tag, bidang kustom) telah dihapus.
+1031|Unduhan terus berjalan
+1032|Daftar unduhan telah disimpan.
+1033|Unduhan terputus.
+1034|Data yang diunduh masuk ke Recycle Bin dan unduhan dimulai lagi dari 0%.
+1035|File yang diunduh masuk ke Recycle Bin. Torrent tetap di daftar, dijeda di 0%: mulai untuk mengunduh lagi.
+1036|Penginstal yang diunduh tidak cocok dengan informasi pembaruan. Tidak dijalankan.
+1037|Penginstal yang diunduh tidak ditandatangani DedSec. Tidak dijalankan: unduh DDM dari halaman resminya.
+1038|Akhir harus setelah awal.
+1039|File tiba dalam keadaan rusak (pemeriksaan integritas MEGA gagal). Hapus dan unduh lagi.
+1040|File berubah di server — mulai lagi.
+1041|File berakhir terlalu cepat.
+1042|File rusak.
+1043|File terlalu besar untuk alat ini (maksimal 512 MB).
+1044|File terlalu besar untuk ditampilkan di sini.
+1045|File sudah tidak ada di disk.
+1046|File sudah tidak ada di sana.
+1047|Daftar file tiba bersama info torrent (tautan magnet perlu peer dulu).
+1048|Daftar file arsip 7z ini dilindungi kata sandi.
+1049|Daftar file arsip RAR ini dilindungi kata sandi.
+1050|File di server berubah saat X-Ray membacanya. Coba lagi.
+1051|File atau folder tidak ada.
+1052|Folder kosong.
+1053|Kunci di tautan folder MEGA ini salah, atau foldernya kosong.
+1054|Kunci di tautan MEGA ini salah. Salin ulang seluruh tautan.
+1055|Tautan kedaluwarsa atau file dipindahkan. Gunakan Segarkan tautan unduhan.
+1056|Tautan hanya berupa alamat IP, bukan situs bernama.
+1057|Ulangi kata sandi baru
+1058|Halaman tidak punya gambar untuk video ini.
+1059|Halaman asalnya terdaftar sebagai penyebar malware (URLhaus).
+1060|Halaman terlalu lama dimuat. Coba lagi setelah selesai dimuat.
+1061|Kata sandi telah diganti.
+1062|Port harus berupa angka dari 1024 sampai 65535.
+1063|Brankas pribadi terkunci
+1064|File yang sama dengan nama berbeda: lihat dan kosongkan ruang
+1065|Ulangi kata sandi
+1066|Pemindaian berjalan di latar belakang segera setelah file disimpan, sebelum Anda membukanya. File berisi ancaman ditandai merah di daftar dan Anda mendapat pesan; jika antivirus menghapusnya, DDM memberi tahu Anda.
+1067|Hanya kategori yang dipilih
+1068|Server tidak menerbitkannya
+1069|Server terus mengirim data berbeda untuk file yang sama. Mulai ulang dari awal.
+1070|Server menolak melanjutkan file ini.
+1071|Server mengirim bagian file yang salah.
+1072|Server berhenti menjawab.
+1073|Server berhenti mengirim bagian file, jadi X-Ray tidak bisa melanjutkan. Unduh seluruh file saja.
+1074|Situs menolak (mungkin Anda perlu login). Putar video di browser dan gunakan tombol Unduh video ini.
+1075|Sertifikat keamanan situs tidak tepercaya.
+1076|Suara video, atau audio apa pun, sebagai MP3
+1077|Stream tidak memiliki potongan.
+1078|Stream tidak berisi apa pun untuk diunduh.
+1079|Stream tidak mencantumkan kualitas.
+1080|Objek dipotong di atas latar transparan (PNG), diproses di PC Anda: tidak ada yang diunggah
+1081|Server tes tidak dapat dijangkau. Periksa koneksi internet Anda.
+1082|Mesin torrent tidak dapat dimulai (mungkin program lain memakai port jaringannya). Mulai ulang DDM dan coba lagi.
+1083|Mesin torrent tidak dapat dimulai (lihat log).
+1084|Mesin torrent tidak dapat dimulai.
+1085|Torrent berhenti tiba-tiba. Tekan Lanjutkan untuk meneruskan.
+1086|Torrent telah dihapus.
+1087|Kedua kata sandi baru berbeda.
+1088|Kedua kata sandi berbeda.
+1089|Informasi pembaruan belum tersedia saat ini.
+1090|Informasi pembaruan tidak valid.
+1091|Tautan pembaruan harus https.
+1092|Brankas tidak dapat dibuka di akun Windows ini.
+1093|Brankas tidak dapat dibaca.
+1094|Brankas kosong. Klik Tambah file… atau letakkan file di sini.
+1095|Brankas terkunci.
+1096|Video dan suara tidak dapat digabungkan.
+1097|Video sudah tidak ada di halamannya.
+1098|Video tidak dapat disatukan.
+1099|Penggabung video hilang. Instal ulang DDM.
+1100|Alamat video kedaluwarsa. Buka lagi halaman video (Segarkan tautan unduhan).
+1101|Halaman web asal file ini:
+1102|Tidak ada file di folder itu.
+1103|Sudah ada kategori dengan nama itu (atau nama tidak bisa dipakai).
+1104|Arsip 7z ini tidak lengkap atau rusak.
+1105|Arsip 7z ini menyimpan daftarnya dengan cara yang tidak bisa dibaca X-Ray. Unduh seluruh file saja.
+1106|Daftar arsip 7z ini rusak.
+1107|File CAB ini rusak.
+1108|File daftar DDM ini tidak dapat dibuka.
+1109|File daftar DDM ini rusak, telah diubah, atau bukan dari DDM.
+1110|Folder MEGA ini kosong.
+1111|Tautan MEGA ini tidak punya kunci (bagian setelah #). Mintalah tautan lengkap, termasuk kuncinya.
+1112|Tautan MEGA ini tidak lengkap. Salin ulang seluruh tautan.
+1113|PC ini sedang tidak terhubung ke jaringan.
+1114|Video TikTok ini privat, telah dihapus, atau memerlukan login.
+1115|File WAV ini tidak berisi suara.
+1116|File WAV ini memiliki pengaturan tidak biasa dan tidak bisa dipakai.
+1117|File WAV ini dikompres dengan cara yang mungkin tidak bisa diputar pemutar suara Windows. Gunakan WAV tanpa kompresi (PCM).
+1118|File WAV ini rusak (sebagian melewati ujungnya).
+1119|File WAV ini rusak.
+1120|Alamat YouTube ini bukan satu video.
+1121|Dokumen ini rusak (bukan file Office yang valid).
+1123|File ini bukan daftar unduhan DDM.
+1124|File ini sudah tidak ada di folder bersama.
+1125|File ini sudah tidak ada di MEGA (dihapus, atau tautannya salah).
+1126|Ini tautan folder, bukan file.
+1127|Ini siaran langsung yang hanya bisa diputar di pemutar situs.
+1128|Ini salah satu mix tanpa akhir YouTube, bukan playlist.
+1129|Ini bukan manifest DASH.
+1130|Ini bukan file daftar DDM.
+1131|Ini bukan file pengaturan DDM.
+1132|Ini bukan file GZ.
+1133|Ini bukan file suara WAV.
+1134|Ini bukan program Windows.
+1135|Ini bukan file ZIP lengkap (daftar isinya hilang).
+1136|Ini bukan image disk yang dikenal X-Ray.
+1137|Ini bukan playlist atau kanal.
+1138|Ini bukan stream video.
+1139|Ini bukan alamat web.
+1140|Item ini sudah tidak ada di folder bersama.
+1141|Kunci ini tidak valid di PC ini. Pastikan Anda menyalin seluruh kunci, dan kunci dibuat untuk ID Instalasi ini.
+1142|Jenis unduhan ini tidak didukung.
+1143|Tautan ini membuka halaman web, bukan file.
+1144|Daftar ini tidak punya video yang bisa diunduh DDM (mungkin privat atau khusus anggota).
+1145|Siaran langsung ini belum dimulai.
+1146|Tautan magnet ini tidak valid.
+1147|Ini memerlukan prosesor dengan SSE2 (PC apa pun dari 20 tahun terakhir).
+1148|Gambar ini tidak dapat ditampilkan di sini.
+1149|Gambar ini terlalu besar (lebih dari 60 megapiksel).
+1150|Kualitas ini sudah tidak ditawarkan.
+1151|Server ini tidak mengizinkan membaca sebagian file, jadi X-Ray tidak bisa melihat isinya. Anda tetap bisa mengunduhnya seperti biasa.
+1152|Situs ini tidak menyediakan subtitel untuk videonya.
+1153|Situs ini terdaftar sebagai penyebar malware (URLhaus).
+1154|File torrent ini rusak.
+1155|File torrent ini terlalu besar.
+1156|Daftar file torrent ini belum diketahui: tiba setelah torrent dimulai dan menemukan orang lain yang membagikannya.
+1157|File brankas ini rusak.
+1158|File brankas ini telah diubah atau rusak; tidak dapat dibuka.
+1159|Video ini tidak punya alamat yang bisa dibaca DDM.
+1160|Video ini tidak punya subtitel dalam bahasa apa pun.
+1161|Video ini dibatasi usia: YouTube ingin Anda login.
+1162|Video ini khusus anggota kanal.
+1163|Video ini privat.
+1164|Video ini dilindungi (DRM): hanya bisa diputar di pemutar situs itu sendiri.
+1165|Video ini memerlukan login. Login ke situs di browser Anda dan gunakan tombol Unduh video ini di sana.
+1166|Ancaman ditemukan
+1167|Ancaman ditemukan!
+1168|Ancaman dihapus
+1169|Kamis
+1170|Centang semua yang tampil
+1171|Centang setidaknya satu tempat untuk dicari.
+1172|Centang yang akan diunduh. Klik baris untuk mencentangnya; Shift+klik mencentang semua di antaranya.
+1173|Waktu
+1174|Sisa waktu
+1175|Hari ini
+1177|Memakan waktu
+1178|Alat
+1179|Situs teratas
+1181|Port Tor (9150 Tor Browser, 9050 layanan)
+1182|Torrent
+1183|Detail torrent…
+1185|Torrent
+1186|Torrent bersamaan
+1187|Torrent tidak memakai tautan unduhan: DDM menemukan sendiri orang lain yang membagikan file.
+1188|Tracker
+1189|Alamat tracker yang ditambahkan, satu per baris
+1190|Tracker
+1191|Tracker (satu per baris; baris kosong memulai grup cadangan)
+1192|Tracker yang ditambahkan ke setiap torrent baru
+1193|Laju transfer
+1194|Uji coba berakhir — masukkan kunci lisensi untuk terus mengunduh
+1195|Mencoba menulis di luar foldernya
+1196|Potong
+1197|Potong…
+1198|Coba lagi
+1199|Mencoba
+1200|Selasa
+1201|Nyalakan, lalu pindai kodenya dengan kamera ponsel Anda.\n\nHanya yang memiliki kode (atau tautannya) yang bisa masuk: tautan berisi kunci rahasia. Hanya berfungsi di jaringan rumah Anda; tidak ada yang melewati internet.
+1202|Matikan komputer setelah selesai
+1203|Dimatikan di DDM (Opsi → Browser).
+1204|Jenis
+1205|Ketik alamat tracker (seperti udp://tracker.example.org:1337/announce), satu per baris.
+1206|Jenis:
+1208|Urungkan
+1209|Jawaban tak terduga dari MEGA.
+1210|Belum selesai
+1211|Unduhan belum selesai
+1212|Tidak diketahui
+1213|Ukuran tidak diketahui
+1214|Buka kunci
+1215|Berhenti berlangganan
+1216|Hapus semua centang
+1217|Naik
+1218|Perbarui
+1219|Perbarui DDM sendiri (versi baru dipasang diam-diam saat tidak ada yang diunduh)
+1220|Perbarui sekarang
+1221|Pembaruan siap
+1222|Batas unggah (KB/s, 0 = tanpa)
+1223|Batas unggah (KB/s, 0 = tak terbatas)
+1224|Pakai DDM lebih dulu
+1225|Pakai pengaturan proxy Windows
+1226|Pakai semua koneksi jaringan bersamaan (Wi-Fi + Ethernet + hotspot)
+1227|Gunakan minimal 4 karakter.
+1228|Pakai
+1229|Dipakai untuk tautan yang Anda tempel, tambahkan dengan Tambah URL, atau salin. Unduhan dari browser tetap memakai milik browser. Beberapa situs memberi file lain (atau tidak sama sekali) ke ponsel, browser lain, atau pengelola unduhan.
+1230|User agent
+1231|User agent (unduhan yang Anda tambahkan sendiri)
+1232|Nama pengguna (opsional)
+1233|Verifikasi checksum
+1234|Verifikasi checksum…
+1235|Video
+1236|Video dan audio
+1238|Kualitas video
+1239|Video ke GIF
+1240|Video ke GIF…
+1241|Video
+1242|Video di halaman ini
+1244|Tampilan
+1247|Menunggu
+1248|Menunggu pengisi daya
+1249|Menunggu tautan unduhan baru
+1250|Menunggu di antrean
+1251|Pantau papan klip: tautan file, magnet, dan MEGA yang disalin membuka jendela unduhan
+1252|Halaman web
+1253|Halaman web
+1254|Web seed (opsional: alamat web yang punya file yang sama)
+1255|Situs web
+1256|Rabu
+1257|Yang diketahui DDM tentang tautan dan file ini
+1258|Yang dicatat DDM saat bekerja (berguna jika ada masalah)
+1259|Yang dipindai
+1260|Jika proxy diatur (Koneksi), peer juga melewatinya
+1261|Setelah selesai
+1262|Pengelola unduhan mana?
+1263|Selama mengunduh
+1264|Penanda tangannya diperiksa setelah ada di PC Anda.
+1266|Paket Windows Installer (MSI)
+1267|Windows tidak bisa memutar file ini di sini. Gunakan Putar di browser.
+1268|Windows tidak bisa memutar format ini di sini. Gunakan Putar di browser.
+1269|Windows tidak bisa membaca gambar ini (JPEG, PNG, BMP, GIF, atau TIFF).
+1270|Windows tidak bisa membaca gambar ini.
+1271|Windows tidak bisa menyimpan gambar PNG.
+1272|Windows tidak bisa menyimpan jenis gambar ini.
+1273|Pustaka Windows (DLL)
+1274|Windows di PC ini tidak punya encoder video H.264 (edisi Windows N memerlukan Media Feature Pack dari Microsoft).
+1275|Program Windows
+1276|Pintasan Windows
+1277|Komponen pemutar media Windows tidak ada di PC ini (Windows N memerlukan Media Feature Pack dari Microsoft). Gunakan Putar di browser.
+1278|Suara Windows
+1279|Dengan add-on, DDM menangkap unduhan dan menampilkan "Unduh video ini" pada video. Cukup satu klik di toko browser.
+1280|Dihitung setelah selesai
+1281|Memproses…
+1282|Tulis seperti 0:12 4 (awal, lalu durasi).
+1283|Tulis seperti 1:20-2:45 (awal-akhir).
+1284|Kata sandi salah.
+1285|Kata sandi salah. Brankas dikunci sementara.
+1286|X-Ray (lihat isinya)…
+1287|X-Ray tautan atau file
+1288|X-Ray tidak bisa mengambilnya
+1289|X-Ray tidak dapat terhubung.
+1290|X-Ray tidak dapat mengunduh bagian itu.
+1291|X-Ray tidak dapat melihat isinya.
+1292|X-Ray tidak dapat membaca bagian file itu.
+1293|X-Ray tidak dapat membaca folder image disk ini.
+1294|X-Ray tidak tahu cara melihat isi file ini.
+1295|X-Ray: selesai
+1296|X-Ray…
+1300|Ya
+1301|Ya (Windows memeriksanya sebelum dijalankan)
+1302|Anda punya 60 detik untuk membatalkan lebih dulu.
+1303|YouTube menjawab tentang video lain.
+1304|YouTube meminta konfirmasi bahwa Anda bukan bot. Pastikan Anda login ke YouTube di browser ini, lalu putar video lagi.
+1305|YouTube tidak dapat dibaca.
+1306|YouTube tidak dapat dibaca. Coba lagi sebentar lagi.
+1307|YouTube tidak memberi stream biasa untuk video ini.
+1308|YouTube tidak memberikan siaran langsung ini ke DDM. Coba lagi setelah selesai.
+1309|YouTube tidak memberikan video ini.
+1310|YouTube menyatakan daftar ini tidak ada.
+1311|Jawaban YouTube tidak dapat dibaca.
+1312|Halaman YouTube tidak dapat dibaca (mungkin privat).
+1313|Stream YouTube tidak dapat dibaca.
+1314|Uji coba 30 hari Anda telah berakhir. Masukkan kunci lisensi untuk membuka semua fitur, atau beli lisensi di situs DDM — langsung terbuka. DDM tidak dapat dipakai sampai diaktifkan.
+1315|Lisensi DDM Anda berakhir hari ini
+1316|Lisensi DDM Anda telah berakhir. Perpanjang (atau beli yang baru) di situs DDM, lalu masukkan kunci baru. DDM terkunci sampai lisensi yang valid dimasukkan.
+1317|Tanggal dan waktu PC Anda lebih awal dari terakhir kali DDM dipakai. Atur tanggal dan waktu yang benar (atau sambungkan ke internet), lalu klik Coba lagi.
+1318|Daftar unduhan Anda
+1319|Kunci Anda terikat ke PC ini: kirimkan ID Instalasi bersama pembelian Anda (admin@dedseec.com).
+1320|Lisensi Anda segera berakhir. Perpanjang agar DDM tetap berfungsi — setelah berakhir, DDM terkunci sampai kunci lisensi baru dimasukkan.
+1321|User agent Anda sendiri
+1322|Milik Anda sendiri…
+1323|Arsip ZIP
+1324|Arsip ZIP (ZIP64)
+1325|ZIP, TAR, TAR.GZ, GZ, dan ISO, ke folder di sebelah arsip
+1326|Kompresi Zstandard
+1327|tautan, bukan file
+1329|bahasa apa pun
+1332|oleh DedSec Cyber Security Research Institute · admin@dedseec.com
+1333|berubah di server
+1334|terkompresi (7z)
+1335|terkompresi (CAB)
+1336|terkompresi (GZ)
+1337|terkompresi (RAR)
+1338|tidak dapat diunduh
+1339|tidak dapat menulis ke disk
+1340|buat file
+1347|file masuk
+1348|file bersamaan
+1349|file masuk
+1351|tidur
+1354|tidak didukung
+1355|file .torrent-nya
+1356|checksum-nya tidak cocok (rusak di server)
+1357|datanya berakhir terlalu cepat
+1358|datanya rusak
+1359|file yang diunduh dan file .torrent-nya
+1360|terus menolak
+1363|tautan magnet
+1365|file media
+1367|tanpa TLS
+1368|bukan file
+1370|tidak terbuka di router
+1371|belum ada yang diunduh
+1372|gambar dan dokumen
+1373|program skrip
+1374|mati
+1376|ukuran belum diketahui
+1377|ukuran tidak diketahui
+1378|suara saja · diubah di PC Anda
+1379|suara saja · kualitas asli
+1380|terbagi menjadi beberapa bagian
+1381|disimpan dengan cara tidak biasa
+1382|stream · suara
+1383|stream · video + suara
+1385|arsip rusak di sini
+1386|halaman video tidak menjawab.
+1387|daftar ini
+1392|terlalu banyak percobaan
+1393|file torrent
+1394|torrent: mesin tidak dapat dimulai: 
+1396|kompresi tidak biasa
+1398|video + suara
+1399|halaman web
+1401|antivirus Anda
+1403|µTP (lebih ringan untuk koneksi internet Anda saat torrent berjalan)
+1404|\n\nJaringan lain PC ini: {1}
+1405|\n\n{1} yang diunduh masuk ke Recycle Bin (bisa dipulihkan dari sana).
+1406|\n\n{1} yang diunduh masuk ke Recycle Bin (bisa dipulihkan dari sana).
+1407|\n\nYang baru:\n{1}
+1408|\n• {1} — {2} salinan, masing-masing {3}
+1409|\n• …dan {1} lagi
+1410|\n• …dan {1} lagi.
+1411| (sertifikat dari {1})
+1412| (server menjawab {1})
+1413| dan {1} file
+1414| sampai {1}
+1415| · DHT {1} node
+1416| · dibuat {1}
+1417| · dibaca dalam {1} ({2})
+1418| · berbagi {1}
+1419| · memakan {1}
+1420| · sampai {1}
+1421| · seluruh torrent {1}
+1422| · {1} / {2} di swarm
+1423| · sisa {1}
+1424| · {1} dalam antrean
+1425| · {1} berjalan, {2} berbagi
+1426| · {1} fps
+1427|Situs .{1} sering dipakai untuk penipuan dan malware.
+1428|.tar.gz hanya menampilkan isinya setelah diekstrak seluruhnya (dikemas dalam satu bagian). Ukuran yang ditampilkan: .tar di dalamnya{1}
+1429|Program di antara {1}
+1430|Program yang menyamar sebagai .{1}
+1431|Tentang {1}
+1432|Tambahkan ke {1}
+1433|Tambahkan {1} file ke brankas pribadi?
+1434|Tambahkan {1} ke brankas pribadi?
+1435|{1} dasar
+1436|Baterai di bawah {1}%
+1437|Terbaik: {1}.
+1438|Dibuat {1}
+1439|Kamera, posisi GPS, tanggal, perangkat lunak, komentar, dan detail tersembunyi lainnya telah dihapus ({1} bagian).
+1440|Kamera, posisi GPS, tanggal, perangkat lunak, komentar, dan detail tersembunyi lainnya telah dihapus ({1} bagian).
+1441|Kategori ditambahkan: {1}
+1442|Diperiksa oleh {1}: tidak ada ancaman.
+1443|{1} diperiksa sejauh ini
+1444|Memeriksa file… {1}%
+1445|Checksum ({1}) cocok: file tiba utuh.
+1446|Membandingkan {1}…
+1447|Mengompres {1}
+1448|Koneksi: {1} digabung
+1450|Mengubah {1}
+1451|File tidak dapat dibuat di {1}.
+1452|{1} tidak dapat dibuat.
+1453|{1} tidak dapat dienkripsi (apakah disk penuh?).
+1454|{1} tidak dapat dibuka (apakah sedang dibuka di program lain?).
+1455|{1} tidak dapat dibuka.
+1456|{1} tidak dapat dikemas.
+1457|{1} tidak dapat disimpan (apakah disk penuh?).
+1458|{1} tidak dapat disimpan.
+1459|{1} tidak dapat dimulai.
+1460|File tidak dapat ditulis (galat {1}).
+1461|Tidak dapat menulis ke {1}.
+1462|Memotong {1}
+1463|DDM tidak dapat membuat folder {1}.
+1464|DDM tidak dapat memakai folder {1}.
+1465|DDM memeriksa daftar ini setiap beberapa jam dan mengunduh video barunya sendiri ({1}).\n\nAlat → Langganan menampilkan dan menghentikan langganan Anda.
+1466|DDM memeriksa {1} setiap beberapa jam dan mengunduh video barunya sendiri ({2}).\n\nAlat → Langganan menampilkan dan menghentikan langganan Anda.
+1467|DDM tidak dapat membaca {1}.
+1468|DDM tidak dapat menyimpan PDF di {1}.
+1469|DDM tidak tahu dari halaman mana file ini berasal. Buka halaman itu di browser dan klik tautan unduhan file tersebut: DDM mengenalinya sebagai unduhan ini dan melanjutkan dari {1}.
+1470|DDM mengunduh {1} MB dalam {2} jam terakhir. Unduhan berlanjut saat batas mengizinkan.
+1471|DDM menemukan tanda bahwa file ini bisa membahayakan PC Anda:\n\n{1}\nUnduh hanya jika Anda memercayai sumbernya.
+1472|Lisensi DDM berakhir dalam {1} hari
+1473|Lisensi DDM berakhir dalam {1} hari
+1474|DDM kini mengambil unduhan dari browser Anda dan membuka tautan magnet.\n\nSatu langkah lagi: browser hanya mengizinkan satu add-on mengambil unduhan. Di setiap browser, matikan add-on {1} agar tidak mengambil file sebelum DDM (DDM dapat membukakan halaman add-on browser untuk Anda).
+1475|DDM membuka di browser halaman asal file ini. Klik tautan unduhan file ini di sana (login atau selesaikan pemeriksaan jika situs meminta). DDM mengenalinya sebagai unduhan ini, mengambil tautan baru, dan melanjutkan dari {1}: tidak ada yang sudah diunduh yang hilang.
+1476|Uji coba DDM — sisa {1} hari
+1477|Uji coba DDM — sisa {1} hari
+1479|DDM — {1} mengunduh · {2}
+1480|Rusak: checksum {1}-nya tidak cocok. Unduh ulang.
+1481|Hapus kategori {1}?\n\nUnduhan dan file-nya tetap di tempatnya; muncul lagi di kategori bawaan.
+1482|Hapus antrean "{1}"? Unduhannya tetap ada di daftar.
+1483|Hapus {1} dari brankas selamanya? Tidak bisa dikembalikan.
+1484|Program menyamar: {1}
+1485|Selesai: {1}
+1486|Turun {1} · Naik {2}
+1487|Unduh {1}
+1488|Unduh {1} file ({2})
+1489|Unduh {1} file ({2})
+1490|Unduh {1} item? DDM menjalankan beberapa sekaligus (Opsi → Koneksi → Unduhan bersamaan).
+1491|Unduh {1} video
+1492|Mengunduh {1}%
+1493|Galat — {1}
+1494|Galat: {1}
+1495|Mengekstrak {1}
+1496|Jenis file {1}
+1497|Ditemukan {1} dari {2}
+1502|Sembunyikan tab "{1}"
+1504|ID Instalasi: {1}
+1505|Ini program yang berpura-pura sebagai .{1} ({2}).
+1506|Namanya .{1} tetapi sebenarnya program Windows.
+1507|Namanya .{1} tetapi sebenarnya pintasan Windows.
+1508|Namanya .{1} tetapi sebenarnya program skrip.
+1509|Namanya .{1} tetapi sebenarnya dokumen Office atau penginstal.
+1510|Simpan {1}
+1511|Berlisensi atas nama {1} · seumur hidup
+1512|Berlisensi atas nama {1}. {2} Terima kasih telah membeli DDM.
+1513|Galat MEGA {1}. DDM akan mencoba lagi.
+1514|MEGA sibuk (galat {1}).
+1515|{1} dibuat — DDM sedang membagikannya (Torrent → Seeding).
+1516|{1} dibuat.
+1517|Mengecilkan {1}
+1518|Dipindahkan ke {1}
+1519|Memindahkan {1}…
+1520|Alamat baru untuk {1}
+1521|Unduhan {1} baru masuk ke {2}
+1522|Tidak ada duplikat di {1}.
+1523|Tidak ada yang cocok dengan "{1}"
+1524|Tidak ada yang cocok dengan "{1}".
+1525|Tidak ada yang mencurigakan di dalamnya. Hanya file yang Anda centang yang diunduh{1}
+1526|Sekarang: {1}
+1527|Satu alamat tracker per baris. {1}
+1528|Online sekarang: {1}
+1529|Membuka {1}
+1530|Mengemas {1}
+1531|Mengemas {1}…
+1532|Dijeda di {1}%
+1533|Putar — {1}
+1534|Port {1}
+1535|Port {1} tidak bisa dipakai ({2})
+1536|Port {1} sedang dipakai program lain.
+1537|Membaca folder… {1}
+1538|Membaca file… {1}%
+1539|Membaca daftar… {1}
+1540|Membaca daftar… {1} video
+1541|Membaca ulang halaman video untuk {1}…
+1542|Menerima data · {1} seed · {2} peer
+1543|Menerima data · {1} seed · {2} peer
+1544|Menerima data · {1} seed · {2} peer
+1545|Menerima data · {1} seed · {2} peer
+1547|Hapus semua yang dikatakan {1} tentang di mana, kapan, oleh siapa, dan dengan apa ia dibuat (kamera, posisi GPS, tanggal, penulis, perangkat lunak, komentar, tag)?\n\nGambar, suara, atau teksnya tetap persis sama. File asli masuk ke Recycle Bin.
+1548|Hapus {1} dari daftar unduhan?{2}
+1549|Hapus {1} dari daftar dan kirim file .torrent-nya ke Recycle Bin?
+1550|Hapus {1} dari daftar dan kirim file yang diunduh serta file .torrent-nya ke Recycle Bin?
+1551|{1} dihapus
+1552|{1} dan file .torrent dihapus
+1553|Menghapus metadata dari {1}
+1554|Menghapus latar {1}
+1555|Sama seperti Windows ({1})
+1556|{1} disimpan (latar transparan) dalam {2} dtk.
+1557|{1} disimpan ({2}).
+1558|{1} disimpan: {2} → {3}.
+1559|Pindai kode dengan kamera ponsel Anda (ponsel harus di Wi-Fi yang sama), atau buka tautan ini di ponsel:\n\n{1}\n\nTambah tautan, jeda, lanjutkan, hentikan, atau hapus unduhan dan pantau kemajuannya.\n\nJika Windows bertanya apakah DDM boleh memakai jaringan Anda, izinkan jaringan pribadi.
+1560|Dipindai oleh {1}: tidak ada ancaman.
+1561|Memindai dengan {1}…
+1562|Terjadwal · {1}%
+1563|Tampilkan: {1}
+1564|Ditandatangani oleh {1}.
+1565|Ditandatangani oleh {1}. Windows memeriksa tanda tangan sepenuhnya setelah file ada di PC Anda.
+1566|Batas kecepatan: {1}
+1567|Mulai dalam {1} dtk…
+1568|Berhenti mengunduh video baru dari {1}?\n\nVideo yang sudah diunduh tetap ada.
+1569|ANCAMAN: {1}
+1570|Menguji dengan {1} koneksi…
+1571|Menguji dengan {1} koneksi…
+1572|File .torrent tidak dapat diunduh (server menjawab {1}).
+1573|File daftar blokir tidak ada: {1}
+1574|Checksum yang ditampilkan situs untuk {1} (MD5, SHA-1, SHA-256, SHA-512, atau CRC-32). Biarkan kosong untuk sekadar melihat SHA-256 file
+1575|Salinan bersih disimpan sebagai {1} (file asli sedang dipakai, jadi DDM membiarkannya).
+1576|Salinan bersih disimpan sebagai {1}.
+1577|File sudah tidak ada di {1} (dipindahkan atau dihapus).
+1578|Folder yang dipantau tidak ada: {1}
+1579|Penginstal tidak dapat dijalankan. Jalankan sendiri: {1}
+1580|Tautan kedaluwarsa (server menjawab {1}). Buka lagi halaman unduhan.
+1581|Bagian yang disimpan, dari-sampai (contoh 1:20-2:45). Panjang file {1}
+1582|Pemutar berhenti ({1}). Gunakan Putar di browser.
+1583|Server menjawab {1} (tautan mungkin kedaluwarsa).
+1584|Server menjawab {1}.
+1585|Server bermasalah ({1}). DDM akan mencoba ulang.
+1586|Server menerbitkan {1} {2}
+1587|Server menolak unduhan ({1}).
+1588|Situs menjawab {1}.
+1589|Situs ada sejak {1}.
+1590|Situs meniru {1} ({2}).
+1591|Situs ini baru (didaftarkan {1} hari lalu).
+1592|Situs memakai nama {1} tetapi bukan milik {2} sendiri ({3}).
+1593|Situs baru didaftarkan {1} hari lalu.
+1594|Situs baru didaftarkan {1} hari lalu.
+1595|Nama situs hanya beda satu huruf dari {1} ({2}).
+1596|Nama situs memakai huruf dari alfabet lain yang bisa mirip huruf kita ({1}).
+1597|Torrent tidak dapat dimulai ({1}).
+1598|Torrent siap:\n{1}
+1599|Torrent siap:\n{1}\n\nTautan magnet-nya bisa disalin untuk membagikannya tanpa file.
+1600|Pembaruan tidak dapat diunduh: {1}
+1601|Server pembaruan menjawab {1}.
+1602|Server video menjawab {1}.
+1603|Tidak ada metadata di {1}.
+1604|Arsip ini dikemas dengan cara yang tidak bisa dibuka DDM ({1}). Buka dengan program arsip.
+1605|File ini tidak dapat diubah: {1}
+1606|File ini rusak atau sebenarnya bukan file .{1}.
+1607|Ini bukan situs milik {1}, meski memakai namanya ({2}).
+1608|Tautan ini sudah ada di unduhan Anda ({1}).
+1609|File torrent ini rusak atau bukan torrent ({1}).
+1610|Video ini tidak punya subtitel dalam {1}.
+1611|Terlalu banyak kata sandi salah. Coba lagi dalam {1} detik.
+1612|Torrent — {1}
+1613|Uji coba · sisa {1} hari
+1614|Uji coba · sisa {1} hari
+1615|Mengekstrak {1}…
+1616|Berlaku sampai {1}.
+1617|Video {1}
+1618|Memproses · {1}
+1619|Memproses… {1}%
+1620|X-Ray melihat isi arsip (ZIP, RAR, 7z, TAR, CAB), image disk (ISO), torrent, dan program (EXE, MSI). {1} bukan salah satunya.
+1621|Anda berada di hari ke-{1} dari 30. Semua fitur terbuka selama uji coba. Beli lisensi kapan saja untuk tetap memakai DDM setelahnya.
+1622|YouTube menjawab {1}.
+1623|Komputer Anda akan {1} dalam {2} detik.
+1624|Komputer Anda akan {1} dalam {2} detik.
+1627|aktif {1}
+1629|tidak dapat menjalankan {1} (galat {2})
+1631|mengunduh {1}%
+1633|terbuka di router ({1})
+1634|video {1}
+1635|{1}\n\nMembukanya bisa membahayakan komputer Anda.
+1636|{1}\n\nSHA-256: {2}
+1637|{1}\n\nPakai {2} koneksi per unduhan mulai sekarang?
+1638|{1}\nChecksum {2}-nya tidak cocok: file rusak di jalan. Unduh ulang.
+1639|{1}\n{2} Jangan dibuka.
+1641|{1} (antivirus Windows)
+1642|{1} / {2}   ·   diunduh
+1643|{1} / {2} terhubung
+1644|{1} / {2} terhubung{3}
+1645|{1} / …   ·   diunduh
+1648|Add-on {1}
+1649|{1} sudah diunduh
+1650|Arsip {1}
+1651|{1} juga ada di PC ini.\n\nApakah DDM yang harus menangkap unduhan, video, dan tautan magnet Anda lebih dulu?
+1652|{1} memblokir file ini: mungkin berisi ancaman.
+1653|{1} melanjutkan dari tempat berhentinya.
+1654|{1} melanjutkan dari {2}.
+1655|{1} koneksi · masing-masing {2}
+1656|{1} koneksi: {2}\n
+1657|{1} koneksi · masing-masing {2}
+1658|{1} koneksi: {2}\n
+1659|{1} unduhan
+1660|{1} keluar {2}
+1661|{1} keluar {2} (waktu habis)
+1662|{1} keluar {2} (waktu habis){3}
+1663|{1} keluar {2}{3}
+1664|{1} file
+1665|{1} file tidak bisa diambil sendiri (kata sandi, kompresi, atau tautan): gunakan "{2}" untuknya.
+1666|{1} file tidak bisa diambil sendiri (kata sandi, kompresi, atau tautan): gunakan "{2}" untuknya.
+1667|{1} file diekstrak ke {2}.
+1668|{1} file punya salinan ({2} bisa dikosongkan).
+1669|{1} file di dalamnya tampak berbahaya (ditandai di bawah): DDM melihatnya sebelum sampai ke PC Anda.
+1670|{1} file di dalamnya tampak berbahaya (ditandai di bawah): DDM melihatnya sebelum sampai ke PC Anda.
+1671|{1} file di dalamnya tampak berbahaya (ditandai di bawah): DDM melihatnya sebelum sampai ke PC Anda.
+1672|{1} file di dalamnya tampak berbahaya (ditandai di bawah): DDM melihatnya sebelum sampai ke PC Anda.
+1673|{1} file memerlukan program arsip (terkompresi atau berkata sandi).
+1674|{1} file disimpan di {2}.
+1675|{1} file · {2} · terenkripsi
+1676|{1} file · {2} · disimpan di folder bernama "{3}"
+1677|{1} file · {2} · {3}
+1678|{1} file
+1679|{1} file dienkripsi ke brankas pribadi dan dihapus dari foldernya serta dari daftar.
+1680|{1} file tidak bisa diambil sendiri (kata sandi, kompresi, atau tautan): gunakan "{2}" untuknya.
+1681|{1} file tidak bisa diambil sendiri (kata sandi, kompresi, atau tautan): gunakan "{2}" untuknya.
+1682|{1} file diekstrak ke {2}.
+1683|{1} file punya salinan ({2} bisa dikosongkan).
+1684|{1} file di dalamnya tampak berbahaya (ditandai di bawah): DDM melihatnya sebelum sampai ke PC Anda.
+1685|{1} file di dalamnya tampak berbahaya (ditandai di bawah): DDM melihatnya sebelum sampai ke PC Anda.
+1686|{1} file di dalamnya tampak berbahaya (ditandai di bawah): DDM melihatnya sebelum sampai ke PC Anda.
+1687|{1} file di dalamnya tampak berbahaya (ditandai di bawah): DDM melihatnya sebelum sampai ke PC Anda.
+1688|{1} file memerlukan program arsip (terkompresi atau berkata sandi).
+1689|{1} file disimpan di {2}.
+1690|{1} file · {2} · terenkripsi
+1691|{1} file · {2} · disimpan di folder bernama "{3}"
+1692|{1} file · {2} · {3}
+1693|{1} menemukan ancaman di file ini. Jangan dibuka.
+1694|{1} BUKAN file yang dijelaskan situs: rusak di jalan atau telah diubah. Unduh ulang, dan jangan buka jika berupa program.\n\nSeharusnya: {2}\nFile ini: {3}
+1695|{1} sudah diunduh di folder ini.
+1696|{1} juga ada di PC ini.\n\nApakah DDM yang harus menangkap unduhan, video, dan tautan magnet Anda lebih dulu?
+1697|{1} sudah diunduh dan diperiksa (ditandatangani DedSec).\n\nInstal sekarang? DDM menutup beberapa detik lalu berjalan lagi sendiri; unduhan yang belum selesai berlanjut dari tempatnya.{2}
+1698|{1} dienkripsi ke brankas pribadi dan dihapus dari folder ini serta dari daftar.
+1699|{1} persis file yang dijelaskan situs ({2}).
+1700|{1} selesai
+1702|{1} video baru ditambahkan ke unduhan.
+1703|{1} video baru sedang diunduh.
+1704|{1} video baru ditambahkan ke unduhan.
+1705|{1} video baru sedang diunduh.
+1706|{1} file yang Anda centang tampak berbahaya. Tetap unduh?
+1707|{1} file yang Anda centang tampak berbahaya. Tetap unduh?
+1708|{1} potongan dari {2} · {3} tracker
+1709|{1} potongan dari {2} · {3} tracker
+1710|{1} menghapus file ini: berisi ancaman.
+1711|{1} melaporkan masalah pada file ini (kode {2}). Periksa di {3}.
+1712|{1} saat ini
+1713|{1} terkirim · rasio {2}
+1714|Suara {1}
+1715|{1} torrent
+1716|{1} video
+1717|{1} video
+1718|{1} video · tautan di halaman ini
+1719|{1} video{2}
+1720|{1} video{2} · tautan di halaman ini
+1721|{1} video{2}
+1722|{1} · F3 mencari berikutnya
+1723|{1} · video + suara
+1724|{1} · video + suara{2}
+1729|{1}: tidak bisa diambil ({2}).
+1730|{1}: tidak dapat disimpan.
+1731|{1}: {2} tidak dapat dibuat.
+1732|{1}: ditolak (mencoba menulis di luar folder).
+1733|{1}: halaman video tidak menjawab.
+1734|{1}: {2} item di dalamnya, tidak ada yang mencurigakan.
+1740|✓ Terhubung ({1} ms)
+1741|✗ Tidak ada koneksi{1}
+E1|Semua file
+E2|Video
+E3|Gambar
+E4|Arsip
+E5|File torrent (*.torrent)
+E6|Suara WAV (*.wav)
+E7|Pengaturan DDM (*.json)
+E8|Daftar DDM (*.ddm;*.json)
+E9|Daftar DDM, terenkripsi (*.ddm)
+E10|Daftar DDM, polos (*.json)
+E11|Program antivirus (*.exe)
+E12|Daftar blokir (*.dat;*.p2p;*.txt)
+E13|Video dan audio
+E14|Gambar, video, audio, dan dokumen Office
+E15|sisa {1}
+E16|{1} lalu
+E17|{1} Jan
+E18|{1} Feb
+E19|{1} Mar
+E20|{1} Apr
+E21|{1} Mei
+E22|{1} Jun
+E23|{1} Jul
+E24|{1} Agu
+E25|{1} Sep
+E26|{1} Okt
+E27|{1} Nov
+E28|{1} Des
+E29|Hari ini
+E30|Kemarin
+E31|Terhubung: {1}
+E32|{1} mengunduh
+E33|{1} dalam antrean
+E34|kecepatan penuh saat internet sedang tidak dipakai
+E35|Bilibili tidak memberikan video ini ke DDM (mungkin perlu login, atau khusus anggota).
+E36|Video Bilibili ini telah dihapus, atau privat.
+E37|Video Bilibili ini memerlukan login.
+E38|Episode ini khusus anggota berbayar Bilibili.
+E39|Perkecil ke baki sistem
+E40|URL
+E41|Ukuran file
+E42|Bisa dilanjutkan
+E43|KECEPATAN
+E44|Puncak {1}
+E45|Folder unduhan yang belum selesai
+E46|Unduhan tetap di sini sampai selesai, lalu dipindah ke foldernya: folder Anda hanya berisi file yang sudah selesai.
+E47|Jeda unduhan Anda dulu, lalu ubah folder ini.
+E48|Memindahkan ke foldernya…
+E49|Postingan TikTok ini adalah slideshow foto tanpa video.
+E50|Perkecil
+E51|Perbesar
+E52|Jendela unduhan di baki
+E53|Pakai ikon DDM bersama (seperti IDM)
+E54|Satu ikon untuk masing-masing
+E55|Jendelanya ada di ikon DDM di baki: klik ikon untuk melihat semua unduhan secara langsung, klik dua kali untuk mengembalikan jendela.
+E56|DDM diperbarui ke {1} (dari {2}). Versi lama telah diganti dan penginstalnya dihapus; unduhan dan pengaturan Anda tetap sama.
+E57|DDM sudah terbaru
+E58|Yang baru:
+E59|{1} mengunduh · {2}
+E60|Tidak ada yang diunduh
+E61|Tidak ada yang diunduh sekarang
+E62|Unduhan Anda muncul di sini selama berjalan.
+E63|Di baki
+E64|+ {1} lagi di DDM
+E65|Tampilkan jendela
+E66|Kode sumber di GitHub
+E67|Lisensi (GPL-3.0)
+E68|Gratis dan sumber terbuka
+E69|Gratis untuk semua orang, tanpa batas waktu. Berlisensi GNU GPL versi 3.
+E70|Pilih bahasa
+E71|{1} bahasa
+E72|Semua bahasa
+E73|Tanpa subtitle
+E74|Simpan juga subtitle video di sebelahnya (.srt)
+E75|Semua bahasa subtitle yang tersedia untuk video ini: centang yang ingin disimpan
+E76|Seret file dari sini ke folder, desktop, atau program lain

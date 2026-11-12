@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "about": "DDM site rules. Published with every release (sites.json + sites.json.sig, signed with DedSec's key). DDM checks for a newer copy every 6 hours and when a video can't be found; raise \"version\" for every change. Rules only say where a site's video addresses are: keys (\"key\": \"address\" in the page), patterns (a regular expression run right after a fixed piece of text), json (walk the answer as data). fetch may use {url} and {id} (first group of the id expression).",
+  "rules": [
+    {"sites": ["snapchat.com"], "json": false, "keys": ["mediaUrl", "contentUrl", "videoUrl"], "fileHeaders": {"Referer": "https://www.snapchat.com/"}},
+    {"sites": ["streamable.com"], "keys": ["url"], "patterns": [{"after": "<meta property=\"og:video:secure_url\" content=\"", "regex": "^([^\"]+)"}]},
+    {"sites": ["bilibili.tv"], "keys": ["playUrl", "url"]},
+    {"sites": ["imgur.com"], "patterns": [{"after": "<meta property=\"og:video\" content=\"", "regex": "^([^\"]+)"}]},
+    {"sites": ["pinterest.com", "pin.it"], "keys": ["url"], "patterns": [{"after": "\"V_720P\":{", "regex": "\"url\":\"([^\"]+)\"", "height": 720}, {"after": "\"V_HLSV4\":{", "regex": "\"url\":\"([^\"]+)\"", "kind": "hls"}]},
+    {"sites": ["linkedin.com"], "patterns": [{"after": "data-sources=\"", "regex": "src&quot;:&quot;([^&]+)&quot;"}]},
+    {"sites": ["9gag.com"], "patterns": [{"after": "\"image460sv\":{", "regex": "\"url\":\"([^\"]+)\""}]},
+    {"sites": ["tumblr.com"], "patterns": [{"after": "<source src=\"", "regex": "^([^\"]+)"}]},
+    {"sites": ["kick.com"], "keys": ["source", "playback_url"]},
+    {"sites": ["rumble.com"], "patterns": [{"after": "\"hls\":{\"url\":\"", "regex": "^([^\"]+)", "kind": "hls"}, {"after": "\"mp4\":{", "regex": "\"url\":\"([^\"]+)\""}]}
+  ]
+}

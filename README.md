@@ -15,11 +15,13 @@
   <a href="https://github.com/officialdedsec/ddm/releases/latest"><img src="https://img.shields.io/github/downloads/officialdedsec/ddm/total?style=for-the-badge&color=16a34a" alt="Total downloads"></a>
   <img src="https://img.shields.io/badge/Windows-7%20%7C%208%20%7C%2010%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows 7, 8, 10, 11">
   <img src="https://img.shields.io/badge/Built%20in-pure%20C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="Built in pure C++">
-  <img src="https://img.shields.io/badge/Free%20trial-30%20days-f59e0b?style=for-the-badge" alt="30-day free trial">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/Open%20source-GPL--3.0-16a34a?style=for-the-badge" alt="Open source, GPL-3.0"></a>
+  <img src="https://img.shields.io/badge/Price-Free-f59e0b?style=for-the-badge" alt="Free">
+  <a href="https://github.com/officialdedsec/ddm/stargazers"><img src="https://img.shields.io/github/stars/officialdedsec/ddm?style=for-the-badge&logo=github&label=Stars&color=eab308" alt="GitHub stars"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/officialdedsec/ddm/releases/latest"><b>⬇ Download DDM for Windows (free 30-day trial)</b></a> &nbsp;·&nbsp;
+  <a href="https://github.com/officialdedsec/ddm/releases/latest"><b>⬇ Download DDM for Windows (free and open source)</b></a> &nbsp;·&nbsp;
   <a href="#browser-add-ons">Browser add-ons</a> &nbsp;·&nbsp;
   <a href="#features">Features</a> &nbsp;·&nbsp;
   <a href="#frequently-asked-questions">FAQ</a> &nbsp;·&nbsp;
@@ -52,12 +54,14 @@ DDM is one small native program written in **pure C++**. There's no .NET, Java, 
 - [Download and install](#download-and-install)
 - [Browser add-ons](#browser-add-ons)
 - [Built in pure C++](#built-in-pure-c)
-- [Free 30-day trial and licence](#free-30-day-trial-and-licence)
+- [Star DDM and share it](#-star-ddm-and-share-it)
+- [Free and open source](#free-and-open-source)
+- [Build it yourself](#build-it-yourself)
 - [Frequently asked questions](#frequently-asked-questions)
 
 ## Why people switch to DDM
 
-Looking for an **IDM alternative** or a **free download manager for Windows** you can try with no limits? DDM gives you:
+Looking for an **IDM alternative** or a **free, open-source download manager for Windows**? DDM gives you:
 
 | | DDM |
 |---|---|
@@ -70,7 +74,8 @@ Looking for an **IDM alternative** or a **free download manager for Windows** yo
 | Phone remote | Add, pause and resume downloads from your phone with a QR code |
 | Security | Checks links and files *before* they download; X-Ray shows what's inside archives while they're still on the server |
 | Weight | One native C++ program, about 10 MB, almost no memory when idle |
-| Price | Every feature free for 30 days, no sign-up |
+| Price | Free for everyone, every feature, no sign-up, no ads |
+| Source code | Open source under the GPL-3.0: read it, build it, improve it |
 
 ## Features
 
@@ -87,14 +92,19 @@ Looking for an **IDM alternative** or a **free download manager for Windows** yo
 
 ![Download window with URL, status, file size, transfer rate, time left and a progress bar](screenshots/download-progress.png)
 
+| One tray icon for every download | Drag the finished file anywhere |
+|---|---|
+| ![Tray panel listing every running download with its progress, speed and time left](screenshots/tray-panel.png) | ![Download complete window with a hand to drag the file into a folder or another program](screenshots/download-complete.png) |
+
 ### 🎬 Video downloader for every site
 
 - A **"Download this video" button** appears above the videos you watch in your browser. Click it and pick a quality: **4K, 1440p, 1080p HD, 720p, 480p, 360p**, or just the **sound as MP3**.
 - **Sites**: YouTube (videos, Shorts and live), TikTok, Facebook (videos and Reels), Instagram (Reels and posts), Threads, Bilibili (up to 4K), Snapchat, X / Twitter, Vimeo, Dailymotion, Reddit, plus any site whose player shows its video in the page, also inside embedded players.
+- **Works with what your browser plays**: on sites DDM has no rule for, the add-on notes the stream the page itself plays (HLS, DASH or a plain file, also when its address has no .m3u8 or .mp4 in it) and DDM lists its qualities.
 - **Streams (HLS .m3u8 and DASH .mpd)**: every quality, many pieces at a time, encrypted streams (AES-128), separate sound tracks joined. One normal **MP4** comes out without re-encoding. Live streams are recorded until you stop.
 - **Adapts by itself**: DDM's site rules update automatically (signed by DedSec) when a site changes, with no new version needed.
 - **Real names**: videos are named after their title or caption, never "(20+) Facebook", and hashtags and view counts are left out.
-- **Thumbnails and subtitles** saved next to the video if you want them.
+- **Subtitles in every language the video offers**: tick the ones you want and each is saved as an `.srt` next to the video (YouTube, Vimeo, Dailymotion, streams with subtitle tracks, pages whose player lists them). The thumbnail too, if you want it.
 
 | The button over every video | Download Video: every quality |
 |---|---|
@@ -163,7 +173,7 @@ DDM speaks **English, বাংলা (Bengali), हिन्दी (Hindi), ا�
 
 ## Download and install
 
-1. Download **`DDM-Setup-4.2.2.exe`** from the **[latest release](https://github.com/officialdedsec/ddm/releases/latest)**.
+1. Download **`DDM-Setup-4.3.2.exe`** from the **[latest release](https://github.com/officialdedsec/ddm/releases/latest)**.
 2. Run it. It doesn't need administrator rights and installs for you only.
 3. DDM starts and offers its browser add-on. Chrome and Edge also offer it by themselves the next time they start.
 
@@ -202,17 +212,60 @@ DDM is written from the ground up in **pure, native C++** for Windows, using the
 - **Its own video engine.** DDM reads sites, streams (HLS/DASH), playlists and channels itself, with no outside downloader programs.
 - **Runs on old and new PCs alike**, from Windows 7 to Windows 11, 32-bit and 64-bit.
 - **Signed** with DedSec's code-signing certificate, and updates are signed too.
+- **Open source**: every line is in this repository.
 
-## Free 30-day trial and licence
+## ⭐ Star DDM and share it
 
-DDM is commercial software made by **DedSec Cyber Security Research Institute**. **Every feature is free for 30 days**, with no sign-up and no limits. Use it as your only downloader for a month: the expired link that resumes, the big file that survives a Wi-Fi drop, the fake site it flags.
+DDM is free, has no ads and is made in the open. If it saved you time, **a star is the best thank-you**: it takes one click, costs nothing, and it is how other people find a good free downloader.
 
-After that, get a licence key from **[dedseec.com](https://dedseec.com)** and enter it in **Help → Register DDM**. See the [licence terms](LICENSE.txt).
+<p align="center">
+  <a href="https://github.com/officialdedsec/ddm/stargazers"><b>⭐ Give DDM a star</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/officialdedsec/ddm/fork">Fork it</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/officialdedsec/ddm/issues/new/choose">Tell us what to improve</a>
+</p>
+
+<p align="center">
+  <a href="https://star-history.com/#officialdedsec/ddm&Date">
+    <img src="https://api.star-history.com/svg?repos=officialdedsec/ddm&type=Date" alt="Chart of DDM's GitHub stars over time" width="640">
+  </a>
+</p>
+
+**Know someone who still pays for a download manager, or fights with slow downloads?** Send them DDM:
+
+<p align="center">
+  <a href="https://twitter.com/intent/tweet?text=DDM%20%E2%80%94%20a%20free%2C%20open-source%20download%20manager%20for%20Windows%20that%20also%20downloads%20videos%20in%20every%20quality&url=https%3A%2F%2Fgithub.com%2Fofficialdedsec%2Fddm"><img src="https://img.shields.io/badge/Share%20on-X-000000?style=flat-square&logo=x" alt="Share on X"></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgithub.com%2Fofficialdedsec%2Fddm"><img src="https://img.shields.io/badge/Share%20on-Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Share on Facebook"></a>
+  <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fgithub.com%2Fofficialdedsec%2Fddm"><img src="https://img.shields.io/badge/Share%20on-LinkedIn-0A66C2?style=flat-square" alt="Share on LinkedIn"></a>
+  <a href="https://www.reddit.com/submit?url=https%3A%2F%2Fgithub.com%2Fofficialdedsec%2Fddm&title=DDM%3A%20a%20free%2C%20open-source%20download%20manager%20for%20Windows"><img src="https://img.shields.io/badge/Share%20on-Reddit-FF4500?style=flat-square&logo=reddit&logoColor=white" alt="Share on Reddit"></a>
+  <a href="https://api.whatsapp.com/send?text=DDM%20%E2%80%94%20a%20free%2C%20open-source%20download%20manager%20for%20Windows%3A%20https%3A%2F%2Fgithub.com%2Fofficialdedsec%2Fddm"><img src="https://img.shields.io/badge/Share%20on-WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white" alt="Share on WhatsApp"></a>
+  <a href="https://t.me/share/url?url=https%3A%2F%2Fgithub.com%2Fofficialdedsec%2Fddm&text=DDM%20%E2%80%94%20a%20free%2C%20open-source%20download%20manager%20for%20Windows"><img src="https://img.shields.io/badge/Share%20on-Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Share on Telegram"></a>
+</p>
+
+## Free and open source
+
+DDM is made by **DedSec Cyber Security Research Institute** and is **free for everyone**: every feature, no time limit, no sign-up, no ads. Since version 4.3.0 it is also **open source** under the [GNU General Public License, version 3](LICENSE): you may use it, study it, change it and share it, as long as what you share stays under the same licence.
+
+An older DDM had a 30-day trial and licence keys. That is gone: update, and a DDM that was locked after its trial works again.
+
+- **Found a bug or have an idea?** [Open an issue](https://github.com/officialdedsec/ddm/issues/new/choose) or send a pull request: see [CONTRIBUTING.md](CONTRIBUTING.md).
+- **Official builds** are the ones on the [Releases page](https://github.com/officialdedsec/ddm/releases), signed by DedSec. A copy you build yourself works the same, without that signature.
+
+## Build it yourself
+
+The whole program is in this repository: `src/` (the program), `extension/` (the browser add-ons), `installer/`, `res/` (icons, help, languages) and `tools/` (translations). It is built on Linux with MinGW-w64 into one 32-bit program for Windows 7 to 11:
+
+```sh
+./build.sh          # out/DDM.exe, out/ddmhost.exe and the add-ons
+```
+
+[BUILDING.md](BUILDING.md) lists the compiler and the libraries it needs (curl, Mbed TLS, libtorrent, OpenSSL, Boost, miniz) and how to build them.
 
 ## Frequently asked questions
 
 **What is the best IDM alternative for Windows?**
-DDM covers what people use Internet Download Manager for (multi-connection downloads, resume, browser integration, a video download button and a scheduler) and adds torrents, MEGA, playlist and channel downloads, a phone remote and security checks before each download. Try every feature free for 30 days.
+DDM covers what people use Internet Download Manager for (multi-connection downloads, resume, browser integration, a video download button and a scheduler) and adds torrents, MEGA, playlist and channel downloads, a phone remote and security checks before each download. It is free and open source.
 
 **How do I download YouTube videos and playlists?**
 Install DDM and its browser add-on, open the video and click **Download this video**. For a whole playlist or channel, paste its link into DDM (**Tasks → Download playlist or channel…**).
@@ -229,8 +282,11 @@ No. It adds checks your antivirus doesn't make (where a file comes from and what
 **Does DDM work with Internet Download Manager installed?**
 Yes. DDM asks once which one should catch downloads first.
 
+**Is DDM really free?**
+Yes: every feature, for everyone, with no time limit, and its source code is here under the GPL-3.0.
+
 **Is my data private?**
-Yes. There's no account, no ads and no tracking. Your downloads, history and cookies stay on your PC, and the browser add-on talks only to DDM on your own computer.
+Yes. There's no account, no ads and no tracking, and you can read the source code to check. Your downloads, history and cookies stay on your PC, and the browser add-on talks only to DDM on your own computer.
 
 **Where are my files?**
 In your Downloads folder, sorted into Compressed, Documents, Music, Programs and Video (plus your own categories). You can change this in **Options → Save to**.
@@ -243,4 +299,4 @@ Please [open an issue](https://github.com/officialdedsec/ddm/issues/new/choose).
 <p align="center">
   <b>DDM — DedSec Download Manager</b>: download manager · download accelerator · IDM alternative · video downloader · YouTube downloader · playlist downloader · TikTok downloader · Facebook video downloader · Instagram Reels downloader · MP3 converter · torrent client · magnet link downloader · MEGA downloader · HLS / m3u8 downloader · for Windows 11, 10, 8 and 7
 </p>
-<p align="center">© 2026 DedSec Cyber Security Research Institute · <a href="LICENSE.txt">Licence terms</a> · <a href="https://dedseec.com/privacy">Privacy</a> · <a href="https://dedseec.com/contact">Contact</a> · <a href="mailto:admin@dedseec.com">admin@dedseec.com</a></p>
+<p align="center">© 2026 DedSec Cyber Security Research Institute · <a href="LICENSE">GPL-3.0</a> · <a href="https://dedseec.com/privacy">Privacy</a> · <a href="https://dedseec.com/contact">Contact</a> · <a href="mailto:admin@dedseec.com">admin@dedseec.com</a></p>

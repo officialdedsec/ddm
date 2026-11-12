@@ -1,0 +1,64 @@
+{
+  "manifest_version": 3,
+  "name": "DDM — DedSec Download Manager",
+  "short_name": "DDM",
+  "version": "4.0.8",
+  "description": "Sends downloads and videos to DDM for Windows: 32 connections, resume, safety checks, a Download this video button.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArjTrHk8fANg5S/LXbM5G6doOPpKyqsCmkv6fBleMnGgZRm4FnqQv7YJ59kqI5wLBn3NtomWaNUQUAj4ns2BAA+go4P6yxw1l6eTJqDEc5TM87RdKcbsXmoVAuf+REYYN1UaXefL3cdmD4kv4HXiZXRPPzFKHeovObI1TiLOc4/C4X2+8Tmw44gBjdjYqY3DWJq7hS5cTT7P3N/xF6QxYjN74VKMtDaTFbKaM7kzQxV0bRrW6jkhGod8h7Gj91NiA/M6Hpoh+h0PVPWY9ZEcFRiOFsqTlyYm9vUVDgSKaaucnW5Ex6CNFNEYOI5qdPULalAKGsuw/lhIbpgibc54rdQIDAQAB",
+  "minimum_chrome_version": "111",
+  "permissions": [
+    "downloads",
+    "nativeMessaging",
+    "cookies",
+    "webRequest",
+    "storage",
+    "tabs",
+    "contextMenus"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js",
+        "grab.js"
+      ],
+      "all_frames": true,
+      "match_about_blank": true,
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "*://*.tiktok.com/*"
+      ],
+      "js": [
+        "ttpage.js"
+      ],
+      "run_at": "document_start",
+      "world": "MAIN",
+      "all_frames": false
+    }
+  ],
+  "action": {
+    "default_title": "DDM — click to turn it off on this tab",
+    "default_icon": {
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "homepage_url": "https://dedseec.com"
+}

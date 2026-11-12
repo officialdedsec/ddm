@@ -1,0 +1,17 @@
+ffmpeg.exe installed next to DDM.exe: FFmpeg 7.1.5 (release/7.1, https://github.com/FFmpeg/FFmpeg) with LAME 3.100
+(https://github.com/rbrito/lame), both LGPL 2.1 or later, built with MinGW-w64 (i686) as follows. LAME is unchanged;
+FFmpeg has one line changed so it builds against Windows 7's headers: in libavcodec/mf_utils.c the debug-name entry
+GUID_ENTRY(MF_MT_VIDEO_ROTATION) (a Windows 8 constant) is left out. H.264 is encoded by Windows' own encoder
+(Media Foundation, loaded at run time); no GPL parts are included.
+
+LAME:   ./configure --host=i686-w64-mingw32 --enable-static --disable-shared --disable-frontend --disable-decoder
+FFmpeg: ./configure --arch=x86 --target-os=mingw32 --cross-prefix=i686-w64-mingw32- --prefix=<prefix> --pkg-config=false --enable-static --disable-shared --disable-debug --disable-doc --disable-autodetect --disable-everything --disable-ffplay --disable-ffprobe --enable-ffmpeg --disable-avdevice --disable-postproc --enable-swscale --enable-libmp3lame --enable-mediafoundation --enable-schannel --enable-network --extra-cflags='-I<prefix>/include -D_WIN32_WINNT=0x0601 -DWINVER=0x0601' --extra-ldflags='-L<prefix>/lib -static'
+   --enable-protocol='file,pipe,http,https,tcp,tls,crypto,hls'
+   --enable-demuxer='mov,matroska,mp3,aac,ogg,wav,flac,mpegts,hls,flv,webvtt,srt,ass,m4v,h264,hevc,avi,asf,mpegps,ac3,eac3'
+   --enable-muxer='mp4,mov,ipod,matroska,webm,mp3,ogg,opus,adts,wav,flac,srt,webvtt,ass,mpegts,gif'
+   --enable-parser='h264,hevc,vp8,vp9,av1,aac,aac_latm,opus,vorbis,mpegaudio,flac,mpeg4video,mpegvideo,ac3,vc1,mjpeg,h263'
+   --enable-bsf='aac_adtstoasc,vp9_superframe,vp9_superframe_split,h264_mp4toannexb,hevc_mp4toannexb,extract_extradata,av1_frame_split,null'
+   --enable-decoder='aac,aac_latm,opus,vorbis,mp3,mp3float,mp2,mp2float,flac,alac,ac3,eac3,wmav1,wmav2,pcm_s16le,pcm_s16be,pcm_s24le,pcm_f32le,pcm_u8,webvtt,subrip,ass,ssa,mov_text,h264,hevc,mpeg4,msmpeg4v1,msmpeg4v2,msmpeg4v3,h263,vp8,vp9,mjpeg,mpeg1video,mpeg2video,wmv1,wmv2,wmv3,vc1,flv,theora,png'
+   --enable-encoder='libmp3lame,pcm_s16le,subrip,srt,webvtt,ass,ssa,mov_text,h264_mf,aac,gif'
+   --enable-filter='aresample,aformat,anull,null,format,copy,scale,fps,split,palettegen,paletteuse,trim,atrim,setpts,asetpts,crop,pad'
+   --enable-swresample --enable-w32threads

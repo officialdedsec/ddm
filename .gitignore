@@ -1,8 +1,26 @@
+# what a build makes
+/out/
+/obj/
+/res/helpres.rc
+/src/common/addon_files.hpp
+
 # releases live under Releases, never in the repository itself
 *.exe
 *.zip
+
+# libraries are fetched and built, not stored here (see BUILDING.md)
+/third_party/boost/
+/third_party/curl/
+/third_party/mbedtls/
+/third_party/prefix/
+/third_party/build-*/
+
+# signing keys and certificates never belong in a repository
 *.pem
 *.pfx
 *.p12
 *.key
 pass.txt
+
+# (a test file the tests need)
+!/tests/site/sample.zip

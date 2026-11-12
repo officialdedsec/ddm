@@ -1,0 +1,1672 @@
+@code fr
+@name Français
+@english French
+@rtl 0
+1|!Impossible de déplacer le fichier (est-il ouvert dans un autre programme ?).
+5|1 jour
+6|1 téléchargement
+8|128 kbps (musique)
+15|3 heures
+19|6 heures
+21|64 kbps (voix)
+22|Archive 7z
+24|Un Chrome récent sous Windows (recommandé)
+25|Un mot de passe leurre ouvre un second coffre, distinct, identique à celui-ci. Si quelqu'un vous force à ouvrir le coffre, donnez-lui le mot de passe leurre : il ne verra que ce que vous avez mis dans le coffre leurre, et rien ne montre que ce coffre existe.
+26|Un téléchargement échoue
+27|Un téléchargement se termine
+28|Le bouton – d'une fenêtre de téléchargement
+29|Un raccourcisseur de liens cache d'où vient vraiment le fichier.
+30|Un nouveau DDM
+31|Un nouveau DDM est disponible
+32|Une partie de DDM manque (ffmpeg.exe). Réinstallez DDM.
+33|Impossible de déchiffrer une partie de la vidéo.
+34|Une partie de la vidéo manque.
+35|Un programme via un lien non chiffré (http) : il peut être modifié en chemin.
+36|Une archive auto-extractible (un programme contenant un ZIP).
+37|Une petite fenêtre avec Ouvrir et Ouvrir le dossier.
+38|Une copie plus petite (plus grand côté 1920 px) d'un JPEG, PNG, BMP ou GIF
+39|À propos de DDM
+41|Accès refusé — le lien a peut-être expiré. Utilisez Actualiser le lien de téléchargement.
+42|Activer
+43|Ajouter les fichiers .torrent placés dans ce dossier
+44|Ajoutez DDM à votre navigateur
+45|Ajouter une URL
+46|Ajouter une URL…
+47|Ajouter une catégorie
+48|Ajouter une catégorie…
+49|Ajouter des fichiers…
+50|Ajouter depuis le presse-papiers
+51|Ajouter un téléchargement…
+52|Ajouter au coffre
+53|Ajouter des trackers
+54|Ajouté
+55|Ajouté / terminé
+56|Ajouté depuis votre téléphone
+57|Ajoutée à la fin : Windows SmartScreen et Office vérifient le fichier avant son ouverture
+58|Adresse
+59|Adresse du fichier à télécharger
+60|Adresse :
+62|Tous les téléchargements
+63|Tous les téléchargements sont faits
+64|Tous les téléchargements sont terminés
+65|Tous les outils de fichiers…
+66|Tous les fichiers
+68|Depuis toujours
+69|Autoriser (recommandé)
+70|Déjà téléchargé · Ouvrir
+71|Déjà dans la liste
+72|Télécharger aussi ses nouvelles vidéos automatiquement (s'abonner)
+73|Enregistrer aussi l'image de la vidéo à côté (.jpg)
+74|Enregistrer aussi les sous-titres de la vidéo à côté (.srt) — langues dans Options → Général
+77|Un GIF animé à partir de quelques secondes d'une vidéo
+78|Mode anonyme (ne pas dire aux pairs et trackers quel programme c'est)
+79|Un autre antivirus…
+80|Antivirus
+82|Programme antivirus (.exe)
+83|Tout type de fichier
+84|Apparence
+85|Appliquer
+86|Avril
+87|Archive
+88|Archives
+89|Archives, images disque, torrents et programmes : voyez ce qu'il y a dedans avant de télécharger
+91|Comme dans les Options
+92|Toujours demander
+93|Audio
+94|Août
+95|Automatique
+96|Disponibilité
+97|Vitesse moyenne
+98|Compression BZip2
+99|Retour
+100|Sauvegarder tous les
+101|Sauvegarder maintenant et ouvrir le dossier
+102|Sauvegarder automatiquement la liste des téléchargements (.ddm chiffré — seul DDM peut l'ouvrir)
+103|Sauvegardes
+105|Équilibré
+106|Attention
+107|Attention à ce téléchargement
+108|Comportement
+109|Meilleure
+110|Meilleure disponible
+111|Meilleure qualité
+112|BitTorrent v1 (fonctionne partout)
+113|BitTorrent v2 seulement
+115|Sites tout neufs, noms trompeurs (micros0ft…), sites qui propagent des logiciels malveillants, programmes déguisés en images ou documents. Le résultat s'affiche sous forme de bouton coloré dans Infos du fichier et dans l'onglet Sécurité de la fenêtre de téléchargement. Rien sur vos téléchargements n'est envoyé : DDM demande seulement à un registre public quand un site a été enregistré.
+117|Récupéré
+118|Navigateur
+119|Le navigateur n'atteint pas DDM ?
+120|Intégration au navigateur…
+121|Navigateurs de ce PC
+122|Parcourir…
+123|Acheter une licence
+124|Par catégorie
+126|Archive Cabinet (CAB)
+127|Calculer le SHA-256 du fichier (pour le comparer à celui affiché par le site)
+128|Calcul…
+129|Reprise possible
+130|Annuler
+131|Catégories
+132|Catégorie
+133|Changer de dossier…
+134|Changer le mot de passe
+135|Changer le mot de passe…
+136|Changer le mot de passe leurre…
+137|Vérifier la somme de contrôle de chaque fichier (SHA-256, MD5…) quand le serveur la publie
+138|Vérifier chaque lien et fichier avant et pendant le téléchargement
+139|Revérifier les fichiers
+140|Rechercher des mises à jour
+141|Vérifier maintenant
+142|Rechercher des changements dans les fichiers tous les
+143|Revérifier la limite au démarrage de DDM
+144|Vérifiez la date de votre PC
+145|Vérification
+146|Vérification des fichiers…
+147|Vérification du fichier…
+148|Vérification de la provenance…
+149|Vérification…
+150|Somme de contrôle
+151|La somme de contrôle ne correspond pas
+152|La somme de contrôle correspond
+153|Sommes de contrôle
+154|Choisir un fichier .wav…
+155|Choisissez un fichier son .wav.
+156|Choisissez un autre mot de passe.
+157|Choisir un dossier
+158|Choisissez un fichier son sur ce PC (pas sur un partage réseau).
+159|Choisir un fichier…
+160|Choisir un dossier…
+161|Choisir une image…
+162|Choisissez le fichier ou le dossier à partager.
+163|Choisir une vidéo…
+164|Choisissez le fichier .exe de votre antivirus, ou utilisez l'antivirus de Windows.
+165|Choisir…
+167|Modules Chrome
+168|Chrome sur Android
+170|Sain
+171|Effacer
+172|Effacer les statistiques
+173|Cliquez sur Ajouter une URL, collez un lien (Ctrl+V) ou téléchargez quelque chose dans votre navigateur.
+174|Fermer
+175|Options de ligne de commande (%1 = le fichier)
+176|Commentaire
+177|Comparer avec celle du site…
+178|Terminé
+179|Terminé · vérification de la somme…
+180|Terminé · endommagé (la somme ne correspond pas)
+181|Terminé · analyse…
+182|Terminé · le fichier a été déplacé ou supprimé
+183|Terminé · l'antivirus a trouvé une menace
+184|Terminé · vérifié
+185|Compresser une image
+186|Compresser une vidéo
+187|Compresser en ZIP
+188|Compresser l'image
+189|Compresser une vidéo…
+190|Compressés
+191|Compression…
+192|Connecté : 
+193|Connexion aux pairs…
+194|Connexion…
+195|Connexion
+196|Test de vitesse de connexion
+197|Connexions par téléchargement
+198|Connexions, tous les torrents ensemble
+199|Nous contacter
+200|Contenu
+201|Continuer l'essai
+202|Reprendre les téléchargements inachevés au démarrage de DDM
+203|Convertir en MP3
+204|Conversion en MP3
+205|Conversion en MP3…
+206|Copié
+207|Copier
+208|Copier l'ID d'installation
+209|Copier l'adresse
+210|Copier dans le coffre
+211|Copier le lien
+212|Copier le lien magnet
+213|Impossible de se connecter au serveur.
+214|Impossible de créer le ZIP.
+215|Impossible de créer le coffre.
+216|Impossible de déchiffrer le fichier.
+217|Serveur introuvable — vérifiez l'adresse ou votre connexion internet.
+218|Impossible d'obtenir le début de la vidéo.
+219|Importation impossible
+220|Impossible de regarder dedans
+221|Impossible d'établir une connexion sécurisée avec le serveur.
+222|Impossible de créer le coffre leurre.
+223|Impossible de créer l'image (pas assez de mémoire ?).
+224|Impossible de déplacer le fichier (est-il ouvert dans un autre programme ?).
+225|Impossible d'ouvrir ce dossier MEGA
+226|Impossible d'assembler la vidéo (le disque est-il plein ?).
+227|MEGA est injoignable. Vérifiez votre connexion internet.
+228|YouTube est injoignable. Vérifiez votre connexion internet.
+229|Le proxy est injoignable.
+230|Le serveur du fichier .torrent est injoignable.
+231|Le serveur est injoignable.
+232|Le site est injoignable.
+233|Le site est injoignable. Vérifiez votre connexion internet.
+234|Le serveur de mises à jour est injoignable. Vérifiez votre connexion internet.
+235|Le serveur de la vidéo est injoignable.
+236|Impossible de lire le fichier.
+237|Impossible d'actualiser le lien
+238|Impossible d'enregistrer le fichier.
+239|Impossible d'enregistrer la page en PDF
+240|Impossible d'enregistrer le coffre.
+241|Impossible d'écrire dans le coffre.
+242|Impossible d'écrire le fichier — le disque est-il plein ?
+243|Impossible d'écrire sur le disque (est-il plein ?).
+244|Impossible d'écrire sur le disque.
+245|Compté uniquement sur votre PC.
+246|Créer
+247|Créer un ZIP
+248|Créer un torrent
+249|Créer un torrent…
+250|Créer le coffre
+251|Créé
+257|Mot de passe actuel
+258|Couper une partie d'une vidéo ou d'une chanson (sans perte de qualité)
+259|Aide de DDM
+260|DDM peut supprimer les métadonnées des images (JPEG, PNG, WebP), vidéos, sons et documents Office (Word, Excel, PowerPoint, OpenDocument).
+261|DDM peut supprimer les métadonnées des images (JPEG, PNG, WebP), vidéos, sons et documents Office.
+262|DDM intercepte les téléchargements en premier
+263|DDM vérifie toutes les quelques heures et télécharge les nouvelles vidéos tout seul, dans la qualité choisie.
+264|DDM n'a pas pu lire ce fichier.
+265|DDM n'a pas pu lire le fichier.
+266|DDM n'a pas pu réécrire ce document.
+267|DDM n'a pas pu enregistrer le fichier nettoyé.
+268|DDM n'a pas pu enregistrer le son.
+269|DDM n'a pas pu lancer son lecteur sur ce PC.
+270|DDM est activé
+271|DDM a expiré
+272|DDM est verrouillé
+275|DDM doit être activé (ouvrez DDM).
+279|Dossier de données de DDM
+280|Les fichiers de DDM ont été modifiés. Réinstallez DDM pour corriger cela. DDM reste verrouillé d'ici là.
+281|Réseau DHT (trouver des pairs sans trackers ; nécessaire pour la plupart des liens magnet)
+282|NE correspond PAS
+283|Chaque jour
+284|Limite quotidienne de connexions supplémentaires (Mo)
+285|Endommagé (somme)
+286|Téléchargement endommagé
+287|Dangereux
+288|Téléchargement dangereux
+289|Sombre
+290|Mode sombre
+291|Données
+292|Données téléchargées par jour (30 derniers jours)
+293|Décembre
+294|Mot de passe leurre
+295|Mot de passe leurre (différent du vrai)
+296|Coffre leurre
+297|Déchiffrement
+299|Compression Deflate64
+301|Supprimer
+302|Supprimer tous les terminés
+303|Supprimer la catégorie
+304|Supprimer les données
+305|Supprimer les terminés
+306|Retirer de la file
+307|Supprimer seulement les données
+308|Supprimer seulement les données téléchargées
+309|Supprimer la file
+310|Supprimer le fichier .torrent
+311|Supprimer le torrent
+312|Supprimer le torrent + les données
+313|Description
+314|Description ou partie de la description
+315|Description :
+316|Disque et réseau
+317|Affichage
+318|Document
+319|Documents
+320|Ne correspond pas au SHA-256 du serveur : le fichier est endommagé ou a été modifié
+321|Ne pas intercepter les fichiers de moins de (Ko)
+322|Ne pas télécharger
+323|Ne pas ouvrir
+324|Ne plus me le rappeler
+325|Terminé
+326|Terminé. Redémarrez votre navigateur.
+327|Desc.
+328|Télécharger
+329|Télécharger 
+330|Télécharger 1 vidéo
+331|Infos du fichier
+332|Télécharger plus tard
+333|Télécharger le dossier MEGA
+334|Télécharger le torrent
+335|Télécharger la vidéo
+336|Télécharger à nouveau
+337|Tout télécharger
+338|Télécharger et installer
+339|Télécharger quand même
+340|Téléchargement terminé
+341|Téléchargement endommagé
+342|Dossier de téléchargement
+343|Télécharger les images
+344|Télécharger dans l'ordre (commencer à regarder une vidéo avant la fin)
+345|Télécharger dans l'ordre (regarder une vidéo pendant son téléchargement)
+346|Limite de téléchargement atteinte
+347|Limite de téléchargement atteinte — en attente
+348|Limites de téléchargement
+349|Lien de téléchargement actualisé
+350|Liens de téléchargement
+351|Ne pas télécharger plus de
+352|N'en télécharger aucun
+353|Télécharger la playlist
+354|Télécharger une playlist ou une chaîne
+355|Télécharger une playlist ou une chaîne…
+356|Télécharger la sélection
+357|État du téléchargement
+358|Les télécharger
+359|Télécharger le fichier entier
+360|Fenêtres de téléchargement
+361|Téléchargé
+362|Fichiers téléchargés
+363|Téléchargé, mais impossible de renommer le fichier (est-il ouvert dans un autre programme ?).
+364|Téléchargement
+365|Téléchargements
+366|Téléchargements simultanés
+367|Télécharge fichiers, vidéos et torrents
+368|Fichiers en double
+369|Effet de poussière en retirant des téléchargements et en fermant ou réduisant les fenêtres de téléchargement
+371|Modules Edge
+372|Impossible de lancer Edge ou Chrome sur ce PC.
+373|Chiffrement
+374|Chiffrement
+375|Le chiffrement a échoué.
+377|Saisir
+378|Saisir une autre clé
+379|Saisir la clé de licence
+380|Saisir la clé de licence…
+381|Saisissez la clé de licence reçue après l'achat de DDM.
+382|Saisissez l'adresse du proxy, ou choisissez un autre réglage de proxy.
+383|Saisissez votre mot de passe.
+385|Erreur
+386|Erreur — échec
+388|Chaque fichier téléchargé
+389|Chaque lien
+390|Tout se passe sur votre PC : les fichiers ne sont jamais envoyés.
+391|Quitter
+392|Quitter DDM
+393|Quitter DDM à la fin
+394|Exporter
+395|Exporter les réglages
+396|Exporter la liste
+397|Exporter…
+398|Extensions séparées par des espaces. Le dossier de chaque catégorie est créé dans Téléchargements la première fois qu'il sert.
+399|Extraire
+400|Extraire les archives après téléchargement (ZIP, 7z, RAR — dans un dossier à côté de l'archive)
+401|Extraire ici
+402|Téléchargement le plus rapide
+403|Février
+404|Fichier
+405|Propriétés du fichier
+406|Fichier déjà téléchargé
+407|Liste des fichiers prête
+408|Nom du fichier
+409|Nom du fichier ou partie du nom
+410|Fichier ou dossier à partager
+411|Outils de fichiers
+412|Outils de fichiers…
+413|Types de fichiers
+414|Types de fichiers (par exemple : psd ai svg)
+415|Types de fichiers à intercepter
+416|Types de fichiers…
+417|Fichiers
+418|Les fichiers y sont classés dans des dossiers par catégorie (Compressed, Documents, Music, Programs, Video, Torrents).
+419|Fichiers dans la file
+420|Les fichiers du coffre sont chiffrés (AES-256) et cachés. Seul DDM peut les ouvrir, et seulement avec votre mot de passe — aucun autre programme ni utilisateur Windows ne peut les voir. Impossible de récupérer les fichiers si vous oubliez le mot de passe.
+421|Les fichiers nommés comme des cracks, générateurs de clés et activateurs sont une cachette favorite des logiciels malveillants.
+422|Fichier…
+423|Rechercher
+424|Rechercher les fichiers en double
+425|Rechercher un fichier
+426|Suivant
+427|Trouver des pairs sur mon réseau local
+428|Rechercher :
+429|Recherche de pairs
+430|Recherche du sujet…
+431|Trouve combien de connexions donnent la meilleure vitesse sur votre réseau, et l'utilise
+432|Rechercher…
+433|Terminé
+434|Téléchargements terminés
+435|Finalisation
+437|Modules Firefox
+438|Firefox sous Windows
+439|Premier et dernier morceaux de chaque fichier d'abord
+440|Premier et dernier morceaux de chaque fichier d'abord (aperçus)
+441|Dossier où le fichier est enregistré
+442|Dossiers par site
+443|Dossier…
+444|Forcer l'arrêt des processus
+445|Forcer le démarrage (ignorer les limites)
+446|Suivant
+448|Vendredi
+449|D'internet
+450|Position GPS, appareil photo, auteur, dates et tags des images, vidéos, sons et fichiers Office
+451|Fichier compressé GZ
+452|Général
+453|Obtenir l'extension
+454|Récupération
+455|Récupération des qualités…
+456|Récupération des qualités de la vidéo…
+457|Récupération des infos du torrent…
+460|Capteur
+461|Capteur…
+462|Proxy HTTP
+463|Raccrocher le modem à la fin
+464|A
+465|Aide
+466|Mettre en veille prolongée
+467|Mettre en veille prolongée maintenant
+468|Masquer
+469|Masquer les catégories
+470|Masquer les détails
+471|Masquer les onglets
+472|Masquer l'onglet "
+473|Le cache dans la zone de notification
+474|Haute
+475|Maintenez Alt en cliquant sur un lien pour laisser le navigateur le télécharger.
+476|Accueil
+477|Comment
+478|Plus petit de combien ?
+479|Hybride v1 + v2
+480|MARQUE INTERNET
+481|Fichier de liste de blocage IP (.dat / .p2p)
+482|Image disque ISO
+483|Image disque ISO (Joliet)
+484|Image disque ISO (UDF)
+485|Identifier DDM comme
+486|Importer
+487|Importer une liste
+488|Importer les réglages
+489|Importé
+490|Importer…
+491|Index
+492|Hash d'info
+493|Installer maintenant
+494|ID d'installation
+495|ID d'installation copié. Envoyez-le avec votre achat à admin@dedseec.com pour recevoir votre clé.
+497|Ses types de fichiers, par exemple : psd ai svg
+498|Son nom cache sa vraie extension avec des caractères invisibles.
+499|Son nom cache la vraie extension derrière des espaces.
+500|Son nom est inversé pour cacher ce qu'il est
+501|Sa signature est endommagée.
+502|Sa fenêtre est dans la zone de notification avec sa propre icône : double-cliquez pour la rouvrir, clic droit pour suspendre, arrêter ou annuler.
+503|Janvier
+504|Assemblage
+505|Assemblage de la vidéo et du son…
+506|Juillet
+507|Juin
+509|Tout garder
+510|Garder les dossiers
+511|Le laisser tel quel
+512|Continuer à partager (seeder) après la fin
+513|Continuer à partager après la fin
+514|Garder le dernier choix
+515|Type
+516|Type de fichier
+517|VÉRIFICATION DU LIEN
+518|Compression LZMA
+519|Langue
+520|30 derniers jours
+521|7 derniers jours
+522|Dernière nouvelle vidéo
+523|Dernier essai
+524|Plus tard
+525|Laissez vide pour les garder là où ils ont été téléchargés.
+526|Durée
+527|Clé de licence
+528|Licence…
+529|Utilisateur sous licence
+530|Licence à vie.
+531|Lever la limite de vitesse quand rien d'autre n'utilise internet
+532|Clair
+533|Mode clair
+534|Limiter la vitesse de ce téléchargement
+535|Limitée
+536|Vérification du lien et du site
+537|Vérification du lien
+538|Lien d'une playlist ou chaîne YouTube, ou d'une page avec beaucoup de vidéos
+539|Lien à inspecter (archive, image disque, torrent ou programme), ou un fichier de ce PC
+540|Liens
+541|Liste des rubriques
+542|Liste des fichiers…
+543|Les directs DASH ne peuvent pas être enregistrés.
+544|Verrouiller
+545|Identifiant :
+546|Journaux
+547|Chercher dans
+548|Regarder dedans
+549|Recherche des doublons
+550|Recherche de pairs
+551|Semble faux
+552|Semble faux : il porte le nom d'un film ou d'une musique, mais son plus gros fichier est un programme.
+553|Basse
+554|Réduire le débit d'une chanson ou d'un podcast
+557|MEGA n'a pas donné d'adresse de téléchargement. Réessayez plus tard.
+558|MEGA n'a pas donné la taille du fichier. Réessayez plus tard.
+559|Fichier MEGA
+560|MEGA a retiré ce fichier.
+561|MEGA est temporairement indisponible. DDM réessaiera.
+562|MEGA continue de refuser le téléchargement. Appuyez sur Reprendre pour réessayer plus tard.
+563|MEGA a refusé l'accès à ce lien.
+564|MEGA indique que ce lien est invalide. Recopiez le lien en entier.
+565|La limite de transfert gratuite de MEGA pour votre connexion est épuisée. Votre progression est enregistrée : appuyez sur Reprendre plus tard (MEGA la libère en quelques heures) ou changez de réseau.
+566|Son MP3
+567|Lien magnet
+568|Lien magnet copié
+569|File de téléchargement principale
+570|Créer un nouveau lien secret ? Les téléphones qui utilisent l'ancien ne pourront plus se connecter avant d'avoir scanné le nouveau code QR.
+571|Rendre une vidéo beaucoup plus petite (H.264), avec le son
+572|Création d'un GIF
+573|Réduction
+574|Création du GIF
+575|Création du fichier vidéo…
+576|Mars
+577|Marquer les fichiers téléchargés comme venant d'internet, comme le fait votre navigateur (SmartScreen, Mode protégé)
+578|Respecter la casse
+579|Mot entier uniquement
+580|Correspond au SHA-256 du serveur : le fichier est exactement celui publié
+581|Pairs maximum (0 = comme dans les Options)
+582|Pairs maximum par torrent
+583|Mai
+587|Microsoft Edge sous Windows
+591|Réduire dans la zone de notification
+592|Le réduit dans la barre des tâches
+593|Mobile
+594|Modifié
+595|Lundi
+596|Déplacer
+597|Déplacer / renommer
+598|Déplacer / renommer…
+599|Descendre
+600|Mettre les copies en trop dans la Corbeille
+601|Déplacer les torrents terminés vers
+602|Mettre dans le coffre
+603|Sortir du coffre…
+604|Sortir…
+605|Mettre dans le coffre privé
+606|Mettre en file
+607|Mettre dans le coffre
+608|Déplacer vers…
+609|Monter
+610|Déplacer…
+611|Sortie
+612|Déplacement…
+622|Musique
+623|Mon son
+624|Nom
+625|Nom (un dossier de ce nom est créé dans Téléchargements)
+626|Nom de la nouvelle catégorie
+627|Nom de la nouvelle file
+629|Connexions réseau
+630|Erreur réseau : 
+631|Ne jamais intercepter sur ces sites
+632|Nouvelle catégorie
+633|Nouveau lien
+634|Nouveau nom
+635|Nouveau mot de passe (au moins 4 caractères)
+636|Nouvelle file
+637|Non
+639|Aucune vidéo téléchargeable sur cette page.
+640|Aucun téléchargement ici pour l'instant
+641|Sans limite
+642|Aucun lien vers des vidéos sur cette page.
+643|Pas encore de lien magnet pour ce torrent
+644|Pas de marque
+645|Pas de réseau
+646|Aucune connexion réseau trouvée
+647|Pas de nouvelles vidéos.
+648|Aucun pair connecté pour l'instant.
+649|Pas de proxy
+650|Pas de son
+651|Aucun sujet trouvé dans cette image.
+652|Aucune rubrique trouvée.
+653|Pas de trackers : les pairs viennent du DHT et de l'échange de pairs.
+654|Aucune adresse vidéo connue pour ce téléchargement. Utilisez Actualiser le lien de téléchargement.
+655|Aucune vidéo trouvée sur cette page.
+656|Aucune vidéo trouvée sur cette page. Lancez-la dans votre navigateur et utilisez le bouton Télécharger cette vidéo.
+657|Aucun signe inquiétant
+658|Aucun signe inquiétant pour l'instant (analyse du fichier en cours)
+659|Aucun signe inquiétant : le site n'est pas récent, n'est pas répertorié pour propager des logiciels malveillants et n'imite pas un nom connu.\n
+660|Aucun pour l'instant. Collez le lien d'une playlist ou chaîne YouTube (ou Tâches → Télécharger une playlist ou une chaîne…) et cochez S'abonner.
+661|Normale
+663|Ce n'est pas un lien de dossier.
+664|Non activé
+665|Non disponible
+666|Pas encore contacté
+667|Pas dans le coffre.
+668|Pas maintenant
+669|Arrêté (démarre avec le premier torrent).
+670|Non signé : personne ne garantit qui a fait ce programme.
+671|Non pris en charge
+672|Remarque
+673|Rien ici pour l'instant.
+674|Rien à l'intérieur ne correspond.
+675|Rien de ce type sur la page.
+676|Rien de suspect dans la liste des fichiers. Cochez seulement les fichiers voulus.
+677|Rien à compresser.
+678|Rien ne serait téléchargé. Garder au moins un fichier ?
+679|Rien pour l'instant.
+680|Novembre
+681|Nombre de nouvelles tentatives par fichier en cas d'échec :
+683|Octobre
+684|Désactivé
+685|Désactivé (Options → Sécurité)
+686|Sur ce PC
+687|Une fois à
+689|Téléchargement ponctuel
+690|Télécharger seulement quand le portable est branché
+691|Seul ce téléchargement ralentit ; les autres gardent leur vitesse.
+692|Seules les pages web (http / https) peuvent être enregistrées en PDF.
+693|Seules les pages web peuvent être enregistrées en PDF.
+694|Ouvrir
+695|Ouvrir DDM
+696|Ouvrir quand même
+697|Ouvrir le dossier
+698|L'ouvrir
+699|Ouvrir la page de téléchargement
+700|Ouvrir le fichier à la fin
+701|Ouvrir le dossier
+702|Ouvrir le fichier suivant à la fin :
+703|Rouvrir la page
+704|Ouvrir le port sur mon routeur automatiquement (UPnP / NAT-PMP)
+705|Ouvrez d'abord le vrai coffre.
+706|Ouvrez d'abord le coffre.
+707|Ouvrir le coffre…
+708|Ouvert à distance
+709|Ouvert — cliquez sur "Add" là-bas
+710|Ouverture
+711|Ouverture du lien MEGA…
+712|Ouverture…
+713|L'ouvre avec son programme habituel.
+714|Ouvrir…
+720|Options
+721|Options…
+722|Original
+723|Autre
+724|Autre processeur
+725|Mémoire insuffisante.
+726|Les fichiers PDF ne sont pas pris en charge : leurs propriétés ne peuvent pas être supprimées sans laisser une copie dans le fichier.
+727|SOMME PUBLIÉE
+728|Compresser un dossier en un fichier ZIP à côté
+729|Page enregistrée en PDF
+731|Parties du fichier — remplies à mesure qu'elles arrivent
+732|Mot de passe
+733|Mot de passe (facultatif)
+734|Les liens MEGA protégés par mot de passe ne sont pas pris en charge. Demandez le lien normal (avec sa clé).
+735|Les archives protégées par mot de passe dans un torrent sont une astuce courante pour vous faire visiter un site.
+736|Mot de passe :
+737|Collez une adresse…
+738|Suspendre
+739|Tout suspendre
+740|Suspendre les téléchargements quand la batterie est sous
+741|Suspendez d'abord le téléchargement, puis déplacez-le.
+742|Suspendu
+743|Suspension
+744|Pic
+745|Échange de pairs (les pairs se signalent d'autres pairs)
+746|Pairs
+747|Synchronisation périodique
+748|Télécommande téléphone
+749|La télécommande téléphone est active
+750|Télécommande téléphone…
+751|Image
+752|Images
+753|Images et vie privée
+756|Taille des morceaux
+757|Morceaux
+758|Lire
+759|Lire dans DDM
+760|Lire dans votre navigateur
+761|Le lire
+762|Jouer des sons
+763|Lire pendant le téléchargement
+764|Port
+765|Port des connexions entrantes
+766|Préparation
+767|Précédent
+768|Imprimer
+769|Imprimer…
+770|Priorité
+771|Confidentialité
+772|Politique de confidentialité
+773|Torrent privé (seulement ses trackers : pas de DHT, pas d'échange de pairs)
+774|Coffre privé
+775|Coffre privé…
+776|Programme
+777|Programmes
+778|Seulement programmes, archives et documents
+779|Progression
+780|Propriétés
+781|Proxy
+782|Mettre les téléchargements terminés directement dans le coffre privé (chiffrés, retirés du dossier)
+783|Qualité
+784|Qualité du nouveau fichier
+785|File
+786|En file
+787|Files
+788|Archive RAR 5
+789|Archive RAR
+790|Aléatoire
+792|Lecture du dossier MEGA…
+793|Lecture de l'archive…
+794|Lecture des fichiers…
+795|Lecture de la liste…
+796|Lecture de la page…
+797|Lecture de l'image…
+798|Lecture du flux…
+799|Lecture de la table des matières…
+800|Relecture de la page de la vidéo…
+801|Lecture…
+802|Réception des données…
+803|Réception du son…
+804|Enregistrement du direct…
+805|Retélécharger
+806|Référent :
+807|Affinage des contours…
+808|Actualiser le lien de téléchargement
+809|Actualiser le lien de téléchargement…
+810|Enregistrer DDM
+811|Enregistrer DDM…
+812|Retenir ce chemin
+813|Retirer
+814|Retirer tous les téléchargements terminés de la liste ? Les fichiers restent sur votre PC.
+815|Retirer et supprimer
+816|Retirer et supprimer le fichier
+817|Retirer et supprimer le fichier .torrent
+818|Retirer et supprimer le torrent + les données
+819|Retirer et supprimer ce qui est arrivé
+820|Supprimer l'arrière-plan
+821|Retirer de la liste des téléchargements
+822|Retirer de la file
+823|Supprimer l'arrière-plan d'une image
+824|Supprimer les métadonnées
+825|Supprimer les métadonnées…
+826|Retirer la sélection
+827|Supprimer le coffre leurre
+828|Supprimer le coffre leurre et tout son contenu ?
+829|Retirer le torrent (garder ses fichiers)
+830|Retirer avec le fichier (vers la Corbeille)
+831|Supprimé par l'antivirus
+832|Supprimé par l'antivirus
+833|Suppression des métadonnées
+834|Suppression des métadonnées…
+835|Renommer
+836|Renommer la catégorie
+837|Renommer…
+838|Renommage
+839|Renouveler la licence
+840|Réparer
+841|Le remplacer
+842|Exiger (seulement des pairs chiffrés)
+843|Réserver toute la taille sur le disque quand un torrent démarre
+844|Redémarrer
+845|Recommencer depuis le début
+846|Redémarrer maintenant
+847|Reprendre
+848|Tout reprendre
+849|Reprise : non
+850|Reprise : oui
+851|Réessayer automatiquement quand la connexion coupe
+852|Faites un clic droit sur n'importe quelle page de votre navigateur et choisissez "Download all links with DDM" pour y choisir des fichiers.
+853|Lancer le test
+854|Proxy SOCKS5
+855|Safari sur Mac
+856|Safari sur iPhone
+857|Lien sûr
+858|Comme Windows
+859|Samedi
+860|Enregistrer
+861|Enregistrer sous
+862|Enregistrer dans :
+863|Enregistrer une copie…
+864|Tout enregistrer dans
+865|Enregistrer sous… (n'importe quel dossier, n'importe quel nom)
+866|Enregistrer les fichiers dans
+867|Enregistrer les sous-titres
+868|Enregistrer la miniature
+869|Enregistrer les sous-titres de la vidéo à côté (.srt)
+870|Enregistrer la miniature de la vidéo à côté (.jpg)
+871|Enregistrer dans
+872|Enregistrer sous un nouveau nom
+873|Enregistré
+874|Enregistré en PDF
+875|Enregistré dans
+876|Pour enregistrer une page en PDF, il faut Microsoft Edge ou Google Chrome sur ce PC.
+877|Analyser les fichiers téléchargés avec l'antivirus à la fin
+878|Rechercher des virus
+879|Analysé par votre antivirus dès la fin
+880|Analysé à la fin s'il peut contenir du code nuisible
+881|Planifier
+882|Planifié
+883|Planificateur
+884|Planificateur…
+885|Rechercher
+886|Surlignage de recherche activé
+887|Rechercher dedans…
+888|Sécurité
+889|Sécurité…
+890|Voyez et contrôlez vos téléchargements depuis votre téléphone, sur le même Wi-Fi que ce PC.
+891|Partage (seed)
+892|Sources
+893|Sources / pairs
+894|Tout sélectionner
+895|Ne rien sélectionner
+896|Septembre
+898|Définir un mot de passe leurre…
+899|Configurez d'abord le coffre privé (Outils → Coffre privé).
+900|Configurez d'abord le coffre privé : choisissez-lui un mot de passe.
+901|Configurer le coffre
+902|Configurez votre coffre privé
+903|Réglages
+904|Réglages importés.
+905|Réglages enregistrés.
+906|Partager (seed)
+907|Partagé
+908|Partage (seed)
+910|Afficher
+911|Afficher "Infos du fichier" pour les nouveaux téléchargements
+912|Afficher "Téléchargement terminé" quand un téléchargement se termine
+913|Afficher "Téléchargement terminé" à la fin
+914|Afficher les catégories
+915|Afficher les détails
+916|Afficher dans le dossier
+917|L'afficher
+918|Réaffichez-le dans Options → Général
+919|Afficher la progression
+920|Afficher la fenêtre de progression
+921|Afficher les onglets
+922|Afficher le bouton "Télécharger cette vidéo" sur les vidéos du navigateur
+923|Afficher l'onglet "Sécurité" (vérification du lien, SHA-256 en direct, antivirus)
+924|Afficher l'onglet "Limiteur de vitesse"
+925|Afficher l'onglet "À la fin"
+926|Afficher la fenêtre de progression au début d'un téléchargement
+927|Avertir quand la limite est atteinte
+928|Arrêter
+929|Arrêter maintenant
+930|Arrêter l'ordinateur à la fin
+931|Nom du site / Lien de téléchargement / Page d'origine / Référent
+932|Taille
+933|Taille :
+934|Veille
+935|Mettre en veille maintenant
+936|Son plus léger
+937|Son plus léger…
+938|La plus petite
+939|Certains fournisseurs internet n'autorisent qu'une certaine quantité de données par période. DDM suspend les téléchargements quand la limite est atteinte et les reprend quand c'est permis.
+940|Classer dans des dossiers par catégorie (Vidéo, Musique, Documents…)
+941|Son
+942|Son seulement
+943|Son seulement (MP3)
+944|Sons
+945|Les sons peuvent faire au plus 10 Mo (quelques secondes suffisent).
+946|Source
+947|Vitesse
+948|Limite de vitesse (tous les téléchargements)
+949|Limite de vitesse de téléchargement : le Limiteur de vitesse de la fenêtre de téléchargement.
+950|Limite de vitesse : désactivée
+951|Limiteur de vitesse
+952|Vitesse actuelle
+953|Test de vitesse
+954|Démarrer
+955|Lancer DDM avec Windows (dans la zone de notification)
+956|Démarrer le téléchargement
+957|Début et durée en secondes (par exemple 0:12 4)
+958|Repartir de zéro ?
+959|Démarrer le téléchargement à
+960|Démarrer le téléchargement au lancement de DDM
+961|Démarrer maintenant
+962|Démarrer la file
+963|Commencer à le partager dans DDM une fois créé
+964|Démarrez (ou partagez) d'abord le torrent ; DDM vérifie ensuite chaque morceau sur le disque.
+965|Démarrez le torrent pour voir ses trackers fonctionner.
+966|Démarrez le torrent pour voir à qui il est connecté.
+967|Démarrage…
+968|Démarre à l'arrivée des données
+969|État
+970|Statistiques
+971|Statistiques…
+972|État
+973|État :
+974|Arrêter
+975|Arrêter le téléchargement à
+976|Arrêter la file
+977|Arrêter le partage
+978|Arrêter le partage (seed)
+979|Arrêter le partage après (minutes, 0 = jamais)
+980|Arrêter le partage après minutes (vide = comme dans les Options)
+981|Arrêter le partage au ratio (0 = jamais)
+982|Arrêter le partage au ratio (vide = comme dans les Options)
+983|Arrêté
+984|Arrêt…
+985|Abonné
+986|Abonnement
+987|Abonnements
+988|Abonnements…
+989|Langues des sous-titres (en, es, … ou all)
+990|Dimanche
+991|Super-seeding (seulement si vous êtes le premier à le partager)
+992|Pris en charge
+993|File de synchronisation
+994|Archive TAR
+995|Les tags (titre, artiste, album, commentaires, pochette), les chapitres et le nom de l'encodeur ont été supprimés.
+996|Les tags (titre, commentaires, date de création, lieu, appareil), les chapitres et le nom de l'encodeur ont été supprimés.
+997|Prendre en charge les téléchargements de mes navigateurs
+998|Tâches
+999|Tester la connexion
+1000|Test…
+1001|Cela ne ressemble pas à une somme de contrôle. Elle doit compter 8, 32, 40, 64, 96 ou 128 lettres et chiffres (0-9, a-f).
+1002|Ce fichier ne peut pas être utilisé.
+1003|Ce fichier n'est plus dans le coffre.
+1004|Ce n'est pas un lien ni un fichier que DDM peut ouvrir.
+1005|Cette liste est ancienne : recliquez sur le bouton.
+1006|Impossible de télécharger le fichier .torrent.
+1007|Impossible d'enregistrer le fichier .torrent.
+1008|Impossible de lire le manifeste DASH.
+1009|Le manifeste DASH est vide.
+1010|Le manifeste DASH ne contient rien que DDM puisse enregistrer (il est peut-être protégé).
+1011|L'archive RAR est endommagée.
+1012|La table des matières du ZIP est endommagée.
+1013|La table des matières ZIP64 est endommagée.
+1014|L'antivirus utilisé par Windows
+1015|L'antivirus trouve une menace
+1016|Le détoureur n'a pas pu terminer.
+1017|Le détoureur manque dans cette copie de DDM. Réinstallez DDM.
+1018|Le fichier du détoureur est endommagé.
+1019|Le navigateur n'a pas pu imprimer cette page.
+1020|Le bouton fermer (X) laisse DDM tourner dans la zone de notification
+1021|La connexion s'est fermée trop tôt.
+1022|La connexion au serveur de la vidéo a été perdue.
+1023|La connexion a été perdue.
+1024|Le mot de passe actuel est faux.
+1025|Répétez le mot de passe leurre
+1026|Le mot de passe leurre est défini. Verrouillez le coffre et ouvrez-le avec le mot de passe leurre pour y mettre des fichiers anodins.
+1027|Le mot de passe leurre doit être différent du vrai.
+1028|Le coffre leurre est supprimé.
+1029|Le disque est plein.
+1030|Les propriétés du document (auteur, société, dernier enregistrement par, dates, titre, tags, champs personnalisés) ont été supprimées.
+1031|Le téléchargement continue
+1032|La liste des téléchargements a été enregistrée.
+1033|Le téléchargement a été interrompu.
+1034|Les données téléchargées vont à la Corbeille et le téléchargement recommence à 0 %.
+1035|Les fichiers téléchargés vont à la Corbeille. Le torrent reste dans la liste, suspendu à 0 % : démarrez-le pour retélécharger.
+1036|Le programme d'installation téléchargé ne correspond pas aux infos de mise à jour. Il n'a pas été lancé.
+1037|Le programme d'installation téléchargé n'est pas signé par DedSec. Il n'a pas été lancé : téléchargez DDM depuis sa page officielle.
+1038|La fin doit venir après le début.
+1039|Le fichier est arrivé endommagé (la vérification d'intégrité de MEGA a échoué). Supprimez-le et retéléchargez-le.
+1040|Le fichier a changé sur le serveur — recommencez-le.
+1041|Le fichier se termine trop tôt.
+1042|Le fichier est endommagé.
+1043|Le fichier est trop gros pour cet outil (512 Mo maximum).
+1044|Le fichier est trop gros pour être affiché ici.
+1045|Le fichier n'est plus sur le disque.
+1046|Le fichier n'est plus là.
+1047|La liste des fichiers arrive avec les infos du torrent (un lien magnet a d'abord besoin de pairs).
+1048|La liste des fichiers de cette archive 7z est protégée par mot de passe.
+1049|La liste des fichiers de cette archive RAR est protégée par mot de passe.
+1050|Le fichier a changé sur le serveur pendant la lecture par X-Ray. Réessayez.
+1051|Le fichier ou le dossier n'est pas là.
+1052|Le dossier est vide.
+1053|La clé de ce lien de dossier MEGA est fausse, ou le dossier est vide.
+1054|La clé de ce lien MEGA est fausse. Recopiez le lien en entier.
+1055|Le lien a expiré ou le fichier a été déplacé. Utilisez Actualiser le lien de téléchargement.
+1056|Le lien est une simple adresse IP, pas un site nommé.
+1057|Répétez le nouveau mot de passe
+1058|La page n'a pas d'image pour cette vidéo.
+1059|La page d'origine est répertoriée pour propager des logiciels malveillants (URLhaus).
+1060|La page a mis trop de temps à charger. Réessayez quand elle aura fini de charger.
+1061|Le mot de passe est changé.
+1062|Le port doit être un nombre de 1024 à 65535.
+1063|Le coffre privé est verrouillé
+1064|Le même fichier sous des noms différents : voyez-les et libérez de la place
+1065|Répétez le mot de passe
+1066|L'analyse se fait en arrière-plan juste après l'enregistrement d'un fichier, avant que vous l'ouvriez. Un fichier menaçant est marqué en rouge dans la liste et vous recevez un message ; si votre antivirus le supprime, DDM vous le dit.
+1067|Seulement la catégorie sélectionnée
+1068|Le serveur n'en a publié aucune
+1069|Le serveur envoie sans cesse des données différentes pour le même fichier. Recommencez-le depuis le début.
+1070|Le serveur a refusé de continuer ce fichier.
+1071|Le serveur a envoyé la mauvaise partie du fichier.
+1072|Le serveur ne répond plus.
+1073|Le serveur a cessé d'envoyer des parties du fichier, X-Ray ne peut donc pas continuer. Téléchargez plutôt le fichier entier.
+1074|Le site a refusé (il faut peut-être être connecté). Lancez la vidéo dans votre navigateur et utilisez le bouton Télécharger cette vidéo.
+1075|Le certificat de sécurité du site n'est pas fiable.
+1076|Le son d'une vidéo, ou n'importe quel audio, en MP3
+1077|Le flux n'a pas de morceaux.
+1078|Le flux n'a rien à télécharger.
+1079|Le flux n'indique aucune qualité.
+1080|Le sujet détouré sur fond transparent (PNG), calculé sur votre PC : rien n'est envoyé
+1081|Le serveur de test est injoignable. Vérifiez votre connexion internet.
+1082|Le moteur torrent n'a pas pu démarrer (un autre programme utilise peut-être son port réseau). Redémarrez DDM et réessayez.
+1083|Le moteur torrent n'a pas pu démarrer (voir le journal).
+1084|Le moteur torrent n'a pas pu démarrer.
+1085|Le torrent s'est arrêté de façon inattendue. Appuyez sur Reprendre pour continuer.
+1086|Le torrent a été retiré.
+1087|Les deux nouveaux mots de passe sont différents.
+1088|Les deux mots de passe sont différents.
+1089|Les infos de mise à jour ne sont pas disponibles pour l'instant.
+1090|Les infos de mise à jour ne sont pas valides.
+1091|Le lien de mise à jour doit être en https.
+1092|Le coffre ne peut pas être ouvert sur ce compte Windows.
+1093|Le coffre est illisible.
+1094|Le coffre est vide. Cliquez sur Ajouter des fichiers… ou déposez des fichiers ici.
+1095|Le coffre est verrouillé.
+1096|Impossible d'assembler la vidéo et le son.
+1097|La vidéo n'est plus sur sa page.
+1098|Impossible d'assembler la vidéo.
+1099|L'assembleur vidéo manque. Réinstallez DDM.
+1100|L'adresse de la vidéo a expiré. Rouvrez la page de la vidéo (Actualiser le lien de téléchargement).
+1101|La page web d'où vient ce fichier :
+1102|Il n'y a aucun fichier dans ce dossier.
+1103|Une catégorie porte déjà ce nom (ou le nom ne peut pas être utilisé).
+1104|Cette archive 7z est incomplète ou endommagée.
+1105|Cette archive 7z range sa liste d'une façon que X-Ray ne sait pas lire. Téléchargez plutôt le fichier entier.
+1106|La liste de cette archive 7z est endommagée.
+1107|Ce fichier CAB est endommagé.
+1108|Impossible d'ouvrir ce fichier de liste DDM.
+1109|Ce fichier de liste DDM est corrompu, a été modifié ou ne vient pas de DDM.
+1110|Ce dossier MEGA est vide.
+1111|Ce lien MEGA n'a pas de clé (la partie après #). Demandez le lien complet, avec la clé.
+1112|Ce lien MEGA est incomplet. Recopiez le lien en entier.
+1113|Ce PC n'est connecté à aucun réseau pour l'instant.
+1114|Cette vidéo TikTok est privée, a été supprimée ou nécessite d'être connecté.
+1115|Ce fichier WAV ne contient aucun son.
+1116|Ce fichier WAV a des réglages inhabituels et ne peut pas être utilisé.
+1117|Ce fichier WAV est compressé d'une façon que le lecteur de sons de Windows ne lira peut-être pas. Utilisez un WAV non compressé (PCM).
+1118|Ce fichier WAV est endommagé (une partie dépasse sa fin).
+1119|Ce fichier WAV est endommagé.
+1120|Cette adresse YouTube n'est pas une seule vidéo.
+1121|Ce document est endommagé (ce n'est pas un fichier Office valide).
+1123|Ce fichier n'est pas une liste de téléchargements DDM.
+1124|Ce fichier n'est plus dans le dossier partagé.
+1125|Ce fichier n'est plus sur MEGA (supprimé, ou le lien est faux).
+1126|C'est un lien de dossier, pas de fichier.
+1127|C'est un direct qui ne se lit que dans le lecteur du site.
+1128|C'est un des mix sans fin de YouTube, pas une playlist.
+1129|Ce n'est pas un manifeste DASH.
+1130|Ce n'est pas un fichier de liste DDM.
+1131|Ce n'est pas un fichier de réglages DDM.
+1132|Ce n'est pas un fichier GZ.
+1133|Ce n'est pas un fichier son WAV.
+1134|Ce n'est pas un programme Windows.
+1135|Ce n'est pas un fichier ZIP complet (sa table des matières manque).
+1136|Ce n'est pas une image disque que X-Ray connaît.
+1137|Ce n'est ni une playlist ni une chaîne.
+1138|Ce n'est pas un flux vidéo.
+1139|Ce n'est pas une adresse web.
+1140|Cet élément n'est plus dans le dossier partagé.
+1141|Cette clé n'est pas valide sur ce PC. Vérifiez que vous avez copié la clé entière et qu'elle a été faite pour cet ID d'installation.
+1142|Ce type de téléchargement n'est pas pris en charge.
+1143|Ce lien ouvre une page web, pas un fichier.
+1144|Cette liste n'a aucune vidéo que DDM puisse télécharger (elles sont peut-être privées ou réservées aux membres).
+1145|Ce direct n'a pas encore commencé.
+1146|Ce lien magnet n'est pas valide.
+1147|Il faut un processeur avec SSE2 (n'importe quel PC des 20 dernières années).
+1148|Cette image ne peut pas être affichée ici.
+1149|Cette image est trop grande (plus de 60 mégapixels).
+1150|Cette qualité n'est plus proposée.
+1151|Ce serveur ne permet pas de lire des parties du fichier, X-Ray ne peut donc pas regarder dedans. Vous pouvez quand même le télécharger normalement.
+1152|Ce site ne propose pas de sous-titres pour ses vidéos.
+1153|Ce site est répertorié pour propager des logiciels malveillants (URLhaus).
+1154|Ce fichier torrent est endommagé.
+1155|Ce fichier torrent est trop gros.
+1156|La liste des fichiers de ce torrent n'est pas encore connue : elle arrive quand le torrent démarre et trouve d'autres personnes qui le partagent.
+1157|Ce fichier de coffre est endommagé.
+1158|Ce fichier de coffre a été modifié ou endommagé ; il ne peut pas être ouvert.
+1159|Cette vidéo n'a aucune adresse que DDM puisse lire.
+1160|Cette vidéo n'a de sous-titres dans aucune langue.
+1161|Cette vidéo est soumise à une limite d'âge : YouTube veut que vous soyez connecté.
+1162|Cette vidéo est réservée aux membres de la chaîne.
+1163|Cette vidéo est privée.
+1164|Cette vidéo est protégée (DRM) : elle ne se lit que dans le lecteur du site.
+1165|Cette vidéo nécessite d'être connecté. Connectez-vous au site dans votre navigateur et utilisez-y le bouton Télécharger cette vidéo.
+1166|Menace trouvée
+1167|Menace trouvée !
+1168|Menace supprimée
+1169|Jeudi
+1170|Cocher tout ce qui est affiché
+1171|Cochez au moins un endroit où chercher.
+1172|Cochez ce qu'il faut télécharger. Cliquez sur une ligne pour la cocher ; Maj+clic coche tout ce qui est entre les deux.
+1173|Heure
+1174|Temps restant
+1175|Aujourd'hui
+1177|Durée
+1178|Outils
+1179|Sites principaux
+1181|Port Tor (9150 Tor Browser, 9050 service)
+1182|Torrent
+1183|Détails du torrent…
+1185|Torrents
+1186|Torrents simultanés
+1187|Les torrents n'utilisent pas de lien de téléchargement : DDM trouve tout seul d'autres personnes qui partagent le fichier.
+1188|Tracker
+1189|Adresses de trackers à ajouter, une par ligne
+1190|Trackers
+1191|Trackers (un par ligne ; une ligne vide démarre un groupe de secours)
+1192|Trackers ajoutés à chaque nouveau torrent
+1193|Débit
+1194|Essai terminé — saisissez une clé de licence pour continuer à télécharger
+1195|Tente d'écrire hors de son dossier
+1196|Couper
+1197|Couper…
+1198|Réessayer
+1199|Essai
+1200|Mardi
+1201|Activez-la, puis scannez le code avec l'appareil photo de votre téléphone.\n\nSeule une personne ayant le code (ou son lien) peut entrer : le lien contient une clé secrète. Cela ne fonctionne que sur votre réseau local ; rien ne passe par internet.
+1202|Éteindre l'ordinateur à la fin
+1203|Désactivé dans DDM (Options → Navigateur).
+1204|Type
+1205|Tapez des adresses de trackers (comme udp://tracker.example.org:1337/announce), une par ligne.
+1206|Type :
+1208|Annuler
+1209|Réponse inattendue de MEGA.
+1210|Inachevé
+1211|Téléchargements inachevés
+1212|Inconnu
+1213|Taille inconnue
+1214|Déverrouiller
+1215|Se désabonner
+1216|Tout décocher
+1217|Mont.
+1218|Mettre à jour
+1219|Mettre DDM à jour tout seul (les nouvelles versions s'installent discrètement quand rien ne se télécharge)
+1220|Mettre à jour maintenant
+1221|Mise à jour prête
+1222|Limite d'envoi (Ko/s, 0 = aucune)
+1223|Limite d'envoi (Ko/s, 0 = illimitée)
+1224|Utiliser DDM en premier
+1225|Utiliser les réglages de proxy de Windows
+1226|Utiliser toutes les connexions réseau ensemble (Wi-Fi + Ethernet + point d'accès)
+1227|Utilisez au moins 4 caractères.
+1228|L'utiliser
+1229|Utilisé pour les liens que vous collez, ajoutez avec Ajouter une URL ou copiez. Les téléchargements venant de votre navigateur gardent celui du navigateur. Certains sites donnent d'autres fichiers (ou aucun) aux téléphones, aux autres navigateurs ou aux gestionnaires de téléchargement.
+1230|Agent utilisateur
+1231|Agent utilisateur (téléchargements ajoutés vous-même)
+1232|Nom d'utilisateur (facultatif)
+1233|Vérifier la somme
+1234|Vérifier la somme…
+1235|Vidéo
+1236|Vidéo et audio
+1238|Qualité vidéo
+1239|Vidéo en GIF
+1240|Vidéo en GIF…
+1241|Vidéos
+1242|Vidéos de cette page
+1244|Affichage
+1247|En attente
+1248|En attente du chargeur
+1249|En attente du nouveau lien de téléchargement
+1250|En attente dans la file
+1251|Surveiller le presse-papiers : les liens copiés vers des fichiers, magnets et MEGA ouvrent la fenêtre de téléchargement
+1252|Page web
+1253|Pages web
+1254|Sources web (facultatif : adresses web qui ont les mêmes fichiers)
+1255|Site web
+1256|Mercredi
+1257|Ce que DDM a appris sur ce lien et ce fichier
+1258|Ce que DDM a noté en travaillant (utile en cas de problème)
+1259|Quoi analyser
+1260|Quand un proxy est défini (Connexion), les pairs passent aussi par lui
+1261|À la fin
+1262|Quel gestionnaire de téléchargement ?
+1263|Pendant le téléchargement
+1264|Le signataire est vérifié une fois le fichier sur votre PC.
+1266|Paquet Windows Installer (MSI)
+1267|Windows ne peut pas lire ce fichier ici. Utilisez Lire dans votre navigateur.
+1268|Windows ne peut pas lire ce format ici. Utilisez Lire dans votre navigateur.
+1269|Windows ne peut pas lire cette image (JPEG, PNG, BMP, GIF ou TIFF).
+1270|Windows ne peut pas lire cette image.
+1271|Windows ne peut pas enregistrer d'images PNG.
+1272|Windows ne peut pas enregistrer ce type d'image.
+1273|Bibliothèque Windows (DLL)
+1274|Le Windows de ce PC n'a pas d'encodeur vidéo H.264 (les éditions Windows N ont besoin du Media Feature Pack de Microsoft).
+1275|Programme Windows
+1276|Raccourci Windows
+1277|Les composants du lecteur multimédia de Windows ne sont pas sur ce PC (Windows N a besoin du Media Feature Pack de Microsoft). Utilisez Lire dans votre navigateur.
+1278|Son de Windows
+1279|Avec le module, DDM intercepte les téléchargements et affiche "Télécharger cette vidéo" sur les vidéos. Un seul clic dans la boutique du navigateur.
+1280|Calculé à la fin
+1281|Traitement…
+1282|Écrivez-le comme 0:12 4 (début, puis durée).
+1283|Écrivez-le comme 1:20-2:45 (début-fin).
+1284|Mauvais mot de passe.
+1285|Mauvais mot de passe. Le coffre est verrouillé un moment.
+1286|X-Ray (regarder dedans)…
+1287|Passer un lien ou un fichier aux rayons X
+1288|X-Ray ne peut pas l'extraire
+1289|X-Ray n'a pas pu se connecter.
+1290|X-Ray n'a pas pu télécharger cette partie.
+1291|X-Ray n'a pas pu regarder dedans.
+1292|X-Ray n'a pas pu lire cette partie du fichier.
+1293|X-Ray n'a pas pu lire les dossiers de cette image disque.
+1294|X-Ray ne sait pas regarder dans ce fichier.
+1295|X-Ray : terminé
+1296|X-Ray…
+1300|Oui
+1301|Oui (Windows le vérifie avant de le lancer)
+1302|Vous avez d'abord 60 secondes pour annuler.
+1303|YouTube a répondu à propos d'une autre vidéo.
+1304|YouTube demande de confirmer que vous n'êtes pas un robot. Vérifiez que vous êtes connecté à YouTube dans ce navigateur, puis relancez la vidéo.
+1305|Impossible de lire YouTube.
+1306|Impossible de lire YouTube. Réessayez dans un instant.
+1307|YouTube n'a pas fourni de flux simples pour cette vidéo.
+1308|YouTube n'a pas fourni ce direct à DDM. Réessayez quand il sera terminé.
+1309|YouTube n'a pas fourni cette vidéo.
+1310|YouTube indique que cette liste n'existe pas.
+1311|Impossible de lire la réponse de YouTube.
+1312|Impossible de lire la page YouTube (elle est peut-être privée).
+1313|Impossible de lire le flux YouTube.
+1314|Votre essai de 30 jours est terminé. Saisissez votre clé de licence pour tout débloquer, ou achetez une licence sur le site de DDM — le déblocage est immédiat. DDM ne peut pas être utilisé tant qu'il n'est pas activé.
+1315|Votre licence DDM expire aujourd'hui
+1316|Votre licence DDM est terminée. Renouvelez-la (ou achetez-en une nouvelle) sur le site de DDM, puis saisissez la nouvelle clé. DDM reste verrouillé jusqu'à la saisie d'une licence valide.
+1317|La date et l'heure de votre PC sont antérieures à la dernière utilisation de DDM. Réglez la bonne date et la bonne heure (ou connectez-vous à internet), puis cliquez sur Réessayer.
+1318|Votre liste de téléchargements
+1319|Votre clé est liée à ce PC : envoyez l'ID d'installation avec votre achat (admin@dedseec.com).
+1320|Votre licence se termine bientôt. Renouvelez-la pour que DDM continue de fonctionner — à son expiration, DDM sera verrouillé jusqu'à la saisie d'une nouvelle clé.
+1321|Votre propre agent utilisateur
+1322|Le vôtre…
+1323|Archive ZIP
+1324|Archive ZIP (ZIP64)
+1325|ZIP, TAR, TAR.GZ, GZ et ISO, dans un dossier à côté de l'archive
+1326|Compression Zstandard
+1327|un lien, pas un fichier
+1329|toute langue
+1332|par DedSec Cyber Security Research Institute · admin@dedseec.com
+1333|modifié sur le serveur
+1334|compressé (7z)
+1335|compressé (CAB)
+1336|compressé (GZ)
+1337|compressé (RAR)
+1338|n'a pas pu être téléchargé
+1339|impossible d'écrire sur le disque
+1340|créer le fichier
+1347|fichier va
+1348|fichiers simultanés
+1349|fichiers vont
+1351|se mettre en veille
+1354|n'est pas pris en charge
+1355|son fichier .torrent
+1356|sa somme ne correspond pas (endommagé sur le serveur)
+1357|ses données s'arrêtent trop tôt
+1358|ses données sont endommagées
+1359|ses fichiers téléchargés et son fichier .torrent
+1360|refuse sans cesse
+1363|lien magnet
+1365|fichiers multimédias
+1367|sans TLS
+1368|pas un fichier
+1370|non ouvert sur le routeur
+1371|rien de téléchargé pour l'instant
+1372|images et documents
+1373|programme de script
+1374|s'éteindre
+1376|taille encore inconnue
+1377|taille inconnue
+1378|son seulement · converti sur votre PC
+1379|son seulement · qualité d'origine
+1380|découpé en plusieurs parties
+1381|stocké de façon inhabituelle
+1382|flux · son
+1383|flux · vidéo + son
+1385|l'archive est endommagée ici
+1386|la page de la vidéo n'a pas répondu.
+1387|cette liste
+1392|trop de tentatives
+1393|fichier torrent
+1394|torrents : le moteur n'a pas pu démarrer : 
+1396|compression inhabituelle
+1398|vidéo + son
+1399|page web
+1401|votre antivirus
+1403|µTP (plus doux pour votre connexion pendant les torrents)
+1404|\n\nAutres réseaux de ce PC : {1}
+1405|\n\nLe {1} téléchargé est parti à la Corbeille (vous pouvez l'y récupérer).
+1406|\n\nLes {1} téléchargés sont partis à la Corbeille (vous pouvez les y récupérer).
+1407|\n\nNouveautés :\n{1}
+1408|\n• {1} — {2} copies, {3} chacune
+1409|\n• …et {1} de plus
+1410|\n• …et {1} de plus.
+1411| (certificat de {1})
+1412| (le serveur a répondu {1})
+1413| et {1} fichiers
+1414| jusqu'au {1}
+1415| · DHT {1} nœuds
+1416| · créé {1}
+1417| · lu en {1} ({2})
+1418| · partage {1}
+1419| · durée {1}
+1420| · jusqu'au {1}
+1421| · torrent entier {1}
+1422| · {1} / {2} dans l'essaim
+1423| · reste {1}
+1424| · {1} en file
+1425| · {1} en cours, {2} en partage
+1426| · {1} ips
+1427|Les sites .{1} servent souvent aux arnaques et aux logiciels malveillants.
+1428|Un .tar.gz ne montre ses fichiers qu'une fois décompressé en entier (il est compressé d'un seul bloc). Taille affichée : le .tar à l'intérieur{1}
+1429|Un programme parmi {1}
+1430|Un programme déguisé en .{1}
+1431|À propos de {1}
+1432|Ajouter à {1}
+1433|Ajouter {1} fichiers au coffre privé ?
+1434|Ajouter {1} au coffre privé ?
+1435|{1} de base
+1436|Batterie sous {1} %
+1437|Meilleur : {1}.
+1438|Compilé {1}
+1439|Appareil photo, position GPS, dates, logiciel, commentaires et autres détails cachés ont été supprimés ({1} partie).
+1440|Appareil photo, position GPS, dates, logiciel, commentaires et autres détails cachés ont été supprimés ({1} parties).
+1441|Catégorie ajoutée : {1}
+1442|Vérifié par {1} : aucune menace trouvée.
+1443|{1} vérifié(s) jusqu'ici
+1444|Vérification des fichiers… {1} %
+1445|La somme ({1}) correspond : le fichier est arrivé intact.
+1446|Comparaison de {1}…
+1447|Compression de {1}
+1448|Connexions : {1} combinées
+1450|Conversion de {1}
+1451|Impossible de créer le fichier dans {1}.
+1452|Impossible de créer {1}.
+1453|Impossible de chiffrer {1} (le disque est-il plein ?).
+1454|Impossible d'ouvrir {1} (est-il ouvert dans un autre programme ?).
+1455|Impossible d'ouvrir {1}.
+1456|Impossible de compresser {1}.
+1457|Impossible d'enregistrer {1} (le disque est-il plein ?).
+1458|Impossible d'enregistrer {1}.
+1459|Impossible de lancer {1}.
+1460|Impossible d'écrire le fichier (erreur {1}).
+1461|Impossible d'écrire dans {1}.
+1462|Découpe de {1}
+1463|DDM ne peut pas créer le dossier {1}.
+1464|DDM ne peut pas utiliser le dossier {1}.
+1465|DDM vérifie cette liste toutes les quelques heures et télécharge ses nouvelles vidéos tout seul ({1}).\n\nOutils → Abonnements affiche et arrête vos abonnements.
+1466|DDM vérifie {1} toutes les quelques heures et télécharge ses nouvelles vidéos tout seul ({2}).\n\nOutils → Abonnements affiche et arrête vos abonnements.
+1467|DDM n'a pas pu lire {1}.
+1468|DDM n'a pas pu enregistrer le PDF dans {1}.
+1469|DDM ne sait pas de quelle page vient ce fichier. Ouvrez cette page dans votre navigateur et cliquez sur le lien de téléchargement du fichier : DDM le reconnaît comme ce téléchargement et reprend à {1}.
+1470|DDM a téléchargé {1} Mo dans les {2} dernières heures. Les téléchargements reprennent quand la limite le permet.
+1471|DDM a trouvé des signes que ce fichier pourrait nuire à votre PC :\n\n{1}\nNe le téléchargez que si vous faites confiance à sa provenance.
+1472|La licence DDM expire dans {1} jour
+1473|La licence DDM expire dans {1} jours
+1474|DDM prend désormais en charge les téléchargements de vos navigateurs et ouvre les liens magnet.\n\nUne étape de plus : les navigateurs ne laissent qu'un seul module prendre un téléchargement. Dans chaque navigateur, désactivez le module de {1} pour qu'il ne prenne pas le fichier avant DDM (DDM peut vous ouvrir la page des modules du navigateur).
+1475|DDM a ouvert dans votre navigateur la page d'où vient ce fichier. Cliquez-y sur le lien de téléchargement de ce fichier (connectez-vous ou passez la vérification si le site le demande). DDM le reconnaît comme ce téléchargement, prend le nouveau lien et reprend à {1} : rien de ce qui est déjà téléchargé n'est perdu.
+1476|Essai de DDM — reste {1} jour
+1477|Essai de DDM — reste {1} jours
+1479|DDM — {1} en cours · {2}
+1480|Endommagé : sa somme {1} ne correspond pas. Retéléchargez-le.
+1481|Supprimer la catégorie {1} ?\n\nSes téléchargements et fichiers restent où ils sont ; ils réapparaissent dans les catégories intégrées.
+1482|Supprimer la file "{1}" ? Ses téléchargements restent dans la liste.
+1483|Supprimer {1} du coffre définitivement ? Impossible de le récupérer.
+1484|Programme déguisé : {1}
+1485|Terminé : {1}
+1486|Desc. {1} · Mont. {2}
+1487|Télécharger {1}
+1488|Télécharger {1} fichier ({2})
+1489|Télécharger {1} fichiers ({2})
+1490|Télécharger {1} éléments ? DDM en lance quelques-uns à la fois (Options → Connexion → Téléchargements simultanés).
+1491|Télécharger {1} vidéos
+1492|Téléchargement {1} %
+1493|Erreur — {1}
+1494|Erreur : {1}
+1495|Extraction de {1}
+1496|Types de fichiers de {1}
+1497|Trouvé {1} sur {2}
+1502|Masquer l'onglet "{1}"
+1504|ID d'installation : {1}
+1505|C'est un programme qui se fait passer pour un .{1} ({2}).
+1506|Il s'appelle .{1} mais c'est en réalité un programme Windows.
+1507|Il s'appelle .{1} mais c'est en réalité un raccourci Windows.
+1508|Il s'appelle .{1} mais c'est en réalité un programme de script.
+1509|Il s'appelle .{1} mais c'est en réalité un document Office ou un programme d'installation.
+1510|Garder {1}
+1511|Licence de {1} · à vie
+1512|Licence de {1}. {2} Merci d'avoir acheté DDM.
+1513|Erreur MEGA {1}. DDM réessaiera.
+1514|MEGA est occupé (erreur {1}).
+1515|{1} créé — DDM le partage (Torrents → Partage).
+1516|{1} créé.
+1517|Réduction de {1}
+1518|Déplacé vers {1}
+1519|Déplacement de {1}…
+1520|Nouvelle adresse pour {1}
+1521|Les nouveaux téléchargements {1} vont dans {2}
+1522|Aucun doublon dans {1}.
+1523|Rien ne correspond à "{1}"
+1524|Rien ne correspond à "{1}".
+1525|Rien de suspect à l'intérieur. Seuls les fichiers cochés sont téléchargés{1}
+1526|Maintenant : {1}
+1527|Une adresse de tracker par ligne. {1}
+1528|En ligne : {1}
+1529|Ouverture de {1}
+1530|Compression de {1}
+1531|Compression de {1}…
+1532|Suspendu à {1} %
+1533|Lire — {1}
+1534|Port {1}
+1535|Le port {1} ne peut pas être utilisé ({2})
+1536|Le port {1} est utilisé par un autre programme.
+1537|Lecture des dossiers… {1}
+1538|Lecture des fichiers… {1} %
+1539|Lecture de la liste… {1}
+1540|Lecture de la liste… {1} vidéos
+1541|Relecture de la page de la vidéo pour {1}…
+1542|Réception des données · {1} source · {2} pair
+1543|Réception des données · {1} source · {2} pairs
+1544|Réception des données · {1} sources · {2} pair
+1545|Réception des données · {1} sources · {2} pairs
+1547|Supprimer tout ce que {1} dit sur où, quand, par qui et avec quoi il a été fait (appareil photo, position GPS, dates, auteur, logiciel, commentaires, tags) ?\n\nL'image, le son ou le texte restent exactement pareils. L'original va à la Corbeille.
+1548|Retirer {1} de la liste des téléchargements ?{2}
+1549|Retirer {1} de la liste et envoyer son fichier .torrent à la Corbeille ?
+1550|Retirer {1} de la liste et envoyer ses fichiers téléchargés et son fichier .torrent à la Corbeille ?
+1551|{1} retiré
+1552|{1} et le fichier .torrent retirés
+1553|Suppression des métadonnées de {1}
+1554|Suppression de l'arrière-plan de {1}
+1555|Comme Windows ({1})
+1556|{1} enregistré (fond transparent) en {2} s.
+1557|{1} enregistré ({2}).
+1558|{1} enregistré : {2} → {3}.
+1559|Scannez le code avec l'appareil photo de votre téléphone (le téléphone doit être sur le même Wi-Fi), ou ouvrez ce lien dessus :\n\n{1}\n\nAjoutez des liens, suspendez, reprenez, arrêtez ou retirez des téléchargements et suivez leur progression.\n\nSi Windows demande si DDM peut utiliser votre réseau, autorisez les réseaux privés.
+1560|Analysé par {1} : aucune menace trouvée.
+1561|Analyse avec {1}…
+1562|Planifié · {1} %
+1563|Afficher : {1}
+1564|Signé par {1}.
+1565|Signé par {1}. Windows vérifie entièrement la signature une fois le fichier sur votre PC.
+1566|Limite de vitesse : {1}
+1567|Démarrage dans {1} s…
+1568|Arrêter de télécharger les nouvelles vidéos de {1} ?\n\nLes vidéos déjà téléchargées restent.
+1569|MENACE : {1}
+1570|Test avec {1} connexions…
+1571|Test avec {1} connexion…
+1572|Impossible de télécharger le fichier .torrent (le serveur a répondu {1}).
+1573|Le fichier de liste de blocage n'est pas là : {1}
+1574|La somme que le site affiche pour {1} (MD5, SHA-1, SHA-256, SHA-512 ou CRC-32). Laissez vide pour voir seulement le SHA-256 du fichier
+1575|La copie nettoyée est enregistrée sous {1} (l'original est utilisé, DDM l'a donc laissé).
+1576|La copie nettoyée est enregistrée sous {1}.
+1577|Le fichier n'est plus dans {1} (déplacé ou supprimé).
+1578|Le dossier à surveiller n'est pas là : {1}
+1579|Impossible de lancer le programme d'installation. Lancez-le vous-même : {1}
+1580|Le lien a expiré (le serveur a répondu {1}). Rouvrez la page de téléchargement.
+1581|La partie à garder, de-à (par exemple 1:20-2:45). Le fichier dure {1}
+1582|Le lecteur s'est arrêté ({1}). Utilisez Lire dans votre navigateur.
+1583|Le serveur a répondu {1} (le lien a peut-être expiré).
+1584|Le serveur a répondu {1}.
+1585|Le serveur a eu un problème ({1}). DDM réessaiera.
+1586|Le serveur a publié {1} {2}
+1587|Le serveur a refusé le téléchargement ({1}).
+1588|Le site a répondu {1}.
+1589|Le site existe depuis {1}.
+1590|Le site imite {1} ({2}).
+1591|Le site est récent (enregistré il y a {1} jours).
+1592|Le site utilise le nom {1} mais n'appartient pas à {2} ({3}).
+1593|Le site a été enregistré il y a seulement {1} jour.
+1594|Le site a été enregistré il y a seulement {1} jours.
+1595|Le nom du site est à une lettre de {1} ({2}).
+1596|Le nom du site utilise des lettres d'autres alphabets qui peuvent ressembler aux nôtres ({1}).
+1597|Impossible de démarrer le torrent ({1}).
+1598|Le torrent est prêt :\n{1}
+1599|Le torrent est prêt :\n{1}\n\nSon lien magnet peut être copié pour le partager sans le fichier.
+1600|Impossible de télécharger la mise à jour : {1}
+1601|Le serveur de mises à jour a répondu {1}.
+1602|Le serveur de la vidéo a répondu {1}.
+1603|Il n'y avait aucune métadonnée dans {1}.
+1604|Cette archive est compressée d'une façon que DDM ne sait pas décompresser ({1}). Ouvrez-la avec un logiciel d'archives.
+1605|Impossible de convertir ce fichier : {1}
+1606|Ce fichier est endommagé ou n'est pas vraiment un fichier .{1}.
+1607|Ce n'est pas le site de {1}, même s'il porte son nom ({2}).
+1608|Ce lien est déjà dans vos téléchargements ({1}).
+1609|Ce fichier torrent est endommagé ou n'est pas un torrent ({1}).
+1610|Cette vidéo n'a pas de sous-titres en {1}.
+1611|Trop de mauvais mots de passe. Réessayez dans {1} secondes.
+1612|Torrent — {1}
+1613|Essai · reste {1} jour
+1614|Essai · reste {1} jours
+1615|Décompression de {1}…
+1616|Valable jusqu'au {1}.
+1617|Vidéo {1}
+1618|Traitement · {1}
+1619|Traitement… {1} %
+1620|X-Ray regarde dans les archives (ZIP, RAR, 7z, TAR, CAB), les images disque (ISO), les torrents et les programmes (EXE, MSI). {1} n'en fait pas partie.
+1621|Vous êtes au jour {1} sur 30. Tout est débloqué pendant l'essai. Achetez une licence quand vous voulez pour garder DDM après.
+1622|YouTube a répondu {1}.
+1623|Votre ordinateur va {1} dans {2} seconde.
+1624|Votre ordinateur va {1} dans {2} secondes.
+1627|actif {1}
+1629|impossible de lancer {1} (erreur {2})
+1631|téléchargement {1} %
+1633|ouvert sur le routeur ({1})
+1634|vidéo {1}
+1635|{1}\n\nL'ouvrir pourrait nuire à votre ordinateur.
+1636|{1}\n\nSHA-256 : {2}
+1637|{1}\n\nUtiliser {2} connexions par téléchargement désormais ?
+1638|{1}\nSa somme {2} ne correspond pas : le fichier a été endommagé en chemin. Retéléchargez-le.
+1639|{1}\n{2} Ne l'ouvrez pas.
+1641|{1} (antivirus de Windows)
+1642|{1} / {2}   ·   téléchargé
+1643|{1} / {2} connectés
+1644|{1} / {2} connectés{3}
+1645|{1} / …   ·   téléchargé
+1648|Modules {1}
+1649|{1} déjà téléchargé
+1650|Archive {1}
+1651|{1} sont aussi sur ce PC.\n\nDDM doit-il être celui qui intercepte en premier vos téléchargements, vidéos et liens magnet ?
+1652|{1} a bloqué ce fichier : il contient peut-être une menace.
+1653|{1} reprend là où il s'était arrêté.
+1654|{1} reprend à {2}.
+1655|{1} connexion · {2} chacune
+1656|{1} connexion : {2}\n
+1657|{1} connexions · {2} chacune
+1658|{1} connexions : {2}\n
+1659|{1} téléchargements
+1660|{1} sortie {2}
+1661|{1} sortie {2} (délai dépassé)
+1662|{1} sortie {2} (délai dépassé){3}
+1663|{1} sortie {2}{3}
+1664|{1} fichier
+1665|{1} fichier ne peut pas être extrait seul (mot de passe, compression ou lien) : utilisez "{2}" pour lui.
+1666|{1} fichier ne peut pas être extrait seul (mot de passe, compression ou lien) : utilisez "{2}" pour eux.
+1667|{1} fichier extrait dans {2}.
+1668|{1} fichier a des copies ({2} pourraient être libérés).
+1669|{1} fichier à l'intérieur semble dangereux (marqué ci-dessous) : DDM l'a vu avant qu'il n'atteigne votre PC.
+1670|{1} fichier à l'intérieur semble dangereux (marqué ci-dessous) : DDM l'a vu avant qu'ils n'atteignent votre PC.
+1671|{1} fichier à l'intérieur semble dangereux (marqué ci-dessous) : DDM les a vus avant qu'il n'atteigne votre PC.
+1672|{1} fichier à l'intérieur semble dangereux (marqué ci-dessous) : DDM les a vus avant qu'ils n'atteignent votre PC.
+1673|{1} fichier nécessite un logiciel d'archives (compressé ou protégé par mot de passe).
+1674|{1} fichier enregistré dans {2}.
+1675|{1} fichier · {2} · chiffré
+1676|{1} fichier · {2} · enregistré dans un dossier nommé "{3}"
+1677|{1} fichier · {2} · {3}
+1678|{1} fichiers
+1679|{1} fichiers ont été chiffrés dans le coffre privé et retirés de leurs dossiers et de la liste.
+1680|{1} fichiers ne peuvent pas être extraits seuls (mot de passe, compression ou lien) : utilisez "{2}" pour lui.
+1681|{1} fichiers ne peuvent pas être extraits seuls (mot de passe, compression ou lien) : utilisez "{2}" pour eux.
+1682|{1} fichiers extraits dans {2}.
+1683|{1} fichiers ont des copies ({2} pourraient être libérés).
+1684|{1} fichiers à l'intérieur semblent dangereux (marqués ci-dessous) : DDM l'a vu avant qu'il n'atteigne votre PC.
+1685|{1} fichiers à l'intérieur semblent dangereux (marqués ci-dessous) : DDM l'a vu avant qu'ils n'atteignent votre PC.
+1686|{1} fichiers à l'intérieur semblent dangereux (marqués ci-dessous) : DDM les a vus avant qu'il n'atteigne votre PC.
+1687|{1} fichiers à l'intérieur semblent dangereux (marqués ci-dessous) : DDM les a vus avant qu'ils n'atteignent votre PC.
+1688|{1} fichiers nécessitent un logiciel d'archives (compressés ou protégés par mot de passe).
+1689|{1} fichiers enregistrés dans {2}.
+1690|{1} fichiers · {2} · chiffrés
+1691|{1} fichiers · {2} · enregistrés dans un dossier nommé "{3}"
+1692|{1} fichiers · {2} · {3}
+1693|{1} a trouvé une menace dans ce fichier. Ne l'ouvrez pas.
+1694|{1} n'est PAS le fichier décrit par le site : il a été endommagé en chemin ou modifié. Retéléchargez-le, et ne l'ouvrez pas si c'est un programme.\n\nAttendu : {2}\nCe fichier : {3}
+1695|{1} est déjà téléchargé dans ce dossier.
+1696|{1} est aussi sur ce PC.\n\nDDM doit-il être celui qui intercepte en premier vos téléchargements, vidéos et liens magnet ?
+1697|{1} est téléchargé et vérifié (signé par DedSec).\n\nL'installer maintenant ? DDM se ferme quelques secondes puis redémarre tout seul ; les téléchargements inachevés reprennent où ils en étaient.{2}
+1698|{1} a été chiffré dans le coffre privé et retiré de ce dossier et de la liste.
+1699|{1} est exactement le fichier décrit par le site ({2}).
+1700|{1} est terminé
+1702|{1} nouvelle vidéo ajoutée aux téléchargements.
+1703|{1} nouvelle vidéo en cours de téléchargement.
+1704|{1} nouvelles vidéos ajoutées aux téléchargements.
+1705|{1} nouvelles vidéos en cours de téléchargement.
+1706|{1} des fichiers cochés semblent dangereux. Télécharger quand même ?
+1707|{1} des fichiers cochés semble dangereux. Télécharger quand même ?
+1708|{1} morceaux de {2} · {3} tracker
+1709|{1} morceaux de {2} · {3} trackers
+1710|{1} a supprimé ce fichier : il contient une menace.
+1711|{1} a signalé un problème avec ce fichier (code {2}). Vérifiez dans {3}.
+1712|{1} en ce moment
+1713|{1} envoyé · ratio {2}
+1714|Son {1}
+1715|{1} torrents
+1716|{1} vidéo
+1717|{1} vidéos
+1718|{1} vidéos · liens de cette page
+1719|{1} vidéos{2}
+1720|{1} vidéos{2} · liens de cette page
+1721|{1} vidéo{2}
+1722|{1} · F3 trouve le suivant
+1723|{1} · vidéo + son
+1724|{1} · vidéo + son{2}
+1729|{1} : ne peut pas être extrait ({2}).
+1730|{1} : impossible d'enregistrer.
+1731|{1} : impossible de créer {2}.
+1732|{1} : refusé (il tente d'écrire hors du dossier).
+1733|{1} : la page de la vidéo n'a pas répondu.
+1734|{1} : {2} éléments à l'intérieur, rien de suspect.
+1740|✓ Connecté ({1} ms)
+1741|✗ Pas de connexion{1}
+E1|Tous les fichiers
+E2|Vidéos
+E3|Images
+E4|Archives
+E5|Fichiers torrent (*.torrent)
+E6|Sons WAV (*.wav)
+E7|Réglages DDM (*.json)
+E8|Liste DDM (*.ddm;*.json)
+E9|Liste DDM, chiffrée (*.ddm)
+E10|Liste DDM, en clair (*.json)
+E11|Programme antivirus (*.exe)
+E12|Listes de blocage (*.dat;*.p2p;*.txt)
+E13|Vidéo et audio
+E14|Images, vidéo, audio et documents Office
+E15|reste {1}
+E16|il y a {1}
+E17|{1} janv.
+E18|{1} févr.
+E19|{1} mars
+E20|{1} avr.
+E21|{1} mai
+E22|{1} juin
+E23|{1} juil.
+E24|{1} août
+E25|{1} sept.
+E26|{1} oct.
+E27|{1} nov.
+E28|{1} déc.
+E29|Aujourd'hui
+E30|Hier
+E31|Connecté : {1}
+E32|{1} en cours
+E33|{1} en file
+E34|pleine vitesse quand internet est libre
+E35|Bilibili n'a pas fourni cette vidéo à DDM (il faut peut-être être connecté, ou elle est réservée aux membres).
+E36|Cette vidéo Bilibili a été supprimée, ou elle est privée.
+E37|Cette vidéo Bilibili nécessite d'être connecté.
+E38|Cet épisode est réservé aux membres payants de Bilibili.
+E39|Réduire dans la zone de notification
+E40|URL
+E41|Taille du fichier
+E42|Reprise possible
+E43|VITESSE
+E44|Pic {1}
+E45|Dossier des téléchargements inachevés
+E46|Les téléchargements restent ici jusqu'à la fin, puis vont dans leur dossier : vos dossiers ne contiennent que des fichiers terminés.
+E47|Mettez d'abord vos téléchargements en pause, puis changez ce dossier.
+E48|Déplacement vers son dossier…
+E49|Cette publication TikTok est un diaporama de photos sans vidéo.
+E50|Réduire
+E51|Agrandir
+E52|Fenêtres de téléchargement dans la zone de notification
+E53|Partager l'icône de DDM (comme IDM)
+E54|Une icône pour chacune
+E55|Sa fenêtre est dans l'icône de DDM : cliquez sur l'icône pour voir tous vos téléchargements en direct, double-cliquez pour faire revenir les fenêtres.
+E56|DDM a été mis à jour en {1} (depuis {2}). L'ancienne version a été remplacée et son installateur supprimé ; vos téléchargements et réglages n'ont pas changé.
+E57|DDM est à jour
+E58|Nouveautés :
+E59|{1} en cours · {2}
+E60|Aucun téléchargement
+E61|Aucun téléchargement en ce moment
+E62|Vos téléchargements s'affichent ici pendant qu'ils avancent.
+E63|Dans la zone de notification
+E64|+ {1} de plus dans DDM
+E65|Afficher les fenêtres
+E66|Code source sur GitHub
+E67|La licence (GPL-3.0)
+E68|Libre et open source
+E69|Gratuit pour tous, sans limite de durée. Sous licence GNU GPL, version 3.
+E70|Choisir les langues
+E71|{1} langues
+E72|Toutes les langues
+E73|Pas de sous-titres
+E74|Enregistrer aussi les sous-titres de la vidéo à côté d'elle (.srt)
+E75|Toutes les langues de sous-titres de cette vidéo : cochez celles à enregistrer
+E76|Faites glisser le fichier d'ici vers un dossier, le bureau ou un autre programme

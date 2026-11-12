@@ -1,5 +1,64 @@
 # What's new in DDM
 
+## 4.3.2 — November 2026
+**An engine that follows the browser (browser add-on 4.0.8)**
+- "Access denied" on sites that give a video only to a real browser (videezy.com and others): the add-on notes exactly how the browser's own player asked for each file and stream (its User-Agent, Referer, Origin, Accept and the site's own extra headers; never cookies), and DDM asks the same way. This needs no rule per site, so it keeps working when a site changes what it checks
+- TikTok and other reels (Instagram, Facebook, X): after swiping to the next video, DDM no longer offers the one before. When the page's video isn't as long as the one playing in the browser, DDM takes what the browser is playing; on feeds, the file loaded last is used, not the biggest
+- File names: the video's own name instead of the page's slogan ("Woman Swiping On A Smartphone - Free HD Video Clips & Stock Footage at SiteName" is saved as "Woman Swiping On A Smartphone"), and no more files called "Video Player"
+- "Download this video" keeps its place while you move the pointer to it: it no longer jumps to another video, a preview or the next reel under the pointer, or when another video starts playing meanwhile
+
+## 4.3.1 — November 2026
+**The right video, under its own name (browser add-on 4.0.7)**
+- Dailymotion: opening another video no longer offers the first one again. Its player keeps one address for every video, and DDM remembered the answer by that address; DDM now takes the video from the tab's address (or, inside other sites, from the stream the player loaded last)
+- Files are no longer all called "Dailymotion Video Player.mp4": a player that sits in a small page of its own ("Player", "Embed") gets the name of the page you are looking at
+- The site's name is left off the end of the file name ("Holiday in Rome - SiteName" → "Holiday in Rome") on sites DDM has no rule for
+- A page that loaded several streams (an advert, then the video): DDM takes the one as long as the video playing in the browser, otherwise the longest
+- Players that play video after video on one page: each video is read afresh (the answer is no longer reused for half an hour)
+- Upright videos are named by their short side: 1080 × 1920 is 1080p, not "1920p 2K"
+
+**Streams start sooner**
+- HLS: the picture's list and the sound's list are read at the same time, and lists DDM read a moment ago for the quality list aren't asked for again
+- A server that only answers DDM's second kind of request is asked that way at once from then on
+
+## 4.3.0 — November 2026
+**Free and open source**
+- DDM is now free for everyone, with every feature and no time limit: the 30-day trial and licence keys are gone. A DDM that was locked after its trial works again once it's updated
+- DDM is open source under the GNU GPL, version 3: the whole program, its browser add-ons and its setup are in this repository, with how to build them (BUILDING.md)
+- DDM.exe needs nothing installed beside it: no runtime, no framework, no extra library, on Windows 7, 8, 10 and 11 alike
+- Help → About DDM links to the source code and the licence; Help → Register and Buy are gone
+
+**Videos from more sites (browser add-on 4.0.6)**
+- Dailymotion works again: DDM lists every quality, on dailymotion.com, dai.ly links and Dailymotion's player inside other sites; it says so when a video isn't shown in your country
+- "Download this video" no longer ends at "Open in DDM" on sites DDM has no rule for: the add-on notes what the page's own player loads for as long as the page is open (before, it forgot after 90 seconds, and whenever the browser put the add-on to sleep)
+- Streams are recognised by what their server says they are, also when their address has no .m3u8, .mpd or .mp4 in it
+- Sites that answer a stream's list of qualities only to a real browser: the add-on reads the list itself and hands it to DDM
+- Players that load picture and sound as two separate files: DDM joins them into one MP4
+- When a page loaded several streams, the one with the most qualities is listed
+
+**Subtitles: every language, your choice**
+- Download Video lists every subtitle language a video offers; tick the ones to save (all, some or none). Your usual languages are ticked to begin with
+- Subtitles are now found beyond YouTube: Vimeo, Dailymotion, streams with subtitle tracks (HLS, DASH) and pages whose player lists them; each is saved as name.<language>.srt
+
+**The quality list, faster**
+- The browser button reads a video's qualities ahead of your click and looks again by itself when the player hadn't loaded its stream yet, so the list is there the moment you click
+- An empty answer is no longer remembered for ten minutes (the reason the button kept offering only "Open in DDM")
+
+**Download complete: drag the file out**
+- A hand at the top right of Download complete: press it and drag the file into a folder, onto the desktop or into any program, like in IDM. The file's name and path can be dragged too
+
+**Updates**
+- A new version pops up by itself when DDM starts, and when you bring DDM back from the tray after a few hours; while DDM keeps running it asks at most once a day
+- After an update DDM says what's new once; the installer it used is removed, and an older DDM left in another folder is taken away (your downloads, settings and portable copies are never touched)
+
+**Light and dark**
+- Switching between light and dark spreads the new look out in a soft circle from where you clicked, over every DDM window at once (Windows' "Show animations" off: it simply changes)
+
+**One tray icon for all downloads, like IDM**
+- Download windows minimized to the tray now share DDM's own icon instead of getting one each
+- Click DDM's tray icon: a panel shows every download live, with its bar, percentage, speed and time left; click one to bring its window back
+- The icon's tooltip lists the running downloads with their percentages
+- Options → General → Download windows in the tray: "Get an icon each" brings the old way back
+
 ## 4.2.2 — November 2026
 **The download window**
 - Its title bar now has two minimize buttons, like IDM: the green arrow (Minimize to system tray) sits next to Minimize, Maximize and Close; the usual – still puts it on the taskbar

@@ -1,0 +1,77 @@
+# texts made outside the code the extractor reads (Windows' file-type lists, dates, durations)
+All files
+Videos
+Pictures
+Archives
+Torrent files (*.torrent)
+WAV sounds (*.wav)
+DDM settings (*.json)
+DDM list (*.ddm;*.json)
+DDM list, encrypted (*.ddm)
+DDM list, plain (*.json)
+Antivirus program (*.exe)
+Blocklists (*.dat;*.p2p;*.txt)
+Video and audio
+Pictures, video, audio and Office documents
+{1} left
+{1} ago
+Jan {1}
+Feb {1}
+Mar {1}
+Apr {1}
+May {1}
+Jun {1}
+Jul {1}
+Aug {1}
+Sep {1}
+Oct {1}
+Nov {1}
+Dec {1}
+Today
+Yesterday
+Connected: {1}
+{1} downloading
+{1} queued
+full speed while the internet is idle
+Bilibili didn't give DDM this video (it may need you to be signed in, or be for members only).
+This Bilibili video was removed, or it's private.
+This Bilibili video needs you to be signed in.
+This episode is for Bilibili's paying members only.
+Minimize to system tray
+URL
+File size
+Resume capability
+SPEED
+Peak {1}
+Folder for unfinished downloads
+Downloads stay here until they finish, then go to their folder: your folders only ever hold finished files.
+Pause your downloads first, then change this folder.
+Moving to its folder…
+This TikTok post is a photo slideshow without a video.
+Minimize
+Maximize
+Download windows in the tray
+Share DDM's icon (like IDM)
+Get an icon each
+Its window is in DDM's tray icon: click the icon to see all your downloads live, double-click it to bring the windows back.
+DDM was updated to {1} (from {2}). The old version was replaced and its installer removed; your downloads and settings stayed as they were.
+DDM is up to date
+What's new:
+{1} downloading · {2}
+Nothing is downloading
+Nothing is downloading right now
+Your downloads appear here while they run.
+In the tray
++ {1} more in DDM
+Show windows
+Source code on GitHub
+The licence (GPL-3.0)
+Free and open source
+Free for everyone, with no time limit. Licensed under the GNU GPL, version 3.
+Choose languages
+{1} languages
+All languages
+No subtitles
+Also save the video's subtitles next to it (.srt)
+Every subtitle language this video offers: tick the ones to save
+Drag the file from here into a folder, onto the desktop or into another program

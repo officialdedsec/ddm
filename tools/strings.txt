@@ -1,0 +1,1742 @@
+# DDM: every text the program shows (made by tools/i18n_extract.py). {1}, {2}: changing parts.
+!Couldn't move the file (is it open in another program?).
+%zu downloads
+1 MB
+1 MB/s
+1 day
+1 download
+10 MB/s
+128 kbps (music)
+16 MB
+2 MB/s
+200 OK
+206 Partial Content
+256 KB
+256 KB/s
+3 hours
+4 MB
+5 MB/s
+512 KB/s
+6 hours
+64 KB
+64 kbps (speech)
+7z archive
+96 kbps
+A current Chrome on Windows (recommended)
+A decoy password opens a second, separate vault that looks exactly like this one. If someone makes you open the vault, give them the decoy password: they see only what you put in the decoy vault, and nothing shows that this vault exists.
+A download fails
+A download finishes
+A download window's – button
+A link shortener hides where the file really comes from.
+A new DDM
+A new DDM is available
+A part of DDM is missing (ffmpeg.exe). Reinstall DDM.
+A piece of the video couldn't be decrypted.
+A piece of the video is missing.
+A program over an unencrypted link (http): it could be changed on the way.
+A self-extracting archive (a program with a ZIP inside).
+A small window with Open and Open folder.
+A smaller copy (longest side 1920 px) of a JPEG, PNG, BMP or GIF
+About DDM
+Accept-Encoding: identity
+Access denied — the link may have expired. Use Refresh download link.
+Activate
+Add .torrent files put in this folder
+Add DDM to your browser
+Add URL
+Add URL…
+Add category
+Add category…
+Add files…
+Add from clipboard
+Add new download…
+Add to the vault
+Add trackers
+Added
+Added / finished
+Added from your phone
+Added when it finishes: Windows SmartScreen and Office check the file before it opens
+Address
+Address of the file to download
+Address:
+Ag
+All downloads
+All downloads are done
+All downloads are finished
+All file tools…
+All files
+All files|*.*
+All time
+Allow (recommended)
+Already downloaded · Open
+Already in the list
+Also download its new videos by themselves (subscribe)
+Also save the video's picture next to it (.jpg)
+Also save the video's subtitles next to it (.srt) — languages in Options → General
+Alt+Left
+Alt+Right
+An animated GIF from a few seconds of a video
+Anonymous mode (don't tell peers and trackers which program this is)
+Another antivirus program…
+Antivirus
+Antivirus program (*.exe)|*.exe|All files|*.*
+Antivirus program (.exe)
+Any kind of file
+Appearance
+Apply
+April
+Archive
+Archives
+Archives, disc images, torrents and programs: see what's inside before downloading
+Archives|*.zip;*.tar;*.tgz;*.gz;*.iso;*.rar;*.jar;*.apk;*.docx;*.xlsx|All files|*.*
+As in Options
+Ask every time
+Audio
+August
+Automatic
+Availability
+Average speed
+BZip2 compression
+Back
+Back up every
+Back up now and open the folder
+Back up the download list automatically (encrypted .ddm — only DDM can open it)
+Backups
+Bad Request
+Balanced
+Be careful
+Be careful with this download
+Behaviour
+Best
+Best available
+Best quality
+BitTorrent v1 (works in every program)
+BitTorrent v2 only
+Blocklists (*.dat;*.p2p;*.txt)|*.dat;*.p2p;*.txt|All files|*.*
+Brand-new sites, look-alike names (micros0ft…), sites spreading malware, programs disguised as pictures or documents. The result shows as a coloured button in Download File Info and in the download window's Security tab. Nothing about your downloads is sent anywhere: DDM only asks a public registry when a site was registered.
+BraveSoftware\\Brave-Browser\\User Data
+Brought back
+Browser
+Browser can't reach DDM?
+Browser integration…
+Browsers on this PC
+Browse…
+Buy a licence
+By category
+CRC-32
+Cabinet (CAB) archive
+Calculate the file's SHA-256 (to compare with the one the website shows)
+Calculating…
+Can resume
+Cancel
+Categories
+Category
+Change folder…
+Change password
+Change password…
+Change the decoy password…
+Check each file's checksum (SHA-256, MD5…) when the server publishes one
+Check every link and file before and while downloading
+Check files again
+Check for updates
+Check now
+Check the files for changes every
+Check the limit again on DDM startup
+Check your PC's date
+Checking
+Checking files…
+Checking the file…
+Checking where it comes from…
+Checking…
+Checksum
+Checksum doesn't match
+Checksum matches
+Checksums
+Choose a .wav file…
+Choose a .wav sound file.
+Choose a different password.
+Choose a folder
+Choose a sound file on this PC (not on a network share).
+Choose file…
+Choose folder…
+Choose picture…
+Choose the file or folder to share.
+Choose video…
+Choose your antivirus program's .exe file, or use Windows' antivirus.
+Choose…
+Chrome
+Chrome add-ons
+Chrome on Android
+Chromium\\User Data
+Clean
+Clear
+Clear statistics
+Click Add URL, paste a link (Ctrl+V), or download something in your browser.
+Close
+Command-line options (%1 = the file)
+Comment
+Compare with the website's…
+Complete
+Complete · checking checksum…
+Complete · damaged (checksum doesn't match)
+Complete · scanning…
+Complete · the file was moved or deleted
+Complete · threat found by the antivirus
+Complete · verified
+Compress a picture
+Compress a video
+Compress into a ZIP
+Compress picture
+Compress video…
+Compressed
+Compressing…
+Connected: 
+Connecting to peers…
+Connecting…
+Connection
+Connection speed test
+Connections per download
+Connections, all torrents together
+Contact us
+Contents
+Continue trial
+Continue unfinished downloads when DDM starts
+Convert to MP3
+Converting to MP3
+Converting to MP3…
+Copied
+Copy
+Copy Installation ID
+Copy address
+Copy into the vault
+Copy link
+Copy magnet link
+Couldn't connect to the server.
+Couldn't create the ZIP.
+Couldn't create the vault.
+Couldn't decrypt the file.
+Couldn't find the server — check the address or your internet connection.
+Couldn't get the start of the video.
+Couldn't import
+Couldn't look inside
+Couldn't make a secure connection to the server.
+Couldn't make the decoy vault.
+Couldn't make the picture (not enough memory?).
+Couldn't move the file (is it open in another program?).
+Couldn't open this MEGA folder
+Couldn't put the video together (is the disk full?).
+Couldn't reach MEGA. Check your internet connection.
+Couldn't reach YouTube. Check your internet connection.
+Couldn't reach the proxy.
+Couldn't reach the server for the .torrent file.
+Couldn't reach the server.
+Couldn't reach the site.
+Couldn't reach the site. Check your internet connection.
+Couldn't reach the update server. Check your internet connection.
+Couldn't reach the video's server.
+Couldn't read the file.
+Couldn't refresh the link
+Couldn't save the file.
+Couldn't save the page as PDF
+Couldn't save the vault.
+Couldn't write into the vault.
+Couldn't write the file — is the disk full?
+Couldn't write to the disk (is it full?).
+Couldn't write to the disk.
+Counted on your PC only.
+Create
+Create a ZIP
+Create torrent
+Create torrent…
+Create vault
+Created
+Ctrl+B
+Ctrl+F
+Ctrl+N
+Ctrl+P
+Ctrl+V
+Current password
+Cut a part of a video or song (no quality loss)
+DDM Help
+DDM can remove metadata from pictures (JPEG, PNG, WebP), video, audio and Office documents (Word, Excel, PowerPoint, OpenDocument).
+DDM can remove metadata from pictures (JPEG, PNG, WebP), video, audio and Office documents.
+DDM catches downloads first
+DDM checks every few hours and downloads new videos by itself, in the quality you chose.
+DDM couldn't read that file.
+DDM couldn't read the file.
+DDM couldn't rewrite this document.
+DDM couldn't save the clean file.
+DDM couldn't save the sound.
+DDM couldn't start its player on this PC.
+DDM is activated
+DDM is expired
+DDM is locked
+DDM list (*.ddm;*.json)|*.ddm;*.json|All files|*.*
+DDM list, encrypted (*.ddm)|*.ddm|DDM list, plain (*.json)|*.json
+DDM needs to be activated (open DDM).
+DDM settings (*.json)|*.json
+DDM settings (*.json)|*.json|All files|*.*
+DDM — DedSec Download Manager
+DDM's data folder
+DDM's files were changed. Reinstall DDM to fix this. DDM stays locked until then.
+DHT network (find peers without trackers; needed for most magnet links)
+DOESN'T match
+Daily
+Daily limit on extra connections (MB)
+Damaged (checksum)
+Damaged download
+Dangerous
+Dangerous download
+Dark
+Dark mode
+Data
+Data downloaded per day (last 30 days)
+December
+Decoy password
+Decoy password (different from your real one)
+Decoy vault
+Decrypting
+DedSec Download Manager
+Deflate64 compression
+Del
+Delete
+Delete all finished
+Delete category
+Delete data
+Delete finished
+Delete from queue
+Delete only the data
+Delete only the downloaded data
+Delete queue
+Delete the .torrent file
+Delete torrent
+Delete torrent + data
+Description
+Description or part of the description
+Description:
+Disk and network
+Display
+Document
+Documents
+Doesn't match the server's SHA-256: the file is damaged or was changed
+Don't catch files smaller than (KB)
+Don't download
+Don't open
+Don't remind me again
+Done
+Done. Restart your browser.
+Down
+Download
+Download 
+Download 1 video
+Download File Info
+Download Later
+Download MEGA Folder
+Download Torrent
+Download Video
+Download again
+Download all
+Download and install
+Download anyway
+Download complete
+Download damaged
+Download folder
+Download images
+Download in order (start watching a video before it finishes)
+Download in order (watch a video while it downloads)
+Download limit reached
+Download limit reached — waiting
+Download limits
+Download link refreshed
+Download links
+Download no more than
+Download none
+Download playlist
+Download playlist or channel
+Download playlist or channel…
+Download selected
+Download status
+Download them
+Download whole file
+Download windows
+Downloaded
+Downloaded files
+Downloaded, but couldn't rename the file (is it open in another program?).
+Downloading
+Downloads
+Downloads at the same time
+Downloads files, videos and torrents
+Duplicate files
+Dust effect when removing downloads and closing or minimizing download windows
+Edge
+Edge add-ons
+Edge or Chrome couldn't be started on this PC.
+Encrypting
+Encryption
+Encryption failed.
+English
+Enter
+Enter another key
+Enter licence key
+Enter licence key…
+Enter the licence key you received after buying DDM.
+Enter the proxy's address, or choose another proxy setting.
+Enter your password.
+Epic Games
+Error
+Error — failed
+Ethernet
+Every downloaded file
+Every link
+Everything runs on your PC: files are never uploaded.
+Exit
+Exit DDM
+Exit DDM when done
+Export
+Export settings
+Export the list
+Export…
+Extensions separated by spaces. Each category's folder is made inside Downloads the first time it's needed.
+Extract
+Extract archives after downloading (ZIP, 7z, RAR — into a folder next to the archive)
+Extract here
+Fastest download
+February
+File
+File Properties
+File already downloaded
+File list ready
+File name
+File name or part of the name
+File or folder to share
+File tools
+File tools…
+File types
+File types (for example: psd ai svg)
+File types to catch
+File types…
+Files
+Files are sorted into category folders inside it (Compressed, Documents, Music, Programs, Video, Torrents).
+Files in the queue
+Files in the vault are encrypted (AES-256) and hidden. Only DDM can open them, and only with your password — no other program or Windows user can see them. There's no way to recover the files if you forget the password.
+Files named like cracks, key generators and activators are a favourite hiding place for malware.
+File…
+Find
+Find duplicate files
+Find file
+Find next
+Find peers on my local network
+Find:
+Finding peers
+Finding the subject…
+Finds how many connections give the best speed on your network, and uses it
+Find…
+Finished
+Finished downloads
+Finishing
+Firefox
+Firefox add-ons
+Firefox on Windows
+First and last pieces of each file first
+First and last pieces of each file first (previews)
+Folder where the file is saved
+Folders by website
+Folder…
+Force processes to terminate
+Force start (ignore limits)
+Forward
+Free Download Manager
+Friday
+From the internet
+GPS position, camera, author, dates and tags out of pictures, video, audio and Office files
+GZ compressed file
+General
+Get the extension
+Getting
+Getting qualities…
+Getting the video's qualities…
+Getting torrent info…
+Google Chrome
+Google\\Chrome\\User Data
+Grabber
+Grabber…
+HTTP proxy
+Hang up modem when done
+Has
+Help
+Hibernate
+Hibernate now
+Hide
+Hide categories
+Hide details
+Hide tabs
+Hide the "
+Hides it in the tray
+High
+Hold Alt while clicking a link to let the browser download it instead.
+Home
+How
+How small?
+Hybrid v1 + v2
+INTERNET MARK
+IP blocklist file (.dat / .p2p)
+ISO disc image
+ISO disc image (Joliet)
+ISO disc image (UDF)
+Identify DDM as
+Import
+Import a list
+Import settings
+Imported
+Import…
+Index
+Info hash
+Install now
+Installation ID
+Installation ID copied. Send it with your purchase to admin@dedseec.com to get your key.
+Internet Download Manager
+Its file types, for example: psd ai svg
+Its name hides its real ending with invisible characters.
+Its name hides the real ending behind spaces.
+Its name is reversed to hide what it is
+Its signature is damaged.
+Its window is in the tray with its own icon: double-click it to bring the window back, right-click it to pause, stop or cancel.
+January
+Joining
+Joining video and sound…
+July
+June
+KB/s
+Keep everything
+Keep folders
+Keep it as it is
+Keep sharing (seeding) after finishing
+Keep sharing after finishing
+Keep the last choice
+Kind
+Kind of file
+LINK CHECK
+LZMA compression
+Language
+Last 30 days
+Last 7 days
+Last new video
+Last try
+Later
+Leave it empty to keep them where they were downloaded.
+Length
+Licence key
+Licence…
+Licensed user
+Lifetime licence.
+Lift the speed limit while nothing else uses the internet
+Light
+Light mode
+Limit this download's speed
+Limited
+Link & site check
+Link check
+Link of a YouTube playlist or channel, or of a page with many videos
+Link to look inside (an archive, disc image, torrent or program), or a file on this PC
+Links
+List Topics
+Listing the files…
+Live DASH streams can't be saved.
+Lock
+Login:
+Logs
+Look in
+Look inside
+Looking for duplicates
+Looking for peers
+Looks fake
+Looks fake: it's named like a film or music, but its biggest file is a program.
+Low
+Lower the bitrate of a song or podcast
+MB/s
+MBytes
+MEGA didn't give a download address. Try again later.
+MEGA didn't give the file size. Try again later.
+MEGA file
+MEGA has taken this file down.
+MEGA is temporarily unavailable. DDM will try again.
+MEGA keeps refusing the download. Press Resume to try again later.
+MEGA refused access to this link.
+MEGA says this link is invalid. Copy the whole link again.
+MEGA's free transfer limit for your connection is used up. Your progress is saved: press Resume later (MEGA frees it within a few hours) or switch network.
+MP3 sound
+Magnet link
+Magnet link copied
+Main download queue
+Make a new secret link? Phones that use the old one can't connect any more until they scan the new QR code.
+Make a video much smaller (H.264), with sound
+Making a GIF
+Making it smaller
+Making the GIF
+Making the video file…
+March
+Mark downloaded files as coming from the internet, like your browser does (SmartScreen, Protected View)
+Match case
+Match whole string only
+Matches the server's SHA-256: the file is exactly what was published
+Maximum peers (0 = as in Options)
+Maximum peers per torrent
+May
+Method Not Allowed
+Microsoft Defender
+Microsoft Edge
+Microsoft Edge on Windows
+Microsoft Security Client\\Antimalware\\MpCmdRun.exe
+Microsoft Security Client\\MpCmdRun.exe
+Microsoft\\Edge\\User Data
+Minimize to the tray
+Minimizes it to the taskbar
+Mobile
+Modified
+Monday
+Move
+Move / rename
+Move / rename…
+Move down
+Move extra copies to the Recycle Bin
+Move finished torrents to
+Move into the vault
+Move out of the vault…
+Move out…
+Move to private vault
+Move to queue
+Move to vault
+Move to…
+Move up
+Move…
+Moving out
+Moving…
+Mozilla Firefox
+Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Mozilla/5.0 (Macintosh; Intel Mac OS X 15_7_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0
+Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Mobile/15E148 Safari/604.1
+Music
+My sound
+Name
+Name (a folder with this name is made in Downloads)
+Name of the new category
+Name of the new queue
+Neat Download Manager
+Network connections
+Network error: 
+Never catch on these sites
+New category
+New link
+New name
+New password (at least 4 characters)
+New queue
+No
+No Content
+No downloadable video was found on this page.
+No downloads here yet
+No limit
+No links to videos were found on this page.
+No magnet link for this torrent yet
+No mark
+No network
+No network connection found
+No new videos.
+No peers connected right now.
+No proxy
+No sound
+No subject was found in this picture.
+No topics found.
+No trackers: peers come from DHT and peer exchange.
+No video address is known for this download. Use Refresh download link.
+No video was found on this page.
+No video was found on this page. Play it in your browser and use the Download this video button.
+No warning signs
+No warning signs so far (still looking at the file)
+No warning signs: the site isn't new, isn't listed for spreading malware and doesn't imitate a well-known name.\n
+None yet. Paste a YouTube playlist or channel link (or Tasks → Download playlist or channel…) and tick Subscribe.
+Normal
+Not Found
+Not a folder link.
+Not activated
+Not available
+Not contacted yet
+Not in the vault.
+Not now
+Not running (starts with the first torrent).
+Not signed: nobody vouches for who made this program.
+Not supported
+Note
+Nothing here yet.
+Nothing inside matches.
+Nothing of this kind on the page.
+Nothing suspicious in the file list. Tick only the files you want.
+Nothing to pack.
+Nothing would be downloaded. Keep at least one file?
+Nothing yet.
+November
+Number of retries for each file if downloading failed:
+OBS Studio
+October
+Off
+Off (Options → Security)
+On this PC
+Once at
+One rule per line: site=folder — e.g. youtube.com=Videos\\YouTube (inside the download folder, or a full path).
+One-time downloading
+Only download while the laptop is plugged in
+Only this download slows down; your other downloads keep their speed.
+Only web pages (http / https) can be saved as PDF.
+Only web pages can be saved as PDF.
+Open
+Open DDM
+Open anyway
+Open folder
+Open it
+Open the download page
+Open the file when it finishes
+Open the folder
+Open the following file when done:
+Open the page again
+Open the port on my router automatically (UPnP / NAT-PMP)
+Open the real vault first.
+Open the vault first.
+Open the vault…
+Opened remotely
+Opened — click "Add" there
+Opening
+Opening the MEGA link…
+Opening…
+Opens it with its usual program.
+Open…
+Opera GX
+Opera Software\\Opera GX Stable
+Opera Software\\Opera GX Stable\\Extensions
+Opera Software\\Opera Stable
+Opera Software\\Opera Stable\\Extensions
+Options
+Options…
+Original
+Other
+Other processor
+Out of memory.
+PDF files aren't supported: their properties can't be removed without leaving a copy inside the file.
+PUBLISHED CHECKSUM
+Pack a folder into a ZIP file next to it
+Page saved as PDF
+Partial Content
+Parts of the file — filled as they arrive
+Password
+Password (optional)
+Password-protected MEGA links aren't supported. Ask for the normal link (with its key).
+Password-protected archives in a torrent are a common trick to make you visit a website.
+Password:
+Paste an address…
+Pause
+Pause all
+Pause downloads when the battery is below
+Pause the download first, then move it.
+Paused
+Pausing
+Peak
+Peer exchange (peers tell each other about more peers)
+Peers
+Periodic synchronization
+Phone remote
+Phone remote is on
+Phone remote…
+Picture
+Pictures
+Pictures and privacy
+Pictures, video, audio and Office documents|*.jpg;*.jpeg;*.png;*.webp;*.mp4;*.m4v;*.mov;*.mkv;*.webm;*.avi;*.wmv;*.mp3;*.m4a;*.flac;*.ogg;*.opus;*.wav;*.docx;*.xlsx;*.pptx;*.odt;*.ods;*.odp|All files|*.*
+Pictures|*.jpg;*.jpeg;*.png;*.bmp;*.gif;*.tif;*.tiff|All files|*.*
+Piece size
+Pieces
+Play
+Play in DDM
+Play in your browser
+Play it
+Play sounds
+Play while downloading
+Port
+Port for incoming connections
+Preparing
+Previous
+Print
+Print…
+Priority
+Privacy
+Privacy policy
+Private torrent (only its trackers: no DHT, no peer exchange)
+Private vault
+Private vault…
+Program
+Programs
+Programs, archives and documents only
+Progress
+Properties
+Proxy
+Put finished downloads straight into the private vault (encrypted, removed from the folder)
+Quality
+Quality of the new file
+Queue
+Queued
+Queues
+RAR 5 archive
+RAR archive
+Random
+Range Not Satisfiable
+Reading the MEGA folder…
+Reading the archive…
+Reading the files…
+Reading the list…
+Reading the page…
+Reading the picture…
+Reading the stream…
+Reading the table of contents…
+Reading the video's page again…
+Reading…
+Receiving data…
+Receiving the sound…
+Recording the live stream…
+Redownload
+Referer:
+Refining the edges…
+Refresh download link
+Refresh download link…
+Register DDM
+Register DDM…
+Remember this path
+Remove
+Remove all finished downloads from the list? The files stay on your PC.
+Remove and delete
+Remove and delete file
+Remove and delete the .torrent file
+Remove and delete torrent + data
+Remove and delete what arrived
+Remove background
+Remove from download list
+Remove from queue
+Remove image background
+Remove metadata
+Remove metadata…
+Remove selected
+Remove the decoy vault
+Remove the decoy vault and everything in it?
+Remove torrent (keep its files)
+Remove with file (to the Recycle Bin)
+Removed by antivirus
+Removed by the antivirus
+Removing the metadata
+Removing the metadata…
+Rename
+Rename category
+Rename…
+Renaming
+Renew licence
+Repair
+Replace it
+Require (only encrypted peers)
+Reserve the whole size on the disk when a torrent starts
+Restart
+Restart from the beginning
+Restart now
+Resume
+Resume all
+Resume: no
+Resume: yes
+Retry automatically when the connection drops
+Right-click any page in your browser and choose "Download all links with DDM" to pick files from it.
+Run test
+SOCKS5 proxy
+Safari on a Mac
+Safari on iPhone
+Safe link
+Same as Windows
+Saturday
+Save
+Save As
+Save To:
+Save a copy…
+Save all to
+Save as… (any folder, any name)
+Save files to
+Save the subtitles
+Save the thumbnail
+Save the video's subtitles next to it (.srt)
+Save the video's thumbnail picture next to it (.jpg)
+Save to
+Save with a new name
+Saved
+Saved as PDF
+Saved in
+Saving a page as PDF needs Microsoft Edge or Google Chrome on this PC.
+Scan downloaded files with the antivirus when they finish
+Scan for viruses
+Scanned by your antivirus as soon as it finishes
+Scanned when it finishes if it can contain harmful code
+Schedule
+Scheduled
+Scheduler
+Scheduler…
+Search
+Search highlight on
+Search inside…
+Security
+Security…
+See and control your downloads from your phone, on the same Wi-Fi as this PC.
+Seeding
+Seeds
+Seeds / peers
+Select all
+Select none
+September
+Service Unavailable
+Set a decoy password…
+Set up the private vault first (Tools → Private vault).
+Set up the private vault first: choose a password for it.
+Set up the vault
+Set up your private vault
+Settings
+Settings imported.
+Settings saved.
+Share (seed)
+Shared
+Sharing (seeding)
+Shift+Del
+Show
+Show "Download File Info" for new downloads
+Show "Download complete" when a download finishes
+Show "Download complete" when it finishes
+Show categories
+Show details
+Show in folder
+Show it
+Show it again in Options → General
+Show progress
+Show progress window
+Show tabs
+Show the "Download this video" button on videos in the browser
+Show the "Security" tab (link check, live SHA-256, antivirus)
+Show the "Speed limiter" tab
+Show the "When done" tab
+Show the progress window when a download starts
+Show warning when limit is reached
+Shut down
+Shut down now
+Shut down the computer when it finishes
+Site name / Download link / Parent web page / Referer
+Size
+Size:
+Sleep
+Sleep now
+Smaller audio
+Smaller audio…
+Smallest
+Some internet providers allow only a certain amount of data per period. DDM pauses downloads when the limit is reached and continues them when it allows.
+Sort into category folders (Video, Music, Documents…)
+Sound
+Sound only
+Sound only (MP3)
+Sounds
+Sounds can be at most 10 MB (a few seconds of sound is plenty).
+Source
+Speed
+Speed limit (all downloads)
+Speed limit for downloading: the download window's Speed limiter.
+Speed limit: off
+Speed limiter
+Speed now
+Speed test
+Start
+Start DDM with Windows (in the tray)
+Start Download
+Start and length in seconds (for example 0:12 4)
+Start counting from zero?
+Start download at
+Start download on DDM startup
+Start now
+Start queue
+Start sharing it in DDM when it's made
+Start the torrent (or share it) first; DDM then checks every piece on the disk.
+Start the torrent to see its trackers working.
+Start the torrent to see who it's connected to.
+Starting…
+Starts when data arrives
+State
+Statistics
+Statistics…
+Status
+Status:
+Stop
+Stop download at
+Stop queue
+Stop sharing
+Stop sharing (seeding)
+Stop sharing after (minutes, 0 = never)
+Stop sharing after minutes (empty = as in Options)
+Stop sharing at ratio (0 = never)
+Stop sharing at ratio (empty = as in Options)
+Stopped
+Stopping…
+Subscribed
+Subscription
+Subscriptions
+Subscriptions…
+Subtitle languages (en, es, … or all)
+Sunday
+Super-seeding (only when you are the first to share it)
+Supported
+Synchronization queue
+TAR archive
+Tags (title, artist, album, comments, cover picture), chapters and the encoder's name were removed.
+Tags (title, comments, creation date, location, device), chapters and the encoder's name were removed.
+Take over downloads from my browsers
+Tasks
+Test the connection
+Testing…
+That doesn't look like a checksum. It should be 8, 32, 40, 64, 96 or 128 letters and digits (0-9, a-f).
+That file can't be used.
+That file isn't in the vault any more.
+That isn't a link or a file DDM can open.
+That list is old: click the button again.
+The .torrent file couldn't be downloaded.
+The .torrent file couldn't be saved.
+The DASH manifest couldn't be read.
+The DASH manifest has no content.
+The DASH manifest has nothing DDM can save (it may be protected).
+The RAR archive is damaged.
+The ZIP's table of contents is damaged.
+The ZIP64 table of contents is damaged.
+The antivirus Windows uses
+The antivirus finds a threat
+The background remover couldn't finish.
+The background remover is missing from this copy of DDM. Reinstall DDM.
+The background remover's file is damaged.
+The browser couldn't print this page.
+The close button (X) keeps DDM running in the tray
+The connection closed early.
+The connection to the video's server was lost.
+The connection was lost.
+The current password is wrong.
+The decoy password again
+The decoy password is set. Lock the vault and open it with the decoy password to put harmless files in it.
+The decoy password must be different from the real one.
+The decoy vault is removed.
+The disk is full.
+The document's properties (author, company, last saved by, dates, title, tags, custom fields) were removed.
+The download keeps going
+The download list was saved.
+The download was interrupted.
+The downloaded data goes to the Recycle Bin and the download starts again from 0%.
+The downloaded files go to the Recycle Bin. The torrent stays in the list, paused at 0%: start it to download again.
+The downloaded installer doesn't match the update information. It wasn't run.
+The downloaded installer isn't signed by DedSec. It wasn't run: download DDM from its official page instead.
+The end must come after the start.
+The file arrived damaged (MEGA's integrity check failed). Delete it and download it again.
+The file changed on the server — start it again.
+The file ends too early.
+The file is damaged.
+The file is too big for this tool (at most 512 MB).
+The file is too large to show here.
+The file isn't on the disk any more.
+The file isn't there any more.
+The file list arrives when the torrent's info does (a magnet link needs peers first).
+The file list of this 7z archive is password-protected.
+The file list of this RAR archive is password-protected.
+The file on the server changed while X-Ray was reading it. Try again.
+The file or folder isn't there.
+The folder is empty.
+The key in this MEGA folder link is wrong, or the folder is empty.
+The key in this MEGA link is wrong. Copy the whole link again.
+The link has expired or the file was moved. Use Refresh download link.
+The link is a bare IP address, not a named site.
+The new password again
+The page has no picture for this video.
+The page it came from is listed as spreading malware (URLhaus).
+The page took too long to load. Try again when it has finished loading.
+The password is changed.
+The port must be a number from 1024 to 65535.
+The private vault is locked
+The same file under different names: see them and free up space
+The same password again
+The scan runs in the background right after a file is saved, before you open it. A file with a threat is marked in red in the list and you get a message; if your antivirus removes it, DDM tells you.
+The selected category only
+The server didn't publish one
+The server keeps sending different data for the same file. Restart it from the beginning.
+The server refused to continue this file.
+The server sent the wrong part of the file.
+The server stopped answering.
+The server stopped sending parts of the file, so X-Ray can't continue. Download the whole file instead.
+The site refused (it may need you to be signed in). Play the video in your browser and use the Download this video button.
+The site's security certificate isn't trusted.
+The sound of a video, or any audio, as MP3
+The stream has no pieces.
+The stream has nothing to download.
+The stream lists no qualities.
+The subject cut out on a transparent background (PNG), worked out on your PC: nothing is uploaded
+The test server couldn't be reached. Check your internet connection.
+The torrent engine couldn't start (another program may be using its network port). Restart DDM and try again.
+The torrent engine couldn't start (see the log).
+The torrent engine couldn't start.
+The torrent stopped unexpectedly. Press Resume to continue.
+The torrent was removed.
+The two new passwords are different.
+The two passwords are different.
+The update information isn't available right now.
+The update information isn't valid.
+The update link must be https.
+The vault can't be opened on this Windows account.
+The vault can't be read.
+The vault is empty. Click Add files… or drop files here.
+The vault is locked.
+The video and sound couldn't be joined.
+The video couldn't be found on its page any more.
+The video couldn't be put together.
+The video joiner is missing. Reinstall DDM.
+The video's address expired. Open the video's page again (Refresh download link).
+The web page from which this file was obtained:
+There are no files in that folder.
+There's already a category with that name (or the name can't be used).
+This 7z archive is incomplete or damaged.
+This 7z archive keeps its list in a way X-Ray can't read. Download the whole file instead.
+This 7z archive's list is damaged.
+This CAB file is damaged.
+This DDM list file couldn't be opened.
+This DDM list file is corrupt, was changed, or isn't from DDM.
+This MEGA folder is empty.
+This MEGA link has no key (the part after #). Ask for the full link, including the key.
+This MEGA link isn't complete. Copy the whole link again.
+This PC isn't connected to a network right now.
+This TikTok video is private, was removed, or needs you to be signed in.
+This WAV file has no sound in it.
+This WAV file has unusual settings and can't be used.
+This WAV file is compressed in a way Windows' sound player may not play. Use an uncompressed (PCM) WAV.
+This WAV file is damaged (a part of it runs past its end).
+This WAV file is damaged.
+This YouTube address isn't one video.
+This document is damaged (it isn't a valid Office file).
+This doesn't look like a user agent. It's one line of plain characters (no line breaks), up to 512, with a name and a version, for example:\n\nMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+This file isn't a DDM download list.
+This file isn't in the shared folder any more.
+This file isn't on MEGA any more (removed, or the link is wrong).
+This is a folder link, not a file.
+This is a live stream that only plays in the site's player.
+This is one of YouTube's endless mixes, not a playlist.
+This isn't a DASH manifest.
+This isn't a DDM list file.
+This isn't a DDM settings file.
+This isn't a GZ file.
+This isn't a WAV sound file.
+This isn't a Windows program.
+This isn't a complete ZIP file (its table of contents is missing).
+This isn't a disc image X-Ray knows.
+This isn't a playlist or a channel.
+This isn't a video stream.
+This isn't a web address.
+This item isn't in the shared folder any more.
+This key isn't valid on this PC. Check that you copied the whole key, and that it was made for this Installation ID.
+This kind of download isn't supported.
+This link opens a web page, not a file.
+This list has no videos DDM can download (they may be private or members-only).
+This live stream hasn't started yet.
+This magnet link isn't valid.
+This needs a processor with SSE2 (any PC from the last 20 years).
+This picture can't be shown here.
+This picture is too big (more than 60 megapixels).
+This quality isn't offered any more.
+This server doesn't allow reading parts of the file, so X-Ray can't look inside it. You can still download it normally.
+This site doesn't offer subtitles for its videos.
+This site is listed as spreading malware (URLhaus).
+This torrent file is damaged.
+This torrent file is too big.
+This torrent's file list isn't known yet: it arrives once the torrent starts and finds other people sharing it.
+This vault file is damaged.
+This vault file was changed or damaged; it can't be opened.
+This video has no address DDM can read.
+This video has no subtitles in any language.
+This video is age-restricted: YouTube wants you to be signed in.
+This video is for the channel's members only.
+This video is private.
+This video is protected (DRM): it can only be played in the site's own player.
+This video needs you to be signed in. Sign in to the site in your browser and use the Download this video button there.
+Threat found
+Threat found!
+Threat removed
+Thursday
+Tick all shown
+Tick at least one place to look in.
+Tick what to download. Click a row to tick it; Shift+click ticks everything in between.
+Time
+Time left
+Today
+Too Many Requests
+Took
+Tools
+Top websites
+Tor
+Tor port (9150 Tor Browser, 9050 service)
+Torrent
+Torrent details…
+Torrent files (*.torrent)|*.torrent
+Torrents
+Torrents at the same time
+Torrents don't use a download link: DDM finds other people sharing the file by itself.
+Tracker
+Tracker addresses to add, one per line
+Trackers
+Trackers (one per line; an empty line starts a backup group)
+Trackers added to every new torrent
+Transfer rate
+Trial ended — enter a licence key to keep downloading
+Tries to write outside its folder
+Trim
+Trim…
+Try again
+Trying
+Tuesday
+Turn it on, then scan the code with your phone's camera.\n\nOnly someone with the code (or its link) can get in: the link holds a secret key. It works on your home network only; nothing goes through the internet.
+Turn off computer when done
+Turned off in DDM (Options → Browser).
+Type
+Type tracker addresses (like udp://tracker.example.org:1337/announce), one per line.
+Type:
+URL:Magnet link
+Undo
+Unexpected answer from MEGA.
+Unfinished
+Unfinished downloads
+Unknown
+Unknown size
+Unlock
+Unsubscribe
+Untick all
+Up
+Update
+Update DDM by itself (new versions install quietly when nothing is downloading)
+Update now
+Update ready
+Upload limit (KB/s, 0 = none)
+Upload limit (KB/s, 0 = unlimited)
+Use DDM first
+Use Windows' proxy settings
+Use all network connections together (Wi-Fi + Ethernet + hotspot)
+Use at least 4 characters.
+Use it
+Used for links you paste, add with Add URL or copy. Downloads that come from your browser keep the browser's own. Some sites give other files (or none) to phones, other browsers or download tools.
+User agent
+User agent (downloads you add yourself)
+User name (optional)
+Verify checksum
+Verify checksum…
+Video
+Video and audio
+Video and audio|*.mp4;*.mkv;*.webm;*.mov;*.avi;*.m4v;*.flv;*.wmv;*.3gp;*.ts;*.mp3;*.m4a;*.aac;*.ogg;*.opus;*.wav;*.flac|All files|*.*
+Video quality
+Video to GIF
+Video to GIF…
+Videos
+Videos on this page
+Videos|*.mp4;*.mkv;*.webm;*.mov;*.avi;*.m4v;*.flv;*.wmv;*.3gp;*.ts|All files|*.*
+View
+Vivaldi\\User Data
+WAV sounds (*.wav)|*.wav
+Waiting
+Waiting for the charger
+Waiting for the new download link
+Waiting in the queue
+Watch the clipboard: copied links to files, magnets and MEGA open the download window
+Web page
+Web pages
+Web seeds (optional: web addresses that have the same files)
+Website
+Wednesday
+What DDM found out about this link and file
+What DDM noted while working (useful if something goes wrong)
+What to scan
+When a proxy is set (Connection), peers go through it too
+When done
+Which download manager?
+While downloading
+Who signed it is checked once it's on your PC.
+Windows Defender\\MpCmdRun.exe
+Windows Installer package (MSI)
+Windows can't play this file here. Use Play in your browser.
+Windows can't play this format here. Use Play in your browser.
+Windows can't read this picture (JPEG, PNG, BMP, GIF or TIFF).
+Windows can't read this picture.
+Windows can't save PNG pictures.
+Windows can't save this kind of picture.
+Windows library (DLL)
+Windows on this PC has no H.264 video encoder (Windows N editions need Microsoft's Media Feature Pack).
+Windows program
+Windows shortcut
+Windows' media player parts aren't on this PC (Windows N needs Microsoft's Media Feature Pack). Use Play in your browser.
+Windows' sound
+With the add-on, DDM catches downloads and shows "Download this video" on videos. It takes one click in the browser's store.
+Worked out when it finishes
+Working…
+Write it like 0:12 4 (start, then length).
+Write it like 1:20-2:45 (start-end).
+Wrong password.
+Wrong password. The vault is locked for a while.
+X-Ray (look inside)…
+X-Ray a link or a file
+X-Ray can't pick it out
+X-Ray couldn't connect.
+X-Ray couldn't download that part.
+X-Ray couldn't look inside.
+X-Ray couldn't read that part of the file.
+X-Ray couldn't read this disc image's folders.
+X-Ray doesn't know how to look inside this file.
+X-Ray: done
+X-Ray…
+Xtreme Download Manager
+Yandex Browser
+Yandex\\YandexBrowser\\User Data
+Yes
+Yes (Windows checks it before it runs)
+You get 60 seconds to cancel first.
+YouTube answered about another video.
+YouTube asked to confirm this isn't a bot. Make sure you're signed in to YouTube in this browser, then play the video again.
+YouTube couldn't be read.
+YouTube couldn't be read. Try again in a moment.
+YouTube didn't give plain streams for this video.
+YouTube didn't give this live stream to DDM. Try again when it has ended.
+YouTube didn't give this video.
+YouTube says this list doesn't exist.
+YouTube's answer couldn't be read.
+YouTube's page couldn't be read (it may be private).
+YouTube's stream couldn't be read.
+Your 30-day trial has ended. Enter your licence key to unlock every feature, or buy a licence on the DDM website — it unlocks instantly. DDM can't be used until it's activated.
+Your DDM licence expires today
+Your DDM licence has ended. Renew it (or buy a new one) on the DDM website, then enter the new key. DDM is locked until a valid licence is entered.
+Your PC's date and time are set earlier than the last time DDM was used. Set the correct date and time (or connect to the internet), then click Try again.
+Your download list
+Your key is tied to this PC: send the Installation ID with your purchase (admin@dedseec.com).
+Your licence ends soon. Renew it to keep DDM working — once it expires, DDM is locked until a new licence key is entered.
+Your own user agent
+Your own…
+ZIP archive
+ZIP archive (ZIP64)
+ZIP, TAR, TAR.GZ, GZ and ISO, into a folder next to the archive
+Zstandard compression
+a link, not a file
+access denied
+any language
+avi mpg mpe mpeg asf wmv mov qt rm rmvb mp4 flv m4v webm ogv ogm mkv ts mts m2ts 3gp 3g2 f4v vob divx
+bad request
+by DedSec Cyber Security Research Institute · admin@dedseec.com
+changed on the server
+compressed (7z)
+compressed (CAB)
+compressed (GZ)
+compressed (RAR)
+couldn't be downloaded
+couldn't write to the disk
+create the file
+default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; connect-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'
+doc docx pdf ppt pptx pps ppsx xls xlsx csv txt rtf odt ods odp epub mobi djvu key pages numbers md
+exe msi msu msix msixbundle appx appxbundle apk xapk dmg pkg deb rpm bat cmd iso img bin
+facebook reels
+facebook video
+facebook watch
+file goes
+files at the same time
+files go
+for you
+go to sleep
+instagram embed
+instagram reel
+isn't supported
+its .torrent file
+its checksum doesn't match (damaged on the server)
+its data ends too early
+its data is damaged
+its downloaded files and its .torrent file
+keeps refusing
+log in or sign up to view
+log into facebook
+magnet link
+make your day
+media files
+mp3 wav wma mpa ram ra aac aif aiff m4a flac ogg oga opus mid midi amr
+no TLS
+not a file
+not found
+not opened on the router
+nothing downloaded yet
+pictures and documents
+script program
+shut down
+sign in
+size not known yet
+size unknown
+sound only · converted on your PC
+sound only · original quality
+split across several parts
+stored in an unusual way
+stream · sound
+stream · video + sound
+text/html; charset=utf-8
+the archive is damaged here
+the video's page didn't answer.
+this list
+tiktok - make your day
+tiktok embed
+tiktok player
+tiktok video
+too many tries
+torrent file
+torrents: the engine couldn't start: 
+unknown request
+unusual compression
+var ytInitialData = 
+video + sound
+web page
+window["ytInitialData"] = 
+your antivirus
+zip rar r00 r01 arj gz tgz sit sitx sea ace bz2 7z tar xz lzh lha zst cab z lz lzma
+µTP (gentler on your internet connection while torrents run)
+\n\nOther networks of this PC: {1}
+\n\nThe downloaded {1} to the Recycle Bin (you can restore it from there).
+\n\nThe downloaded {1} to the Recycle Bin (you can restore them from there).
+\n\nWhat's new:\n{1}
+\n• {1} — {2} copies, {3} each
+\n• …and {1} more
+\n• …and {1} more.
+ (certificate from {1})
+ (server replied {1})
+ and {1} files
+ until {1}
+ · DHT {1} nodes
+ · made {1}
+ · read in {1} ({2})
+ · sharing {1}
+ · took {1}
+ · until {1}
+ · whole torrent {1}
+ · {1} / {2} in the swarm
+ · {1} left
+ · {1} queued
+ · {1} running, {2} sharing
+ · {1}fps
+.{1} sites are often used for scams and malware.
+A .tar.gz shows its files only once it is unpacked as a whole (it's packed in one piece). Size shown: the .tar inside{1}
+A program among {1}
+A program disguised as .{1}
+About {1}
+Add to {1}
+Add {1} files to the private vault?
+Add {1} to the private vault?
+Basic {1}
+Battery below {1}%
+Best: {1}.
+Built {1}
+Camera, GPS position, dates, software, comments and other hidden details were removed ({1} part).
+Camera, GPS position, dates, software, comments and other hidden details were removed ({1} parts).
+Category added: {1}
+Checked by {1}: no threats found.
+Checked {1} so far
+Checking files… {1}%
+Checksum ({1}) matches: the file arrived intact.
+Comparing {1}…
+Compressing {1}
+Connections: {1} combined
+Content-Type: {1}
+Converting {1}
+Couldn't create the file in {1}.
+Couldn't create {1}.
+Couldn't encrypt {1} (is the disk full?).
+Couldn't open {1} (is it open in another program?).
+Couldn't open {1}.
+Couldn't pack {1}.
+Couldn't save {1} (is the disk full?).
+Couldn't save {1}.
+Couldn't start {1}.
+Couldn't write the file (error {1}).
+Couldn't write to {1}.
+Cutting {1}
+DDM can't create the folder {1}.
+DDM can't use the folder {1}.
+DDM checks this list every few hours and downloads its new videos by itself ({1}).\n\nTools → Subscriptions shows and stops your subscriptions.
+DDM checks {1} every few hours and downloads its new videos by itself ({2}).\n\nTools → Subscriptions shows and stops your subscriptions.
+DDM couldn't read {1}.
+DDM couldn't save the PDF in {1}.
+DDM doesn't know which page this file came from. Open that page in your browser and click the file's download link: DDM recognises it as this download and carries on from {1}.
+DDM downloaded {1} MB in the last {2} hours. Downloads continue when the limit allows.
+DDM found signs that this file could harm your PC:\n\n{1}\nDownload it only if you trust where it comes from.
+DDM licence expires in {1} day
+DDM licence expires in {1} days
+DDM now takes downloads from your browsers and opens magnet links.\n\nOne more step: browsers let only one add-on take a download. In each browser, turn off the add-on of {1} so it doesn't take the file before DDM (DDM can open the browser's add-ons page for you).
+DDM opened the page this file came from in your browser. Click the download link for this file there (sign in or solve the check if the site asks). DDM recognises it as this download, takes the new link and carries on from {1}: nothing already downloaded is lost.
+DDM trial — {1} day left
+DDM trial — {1} days left
+DDM {1}
+DDM — {1} downloading · {2}
+Damaged: its {1} checksum doesn't match. Redownload it.
+Delete the category {1}?\n\nIts downloads and files stay where they are; they're listed in the built-in categories again.
+Delete the queue "{1}"? Its downloads stay in the list.
+Delete {1} from the vault for good? It can't be brought back.
+Disguised program: {1}
+Done: {1}
+Down {1} · Up {2}
+Download {1}
+Download {1} file ({2})
+Download {1} files ({2})
+Download {1} items? DDM runs a few at a time (Options → Connection → Downloads at the same time).
+Download {1} videos
+Downloading {1}%
+Error — {1}
+Error: {1}
+Extracting {1}
+File types of {1}
+Found {1} of {2}
+HLP_{1}
+HTTP/1.1 200 OK\\r\nContent-Type: {1}\\r\nAccept-Ranges: bytes\\r\nContent-Length: {2}\\r\nConnection: close\\r\nCache-Control: no-store\\r\n\\r\n
+HTTP/1.1 206 Partial Content\\r\nContent-Type: {1}\\r\nAccept-Ranges: bytes\\r\nContent-Length: {2}\\r\nConnection: close\\r\nCache-Control: no-store\\r\n\\r\n
+HTTP/1.1 {1} {2}\\r\nContent-Type: {3}\\r\nContent-Length: {4}\\r\nConnection: close\\r\nCache-Control: no-store\\r\nX-Content-Type-Options: nosniff\\r\nReferrer-Policy: no-referrer\\r\n
+Hide the "{1}" tab
+HostUrl={1}\\r\n
+Installation ID: {1}
+It's a program pretending to be .{1} ({2}).
+It's named .{1} but it's really a Windows program.
+It's named .{1} but it's really a Windows shortcut.
+It's named .{1} but it's really a script program.
+It's named .{1} but it's really an Office document or installer.
+Keep {1}
+Licensed to {1} · lifetime
+Licensed to {1}. {2} Thank you for buying DDM.
+MEGA error {1}. DDM will try again.
+MEGA is busy (error {1}).
+Made {1} — DDM is sharing it (Torrents → Seeding).
+Made {1}.
+Making {1} smaller
+Moved to {1}
+Moving {1}…
+New address for {1}
+New {1} downloads go to {2}
+No duplicates in {1}.
+Nothing matches "{1}"
+Nothing matches "{1}".
+Nothing suspicious inside. Only the files you tick are downloaded{1}
+Now: {1}
+One tracker address per line. {1}
+Online now: {1}
+Opening {1}
+Packing {1}
+Packing {1}…
+Paused at {1}%
+Play — {1}
+Port {1}
+Port {1} can't be used ({2})
+Port {1} is in use by another program.
+Reading folders… {1}
+Reading the files… {1}%
+Reading the list… {1}
+Reading the list… {1} videos
+Reading the video's page again for {1}…
+Receiving data · {1} seed · {2} peer
+Receiving data · {1} seed · {2} peers
+Receiving data · {1} seeds · {2} peer
+Receiving data · {1} seeds · {2} peers
+ReferrerUrl={1}\\r\n
+Remove everything {1} says about where, when, by whom and with what it was made (camera, GPS position, dates, author, software, comments, tags)?\n\nThe picture, sound or text stays exactly as it is. The original goes to the Recycle Bin.
+Remove {1} from the download list?{2}
+Remove {1} from the list and send its .torrent file to the Recycle Bin?
+Remove {1} from the list and send its downloaded files and its .torrent file to the Recycle Bin?
+Removed {1}
+Removed {1} and the .torrent file
+Removing metadata from {1}
+Removing the background of {1}
+Same as Windows ({1})
+Saved {1} (transparent background) in {2} s.
+Saved {1} ({2}).
+Saved {1}: {2} → {3}.
+Scan the code with your phone's camera (the phone must be on the same Wi-Fi), or open this link on it:\n\n{1}\n\nAdd links, pause, resume, stop or remove downloads and watch their progress.\n\nIf Windows asks whether DDM may use your network, allow private networks.
+Scanned by {1}: no threats found.
+Scanning with {1}…
+Scheduled · {1}%
+Show: {1}
+Signed by {1}.
+Signed by {1}. Windows checks the signature fully once the file is on your PC.
+Speed limit: {1}
+Starting in {1} s…
+Stop downloading new videos of {1}?\n\nVideos already downloaded stay.
+THREAT: {1}
+Testing with {1} connections…
+Testing with {1} connection…
+The .torrent file couldn't be downloaded (the server answered {1}).
+The blocklist file isn't there: {1}
+The checksum the website shows for {1} (MD5, SHA-1, SHA-256, SHA-512 or CRC-32). Leave it empty to just see the file's SHA-256
+The clean copy is saved as {1} (the original is in use, so DDM left it).
+The clean copy is saved as {1}.
+The file isn't in {1} any more (moved or deleted).
+The folder to watch isn't there: {1}
+The installer couldn't be started. Run it yourself: {1}
+The link has expired (the server answered {1}). Open the download page again.
+The part to keep, from-to (for example 1:20-2:45). The file is {1} long
+The player stopped ({1}). Use Play in your browser.
+The server answered {1} (the link may have expired).
+The server answered {1}.
+The server had a problem ({1}). DDM will retry.
+The server published {1} {2}
+The server refused the download ({1}).
+The site answered {1}.
+The site exists since {1}.
+The site imitates {1} ({2}).
+The site is new (registered {1} days ago).
+The site uses the name {1} but isn't {2}'s own ({3}).
+The site was registered only {1} day ago.
+The site was registered only {1} days ago.
+The site's name is one letter away from {1} ({2}).
+The site's name uses letters from other alphabets that can look like ours ({1}).
+The torrent couldn't be started ({1}).
+The torrent is ready:\n{1}
+The torrent is ready:\n{1}\n\nIts magnet link can be copied to share it without the file.
+The update couldn't be downloaded: {1}
+The update server replied {1}.
+The video's server answered {1}.
+There was no metadata in {1}.
+This archive is packed in a way DDM can't unpack ({1}). Open it with an archive program.
+This file couldn't be converted: {1}
+This file is damaged or isn't really a .{1} file.
+This isn't {1}'s own site, though it has its name ({2}).
+This link is already in your downloads ({1}).
+This torrent file is damaged or isn't a torrent ({1}).
+This video has no subtitles in {1}.
+Too many wrong passwords. Try again in {1} seconds.
+Torrent — {1}
+Trial · {1} day left
+Trial · {1} days left
+Unpacking {1}…
+Valid until {1}.
+Video {1}
+Working · {1}
+Working… {1}%
+X-Ray looks inside archives (ZIP, RAR, 7z, TAR, CAB), disc images (ISO), torrents and programs (EXE, MSI). {1} isn't one of those.
+You're on day {1} of 30. Everything is unlocked during the trial. Buy a licence any time to keep DDM after it ends.
+YouTube answered {1}.
+Your computer will {1} in {2} second.
+Your computer will {1} in {2} seconds.
+\\r\nContent-Range: bytes {1}-{2}/{3}
+\\xEF\\xBB\\xBF{1}
+active {1}
+bytes */{1}
+couldn't start {1} (error {2})
+ddm-hw-v1|{1}
+downloading {1}%
+host!{1}
+open on the router ({1})
+video {1}
+{1}\n\nOpening it could harm your computer.
+{1}\n\nSHA-256: {2}
+{1}\n\nUse {2} connections per download from now on?
+{1}\nIts {2} checksum doesn't match: the file was damaged on the way. Redownload it.
+{1}\n{2} Don't open it.
+{1}  ({2} bytes)
+{1} (Windows' antivirus)
+{1} / {2}   ·   downloaded
+{1} / {2} connected
+{1} / {2} connected{3}
+{1} / …   ·   downloaded
+{1} KB/s
+{1} MB/s
+{1} add-ons
+{1} already downloaded
+{1} archive
+{1} are also on this PC.\n\nShould DDM be the one that catches your downloads, videos and magnet links first?
+{1} blocked this file: it may contain a threat.
+{1} carries on from where it stopped.
+{1} carries on from {2}.
+{1} connection · {2} each
+{1} connection: {2}\n
+{1} connections · {2} each
+{1} connections: {2}\n
+{1} downloads
+{1} exit {2}
+{1} exit {2} (timed out)
+{1} exit {2} (timed out){3}
+{1} exit {2}{3}
+{1} file
+{1} file can't be picked out on its own (password, compression or a link): use "{2}" for it.
+{1} file can't be picked out on its own (password, compression or a link): use "{2}" for those.
+{1} file extracted into {2}.
+{1} file has copies ({2} could be freed).
+{1} file inside looks dangerous (marked below): DDM saw it before it reached your PC.
+{1} file inside looks dangerous (marked below): DDM saw it before they reached your PC.
+{1} file inside looks dangerous (marked below): DDM saw them before it reached your PC.
+{1} file inside looks dangerous (marked below): DDM saw them before they reached your PC.
+{1} file needs an archive program (compressed or password-protected).
+{1} file saved in {2}.
+{1} file · {2} · encrypted
+{1} file · {2} · saved in a folder named "{3}"
+{1} file · {2} · {3}
+{1} files
+{1} files are encrypted into the private vault and removed from their folders and from the list.
+{1} files can't be picked out on its own (password, compression or a link): use "{2}" for it.
+{1} files can't be picked out on its own (password, compression or a link): use "{2}" for those.
+{1} files extracted into {2}.
+{1} files have copies ({2} could be freed).
+{1} files inside look dangerous (marked below): DDM saw it before it reached your PC.
+{1} files inside look dangerous (marked below): DDM saw it before they reached your PC.
+{1} files inside look dangerous (marked below): DDM saw them before it reached your PC.
+{1} files inside look dangerous (marked below): DDM saw them before they reached your PC.
+{1} files need an archive program (compressed or password-protected).
+{1} files saved in {2}.
+{1} files · {2} · encrypted
+{1} files · {2} · saved in a folder named "{3}"
+{1} files · {2} · {3}
+{1} found a threat in this file. Don't open it.
+{1} is NOT the file the website describes: it was damaged on the way or changed. Redownload it, and don't open it if it's a program.\n\nExpected: {2}\nThis file: {3}
+{1} is already downloaded in this folder.
+{1} is also on this PC.\n\nShould DDM be the one that catches your downloads, videos and magnet links first?
+{1} is downloaded and checked (signed by DedSec).\n\nInstall it now? DDM closes for a few seconds and starts again by itself; unfinished downloads continue where they were.{2}
+{1} is encrypted into the private vault and removed from this folder and from the list.
+{1} is exactly the file the website describes ({2}).
+{1} is finished
+{1} kbps
+{1} new video added to the downloads.
+{1} new video is downloading.
+{1} new videos added to the downloads.
+{1} new videos are downloading.
+{1} of the files you ticked look dangerous. Download anyway?
+{1} of the files you ticked looks dangerous. Download anyway?
+{1} pieces of {2} · {3} tracker
+{1} pieces of {2} · {3} trackers
+{1} removed this file: it contains a threat.
+{1} reported a problem with this file (code {2}). Check it in {3}.
+{1} right now
+{1} sent · ratio {2}
+{1} sound
+{1} torrents
+{1} video
+{1} videos
+{1} videos · links on this page
+{1} videos{2}
+{1} videos{2} · links on this page
+{1} video{2}
+{1} · F3 finds the next one
+{1} · video + sound
+{1} · video + sound{2}
+{1} × {2} (have {3})
+{1}.{2} KB/s
+{1}/youtubei/v1/browse?prettyPrint=false
+{1}/youtubei/v1/player?prettyPrint=false
+{1}: can't be picked out ({2}).
+{1}: couldn't be saved.
+{1}: couldn't create {2}.
+{1}: refused (it tries to write outside the folder).
+{1}: the video's page didn't answer.
+{1}: {2} items inside, nothing suspicious.
+{1}:Zone.Identifier
+{1}; SOCS=CAI
+{1}|{2}|init
+{1}|{2}|init|live
+{1}|{2}||live
+✓ Connected ({1} ms)
+✗ No connection{1}

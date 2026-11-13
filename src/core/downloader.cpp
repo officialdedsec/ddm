@@ -1,4 +1,5 @@
 #include "downloader.hpp"
+#include "speedmeter.hpp"
 #include "links.hpp"
 #include "settings.hpp"
 #include "../common/util.hpp"
@@ -204,7 +205,7 @@ private:
     int failuresInRow = 0;
     long lastStatus = 0, lastCode = 0;
     std::string fatalError;
-    int64_t bytesThisTick = 0, lastTick = 0;
+    SpeedMeter meter;                // how fast it is going, smooth enough to draw
     double speed = 0;
     bool restartSingle = false;
     double ownTokens = 0;            // this download's own limit (bytes), refilled every loop
@@ -374,7 +375,7 @@ size_t Download::onWrite(Conn* c, const char* p, size_t len) {
         return 0;
     }
     s.pos += static_cast<int64_t>(room);
-    bytesThisTick += static_cast<int64_t>(room);
+    meter.add(static_cast<int64_t>(room));
     g_received += static_cast<int64_t>(room);
     if (c->extra) boostAdd(static_cast<int64_t>(room));
     failuresInRow = 0;
@@ -632,7 +633,7 @@ DownloadResult Download::run() {
     if (rangesKnown) { for (int i = 0, n = 0; i < static_cast<int>(segs.size()) && n < maxConns; i++) if (!segs[static_cast<size_t>(i)].done() && startConn(i)) n++; }
     else for (int i = 0; i < static_cast<int>(segs.size()); i++) if (!segs[static_cast<size_t>(i)].done()) { startConn(i); break; }
 
-    lastTick = nowMs();
+    meter.start(nowMs());
     int64_t lastSync = 0;
     DownloadResult result = DownloadResult::Failed;
     while (true) {
@@ -704,14 +705,9 @@ DownloadResult Download::run() {
             else if (fatalError.empty()) { fatalError = friendlyError(lastCode, lastStatus); break; }
         }
         if (failuresInRow > (st.autoRetry ? st.retries : 1) * std::max(1, maxConns)) { fatalError = friendlyError(lastCode, lastStatus); break; }
-        if (now - lastTick >= 500) {
-            double inst = bytesThisTick * 1000.0 / static_cast<double>(now - lastTick);
-            speed = speed <= 0 ? inst : speed * 0.6 + inst * 0.4;
-            bytesThisTick = 0;
-            lastTick = now;
-        }
-        if (now - lastSync >= 300) {
+        if (now - lastSync >= 250) {   // the speed is worked out afresh each time, so what is drawn is never stale
             lastSync = now;
+            speed = meter.value(now);
             sync(doneBytes() > 0 ? "Receiving data…" : "Connecting…");
             if (ctx.changed) ctx.changed();
         }
@@ -720,6 +716,7 @@ DownloadResult Download::run() {
 
     for (auto& c : conns) if (c) { removeConn(c.get()); c.reset(); }
     if (result == DownloadResult::Done && total < 0) total = doneBytes();
+    meter.stop();
     speed = 0;
     sync(nullptr);
     if (file != INVALID_HANDLE_VALUE) {

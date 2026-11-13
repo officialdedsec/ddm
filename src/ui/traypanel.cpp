@@ -1,4 +1,5 @@
 #include "traypanel.hpp"
+#include "speedglide.hpp"
 #include "app.hpp"
 #include "dialogs.hpp"
 #include "gfx.hpp"
@@ -116,7 +117,7 @@ void paint(HWND h, HDC dc, RECT rc) {
     RECT t1{lg.right + S(12), S(12), rc.right - S(16), S(32)};
     text(dc, "DedSec Download Manager", t1, P.text, fontBold(), DT_LEFT | DT_SINGLELINE | DT_VCENTER);
     RECT t2{lg.right + S(12), S(32), rc.right - S(16), S(50)};
-    std::string sum = g_running ? std::to_string(g_running) + (g_running == 1 ? " downloading · " : " downloading · ") + formatKBps(g_speed)
+    std::string sum = g_running ? std::to_string(g_running) + (g_running == 1 ? " downloading · " : " downloading · ") + formatKBps(glidedSpeed("*tray*", g_speed))
                     : g_rows.empty() ? "Nothing is downloading" : "Nothing is downloading right now";
     text(dc, sum, t2, g_running ? P.accent : P.muted, fontSmall(), DT_LEFT | DT_SINGLELINE | DT_VCENTER);
     RECT sep{S(12), headH() - S(4), rc.right - S(12), headH() - S(3)};
@@ -144,7 +145,7 @@ void paint(HWND h, HDC dc, RECT rc) {
         progressBar(dc, bar, w.pct >= 0 ? w.pct / 100.0 : 0, P.track, a1, a2, Sf(3.5f));
         std::string sub;
         // (each piece in your language; the whole line is never a sentence of its own)
-        if (w.state == State::Running) sub = w.speed > 0 ? formatKBps(w.speed) + (w.eta >= 0 ? " · " + i18n::tr(formatDuration(w.eta) + " left") : "") : i18n::tr("Connecting…");
+        if (w.state == State::Running) sub = w.speed > 0 ? formatKBps(glidedSpeed(w.id, w.speed)) + (w.eta >= 0 ? " · " + i18n::tr(formatDuration(w.eta) + " left") : "") : i18n::tr("Connecting…");
         else if (w.state == State::Queued) sub = i18n::tr("Waiting");
         else if (w.state == State::Error) sub = i18n::tr("Error");
         else sub = i18n::tr(w.stopped ? "Stopped" : "Paused");
@@ -193,6 +194,7 @@ LRESULT CALLBACK proc(HWND h, UINT m, WPARAM w, LPARAM l) {
         case WM_PAINT: { Paint p(h); paint(h, p.dc(), p.rc()); return 0; }
         case WM_TIMER:
             if (w == 1) refresh(h);
+            else if (w == 3) { if (g_running > 0) InvalidateRect(h, nullptr, FALSE); }
             else if (w == 2) {   // it fades in and rises a little
                 g_alpha = std::min(255, g_alpha + 40);
                 g_slide = std::max(0, g_slide - S(2));
@@ -266,6 +268,7 @@ void toggleTrayPanel() {
     SetForegroundWindow(h);
     SetFocus(h);
     SetTimer(h, 1, 500, nullptr);
+    SetTimer(h, 3, 66, nullptr);    // the speeds glide between the engine's figures
     SetTimer(h, 2, 15, nullptr);
 }
 

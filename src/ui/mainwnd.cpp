@@ -1,4 +1,5 @@
 #include "mainwnd.hpp"
+#include "speedglide.hpp"
 #include "traypanel.hpp"
 #include <thread>
 #include "../core/remote.hpp"
@@ -33,6 +34,8 @@
 
 namespace ddm {
 namespace ui {
+
+namespace { double g_totalSpeed = 0; }   // what every running download adds up to, before easing
 
 // ================================================================ MenuStrip
 bool MenuStrip::create(HWND parent) { return Wnd::create(L"DDMMenuStrip", "", WS_CHILD | WS_VISIBLE, 0, 0, 0, 10, 10, parent); }
@@ -562,7 +565,10 @@ void MainWindow::refresh() {
     int lim = settings().speedLimitKBps;
     status.limit = !lim ? "Speed limit: off" : "Speed limit: " + (lim < 1024 ? std::to_string(lim) + " KB/s" : std::to_string(lim / 1024) + " MB/s");
     if (lim && Engine::get().idleBoosted) status.limit += " · full speed while the internet is idle";
-    status.speed = speed > 0 ? "↓ " + formatKBps(speed) : "";
+    g_totalSpeed = speed;
+    status.speed = speed > 0 ? "↓ " + formatKBps(glidedSpeed("*all*", speed)) : "";
+    // while something is downloading, the speeds are redrawn 15 times a second so they glide
+    if (run > 0) SetTimer(h, 0x7B3, 66, nullptr); else KillTimer(h, 0x7B3);
     status.redraw();
     updateToolbar();
     updateTray();
@@ -1417,6 +1423,13 @@ LRESULT MainWindow::proc(UINT m, WPARAM w, LPARAM l) {
                 if (t >= 1.0) { treeShown = target; KillTimer(h, 0x7B2); }
                 layout();
                 UpdateWindow(h);
+                return 0;
+            }
+            if (w == 0x7B3) {   // between the engine's figures: draw the speeds where they have glided to
+                if (!IsWindowVisible(h) || IsIconic(h)) return 0;
+                std::string s = g_totalSpeed > 0 ? "↓ " + formatKBps(glidedSpeed("*all*", g_totalSpeed)) : "";
+                if (s != status.speed) { status.speed = s; status.redraw(); }
+                list.redraw();
                 return 0;
             }
             if (IsWindowVisible(h)) refresh(); else updateTray();

@@ -1,4 +1,5 @@
 #include "streams.hpp"
+#include "speedmeter.hpp"
 #include "settings.hpp"
 #include "../common/util.hpp"
 #include <windows.h>
@@ -648,7 +649,8 @@ DownloadResult fetch(const RequestInfo& base, const Plan& plan0, const std::stri
         }
     };
     double speed = 0;
-    int64_t lastBytes = bytes.load(), lastAt = nowMs();
+    SpeedMeter meter;
+    meter.start(nowMs());
     bool liveStopped = false;
     for (;;) {
         std::vector<std::thread> ts;
@@ -657,7 +659,8 @@ DownloadResult fetch(const RequestInfo& base, const Plan& plan0, const std::stri
         while (alive.load() > 0) {
             Sleep(250);
             int64_t now = nowMs(), b = bytes.load();
-            if (now - lastAt >= 500) { double inst = (b - lastBytes) * 1000.0 / std::max<int64_t>(1, now - lastAt); speed = speed <= 0 ? inst : speed * 0.6 + inst * 0.4; lastBytes = b; lastAt = now; }
+            meter.setTotal(b);
+            speed = meter.value(now);
             Progress pr;
             pr.done = b; pr.speed = speed; pr.active = active.load(); pr.piecesDone = done.load(); pr.pieces = static_cast<int>(plan.pieces.size());
             if (pr.piecesDone > 0 && !plan.live) pr.estimate = static_cast<int64_t>(static_cast<double>(b) / pr.piecesDone * pr.pieces);

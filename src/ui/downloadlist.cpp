@@ -1,4 +1,5 @@
 #include "downloadlist.hpp"
+#include "speedglide.hpp"
 #include "../core/torrent.hpp"
 #include "app.hpp"
 #include "gfx.hpp"
@@ -300,7 +301,7 @@ void DownloadList::paintRow(HDC dc, const Task& t, int y, int width, int index) 
         } else if (c.key == "left") {
             text(dc, t.state == State::Running && t.eta >= 0 ? formatDuration(t.eta) : "", cell, P.muted, fontUI());
         } else if (c.key == "rate") {
-            text(dc, t.state == State::Running ? formatKBps(t.speed) : "", cell, P.text, fontUI(), DT_RIGHT);
+            text(dc, t.state == State::Running ? formatKBps(glidedSpeed(t.id, t.speed)) : "", cell, P.text, fontUI(), DT_RIGHT);
         } else if (c.key == "last") {
             text(dc, formatDate(t.lastTry ? t.lastTry : t.created), cell, P.muted, fontUI());
         } else if (c.key == "desc") {

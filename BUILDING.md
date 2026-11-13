@@ -52,7 +52,7 @@ ships; any FFmpeg for 32-bit Windows works for trying things out.
 `build.sh` compiles every `.cpp` under `src/`, and makes `src/common/addon_files.hpp` (the fingerprints of the
 browser add-on's files) and `res/helpres.rc` (the help and the languages) by itself.
 
-The setup: `cd installer && makensis -DVER=4.3.2 installer.nsi` (or `sh installer/release.sh`, which also signs
+The setup: `cd installer && makensis -DVER=4.3.3 installer.nsi` (or `sh installer/release.sh`, which also signs
 when it is given the signing files).
 
 ## The layout

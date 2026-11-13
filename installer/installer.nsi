@@ -8,7 +8,7 @@ SetCompressor /SOLID lzma
 !define APP "DDM"
 !define FULL "DDM - DedSec Download Manager"
 !ifndef VER
-  !define VER "4.3.2"
+  !define VER "4.3.3"
 !endif
 !define ORG "DedSec Cyber Security Research Institute"
 !define UNINST "Software\Microsoft\Windows\CurrentVersion\Uninstall\DDM"

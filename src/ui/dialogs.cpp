@@ -1,4 +1,5 @@
 #include "dialogs.hpp"
+#include "speedglide.hpp"
 #include "dust.hpp"
 #include "gfx.hpp"
 #include "mainwnd.hpp"
@@ -1698,7 +1699,7 @@ public:
         char pc[32] = "";
         if (t.total > 0) snprintf(pc, sizeof pc, " (%.2f%%)", t.progress() * 100);
         std::string got = formatBytes(t.done) + pc;
-        std::string rate = running ? formatKBps(t.speed) : "—";
+        std::string rate = running ? formatKBps(glidedSpeed(id, t.speed)) : "—";
         std::string left = running && t.eta >= 0 ? formatDuration(t.eta) : "—";
         std::string resume = unknown ? "Checking…" : (t.resumable ? "Yes" : "No");
         struct Row { const char* k; std::string v; COLORREF c; HFONT f; int kind; };   // kind: 0 text, 1 a name / address (never translated)
@@ -1742,7 +1743,7 @@ public:
         RECT cap{pad, S(328), right, S(344)};
         if (t.state == State::Error) { RECT er{pad, S(327), right, S(355)}; text(dc, t.error, er, V.bad, fontSmall(), DT_WORDBREAK | DT_END_ELLIPSIS); }
         int conns = std::max(0, t.activeConnections);
-        if (running && conns > 0) text(dc, std::to_string(conns) + (conns == 1 ? " connection" : " connections") + " · " + formatKBps(t.speed / conns) + " each", cap, V.muted, fontSmall());
+        if (running && conns > 0) text(dc, std::to_string(conns) + (conns == 1 ? " connection" : " connections") + " · " + formatKBps(glidedSpeed(id, t.speed) / conns) + " each", cap, V.muted, fontSmall());
         if (peak > 0) text(dc, "Peak " + formatKBps(peak), cap, V.muted, fontSmall(), DT_RIGHT);
         if (!details) return;
         // each part of the file, filled as it arrives
@@ -1881,7 +1882,9 @@ public:
                     bool moving = t.state == State::Running && (t.total > 0 || t.done > 0);
                     if (!moving || (++ticks & 1) != 0) return 0;   // 15 times a second is smooth enough and spares the CPU
                     phase += Sf(2.4f);
-                    RECT b{0, capH() + S(296), client().right, capH() + S(326)};   // only the bar
+                    // the facts and the bar: the speed glides on towards the engine's next figure instead of
+                    // stepping to it twice a second, so it reads as movement rather than as stalling and jumping
+                    RECT b{0, capH() + S(92), client().right, capH() + S(330)};
                     InvalidateRect(h, &b, FALSE);
                 }
                 return 0;

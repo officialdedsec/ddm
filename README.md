@@ -173,7 +173,7 @@ DDM speaks **English, বাংলা (Bengali), हिन्दी (Hindi), ا�
 
 ## Download and install
 
-1. Download **`DDM-Setup-4.3.2.exe`** from the **[latest release](https://github.com/officialdedsec/ddm/releases/latest)**.
+1. Download **`DDM-Setup-4.3.3.exe`** from the **[latest release](https://github.com/officialdedsec/ddm/releases/latest)**.
 2. Run it. It doesn't need administrator rights and installs for you only.
 3. DDM starts and offers its browser add-on. Chrome and Edge also offer it by themselves the next time they start.
 

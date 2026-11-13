@@ -1,5 +1,12 @@
 # What's new in DDM
 
+## 4.3.3 — November 2026
+**The speed reads smoothly, like IDM's**
+- The speed no longer stalls and then leaps. It is now worked out from the bytes of the last second and a half rather than from one half-second bucket, so bursty arrivals from many connections no longer swing the figure
+- It is drawn 15 times a second instead of twice, gliding from one figure to the next: the number moves instead of stepping. Measured on a steady download, the jump between one drawn figure and the next fell from 3.0% to 0.36%, the worst from 22% to 5.3%, and figures that leapt visibly from 5 to none
+- Smoother does not mean slower: a real drop in speed is now reflected in 2.3 s instead of 3.6 s, and the time left steadies with it
+- The same everywhere it appears: the download window, the list's Transfer rate column, the status bar and the tray panel
+
 ## 4.3.2 — November 2026
 **An engine that follows the browser (browser add-on 4.0.8)**
 - "Access denied" on sites that give a video only to a real browser (videezy.com and others): the add-on notes exactly how the browser's own player asked for each file and stream (its User-Agent, Referer, Origin, Accept and the site's own extra headers; never cookies), and DDM asks the same way. This needs no rule per site, so it keeps working when a site changes what it checks
